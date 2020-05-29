@@ -1,0 +1,23 @@
+{
+  "name": "website-11ty",
+  "version": "1.0.0",
+  "description": "Repo for my new website, using 11ty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/personal-branding/website-11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/personal-branding/website-11ty/issues"
+  },
+  "homepage": "https://gitlab.com/personal-branding/website-11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
