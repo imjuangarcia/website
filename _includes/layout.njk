@@ -1,10 +1,14 @@
+---
+title: Juan Martín García - Product Designer & Front-end Developer
+role: Product Designer & front-end Developer
+---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Martín García - Product Designer &amp; Front-end Developer</title>
+    <title>{{ title }}</title>
     <link href="/dist/css/website.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -18,18 +22,13 @@
           <path d="M57.3482 24C60.8988 24 64.1233 22.3853 65.1378 19.4495V23.5596H68V12.1468H58.1815V14.6422H65.1378C64.7392 18.6055 61.9857 21.3211 57.7105 21.3211C52.7831 21.3211 49.4499 17.7615 49.4499 12.0367C49.4499 6.31193 52.7469 2.7156 57.4206 2.7156C62.0219 2.7156 64.703 5.50459 64.9566 9.72477L67.9638 9.54128C67.5652 3.63303 63.8335 0 57.3844 0C51.0802 0 46.2253 4.88074 46.2253 12C46.2253 19.1927 50.8991 24 57.3482 24Z" />
         </svg>
       </a>
-      <h1>Product Designer &amp; front-end Developer</h1>
+      <h1>{{ role }}</h1>
       <button class="mobile-menu">
         <svg width="32" height="14" viewBox="0 0 32 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M32 2.00001V1.90735e-06L0 0V2L32 2.00001ZM32 6V8.00001L0 8V6H32ZM32 12V14L0 14V12H32Z" />
         </svg>
       </button>
     </header>
-    <main>
-<section class="hero">
-  <h2>
-    Juan Mart&iacute;n Garc&iacute;a is a <span>unicorn</span> UX/UI Designer, Front-end and Mobile Developer, Teacher and Speaker from Argentina, passionate about learning new things and helping others learn new things.
-  </h2>
-</section></main>
+    <main>{{ content | safe }}</main>
   </body>
 </html>

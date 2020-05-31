@@ -1,0 +1,15 @@
+@use '../../config/fonts';
+
+.hero {
+  padding: var(--xxl) var(--m);
+  border-bottom: var(--border);
+
+  h2 {
+    @include fonts.light-text(8.5vw, var(--black));
+
+    span {
+      font-style: italic;
+      text-decoration: line-through;
+    }
+  }
+}

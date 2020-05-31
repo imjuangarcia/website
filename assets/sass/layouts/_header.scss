@@ -1,0 +1,39 @@
+@use '../config/fonts';
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--border);
+  max-height: 88px;
+  position: sticky;
+
+  svg {
+    path {
+      fill: var(--black);
+    }
+  }
+
+  .logo {
+    padding: var(--s) var(--m);
+    border-right: var(--border);
+    height: var(--xs);
+  }
+
+  h1 {
+    flex: 2;
+    text-align: center;
+    @include fonts.uppercase-text(var(--xxxs), var(--black));
+  }
+
+  button {
+    border: none;
+    border-left: var(--border);
+    background: transparent;
+    padding: var(--s) var(--l);
+    margin: 0;
+
+    svg {
+      height: var(--xs);
+    }
+  }
+}

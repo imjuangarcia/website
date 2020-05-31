@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --black: #1F1F1F;
+  --white: #FFFFFF;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Light";
+  src: url("/fonts/founders-grotesk-web-light.eot") format("eot"), url("/fonts/founders-grotesk-web-light.woff") format("woff"), url("/fonts/founders-grotesk-web-light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Founders Grotesk Medium";
+  src: url("/fonts/founders-grotesk-web-medium.eot") format("eot"), url("/fonts/founders-grotesk-web-medium.woff") format("woff"), url("/fonts/founders-grotesk-web-medium.woff2") format("woff2");
+}
+:root {
+  --xxxl: 12rem;
+  --xxl: 8rem;
+  --xl: 6rem;
+  --l: 4rem;
+  --m: 3rem;
+  --s: 2rem;
+  --xs: 1.5rem;
+  --xxs: 1rem;
+  --xxxs: .75rem;
+}
+
+:root {
+  --border: 2px solid var(--black);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: var(--border);
+  max-height: 88px;
+  position: sticky;
+}
+header svg path {
+  fill: var(--black);
+}
+header .logo {
+  padding: var(--s) var(--m);
+  border-right: var(--border);
+  height: var(--xs);
+}
+header h1 {
+  flex: 2;
+  text-align: center;
+  font-size: var(--xxxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+}
+header button {
+  border: none;
+  border-left: var(--border);
+  background: transparent;
+  padding: var(--s) var(--l);
+  margin: 0;
+}
+header button svg {
+  height: var(--xs);
+}
+
+.hero {
+  padding: var(--xxl) var(--m);
+  border-bottom: var(--border);
+}
+.hero h2 {
+  font-size: 8.5vw;
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+}
+.hero h2 span {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=website.css.map */
