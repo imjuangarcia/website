@@ -52,8 +52,19 @@ table {
   border-spacing: 0;
 }
 
+::-moz-selection {
+  color: var(--black);
+  background: var(--grey);
+}
+
+::selection {
+  color: var(--black);
+  background: var(--grey);
+}
+
 :root {
   --black: #1F1F1F;
+  --grey: #BBBBBB;
   --white: #FFFFFF;
 }
 
