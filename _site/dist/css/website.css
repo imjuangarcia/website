@@ -200,8 +200,16 @@ header button svg {
   font-style: normal;
   text-decoration: none;
 }
+.projects li .text-container a svg {
+  transition: all 0.2s ease-out;
+  position: relative;
+  top: 0;
+}
 .projects li .text-container a svg path {
   fill: var(--black);
+}
+.projects li .text-container a:hover svg {
+  transform: translateY(-4px);
 }
 
 /*# sourceMappingURL=website.css.map */
