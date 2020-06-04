@@ -140,4 +140,57 @@ header button svg {
   text-decoration: line-through;
 }
 
+.projects li {
+  display: flex;
+  border-bottom: var(--border);
+}
+.projects li > * {
+  flex: 1;
+}
+.projects li .image-container {
+  border-right: var(--border);
+}
+.projects li .image-container img {
+  max-width: 100%;
+  display: block;
+}
+.projects li .text-container {
+  padding: var(--xs);
+  position: relative;
+}
+.projects li .text-container h2 {
+  font-size: var(--xs);
+  color: var(--black);
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1;
+  line-height: 2;
+  margin-bottom: var(--m);
+}
+.projects li .text-container p {
+  font-size: var(--xs);
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  line-height: 2;
+}
+.projects li .text-container a {
+  position: absolute;
+  bottom: var(--xs);
+  font-size: var(--xxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+.projects li .text-container a svg path {
+  fill: var(--black);
+}
+
 /*# sourceMappingURL=website.css.map */

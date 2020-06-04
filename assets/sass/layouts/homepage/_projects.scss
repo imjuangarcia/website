@@ -1,0 +1,50 @@
+@use '../../config/fonts';
+
+.projects {
+  li {
+    display: flex;
+    border-bottom: var(--border);
+
+    & > * {
+      flex: 1;
+    }
+
+    .image-container {
+      border-right: var(--border);
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+    }
+
+    .text-container {
+      padding: var(--xs);
+      position: relative;
+
+      h2 {
+        @include fonts.medium-text(var(--xs), var(--black));
+        line-height: 2;
+        margin-bottom: var(--m);
+      }
+      
+      p {
+        @include fonts.light-text(var(--xs), var(--black));
+        line-height: 2;
+      }
+
+      a {
+        position: absolute;
+        bottom: var(--xs);
+        @include fonts.uppercase-text(var(--xxs), var(--black));
+        text-decoration: none;
+
+        svg {
+          path {
+            fill: var(--black);
+          }
+        }
+      }
+    }
+  }
+}
