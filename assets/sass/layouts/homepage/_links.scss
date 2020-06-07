@@ -1,0 +1,28 @@
+@use '../../config/fonts';
+
+.links {
+  display: flex;
+  padding: var(--xl) var(--m);
+
+  li {
+    flex: 1;
+    text-align: center;
+
+    a {
+      @include fonts.light-text(4vw, var(--black));
+      text-decoration: none;
+
+      svg {
+        position: relative;
+        transition: all .2s ease-out;
+        bottom: 1rem;
+      }
+
+      &:hover {
+        svg {
+          transform: translateY(-4px);
+        }
+      }
+    }
+  }
+}

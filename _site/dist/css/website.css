@@ -162,7 +162,7 @@ header button svg {
   border-right: var(--border);
 }
 .projects li .image-container img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .projects li .text-container {
@@ -209,6 +209,32 @@ header button svg {
   fill: var(--black);
 }
 .projects li .text-container a:hover svg {
+  transform: translateY(-4px);
+}
+
+.links {
+  display: flex;
+  padding: var(--xl) var(--m);
+}
+.links li {
+  flex: 1;
+  text-align: center;
+}
+.links li a {
+  font-size: 4vw;
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  text-decoration: none;
+}
+.links li a svg {
+  position: relative;
+  transition: all 0.2s ease-out;
+  bottom: 1rem;
+}
+.links li a:hover svg {
   transform: translateY(-4px);
 }
 
