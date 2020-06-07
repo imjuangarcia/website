@@ -1,0 +1,81 @@
+@use '../config/fonts';
+
+footer {
+  ul {
+    display: flex;
+
+    li {
+      flex: 1;
+      border-right: var(--border);
+      padding: var(--s) var(--m);
+      display: flex;
+      flex-wrap: wrap;
+
+      &:last-child {
+        border: none;
+      }
+
+      h4 {
+        @include fonts.uppercase-text(var(--xxs), var(--black));
+        margin-bottom: var(--m);
+        flex: 100%;
+      }
+
+      ol {
+        align-self: flex-end;
+
+        li {
+          border-right: none;
+          padding: 0;
+
+          a {
+            @include fonts.light-text(var(--xs), var(--black));
+            line-height: 1.6;
+            transition: all .1s ease-in-out;
+            display: inline-block;
+            position: relative;
+            left: 0;
+
+            &:hover {
+              left: 4px;
+            }
+          }
+        }
+      }
+
+      ol.social {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          flex: 50%;
+        }
+      }
+    }
+  }
+
+  p {
+    border-top: var(--border);
+    text-align: center;
+    padding: var(--m);
+    @include fonts.light-text(var(--xs), var(--black));
+
+    a {
+      color: inherit;
+
+      svg {
+        transition: all .1s ease-in-out;
+
+        path {
+          fill: var(--black);
+        }
+      }
+
+      &:hover {
+        svg {
+          transform: translateY(-4px);
+        }
+      }
+    }
+  }
+}

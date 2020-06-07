@@ -37,10 +37,9 @@
         position: absolute;
         bottom: var(--xs);
         @include fonts.uppercase-text(var(--xxs), var(--black));
-        text-decoration: none;
         
         svg {
-          transition: all .2s ease-out;
+          transition: all .1s ease-out;
           position: relative;
           top: 0;
 

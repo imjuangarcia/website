@@ -10,11 +10,10 @@
 
     a {
       @include fonts.light-text(4vw, var(--black));
-      text-decoration: none;
 
       svg {
         position: relative;
-        transition: all .2s ease-out;
+        transition: all .1s ease-out;
         bottom: 1rem;
       }
 

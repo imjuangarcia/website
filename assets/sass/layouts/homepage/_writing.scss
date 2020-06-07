@@ -31,23 +31,25 @@
           }
 
           a {
-            text-decoration: none;
-
             h6 {
               @include fonts.uppercase-text(var(--xxxs), var(--black));
               line-height: 125%;
               transition: all .2s ease-in-out;
+              position: relative;
+              left: 0;
             }
 
             h2 {
               @include fonts.light-text(var(--xs), var(--black));
               line-height: 125%;
               transition: all .2s ease-in-out;
+              position: relative;
+              left: 0;
             }
 
             &:hover {
               h6, h2 {
-                transform: translateX(4px);
+                left: 4px;
               }
             }
           }

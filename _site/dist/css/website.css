@@ -62,6 +62,10 @@ table {
   background: var(--grey);
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --black: #1F1F1F;
   --grey: #BBBBBB;
@@ -134,6 +138,84 @@ header button svg {
   height: var(--xs);
 }
 
+footer ul {
+  display: flex;
+}
+footer ul li {
+  flex: 1;
+  border-right: var(--border);
+  padding: var(--s) var(--m);
+  display: flex;
+  flex-wrap: wrap;
+}
+footer ul li:last-child {
+  border: none;
+}
+footer ul li h4 {
+  font-size: var(--xxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: var(--m);
+  flex: 100%;
+}
+footer ul li ol {
+  align-self: flex-end;
+}
+footer ul li ol li {
+  border-right: none;
+  padding: 0;
+}
+footer ul li ol li a {
+  font-size: var(--xs);
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  line-height: 1.6;
+  transition: all 0.1s ease-in-out;
+  display: inline-block;
+  position: relative;
+  left: 0;
+}
+footer ul li ol li a:hover {
+  left: 4px;
+}
+footer ul li ol.social {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer ul li ol.social li {
+  flex: 50%;
+}
+footer p {
+  border-top: var(--border);
+  text-align: center;
+  padding: var(--m);
+  font-size: var(--xs);
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+}
+footer p a {
+  color: inherit;
+}
+footer p a svg {
+  transition: all 0.1s ease-in-out;
+}
+footer p a svg path {
+  fill: var(--black);
+}
+footer p a:hover svg {
+  transform: translateY(-4px);
+}
+
 .hero {
   padding: var(--xxl) var(--m);
   border-bottom: var(--border);
@@ -198,10 +280,9 @@ header button svg {
   letter-spacing: 1px;
   font-weight: 500;
   font-style: normal;
-  text-decoration: none;
 }
 .projects li .text-container a svg {
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-out;
   position: relative;
   top: 0;
 }
@@ -227,11 +308,10 @@ header button svg {
   font-weight: 300;
   font-style: normal;
   line-height: 1;
-  text-decoration: none;
 }
 .links li a svg {
   position: relative;
-  transition: all 0.2s ease-out;
+  transition: all 0.1s ease-out;
   bottom: 1rem;
 }
 .links li a:hover svg {
@@ -316,9 +396,6 @@ header button svg {
 .writing ul li ol li:last-child {
   padding-bottom: 0;
 }
-.writing ul li ol li a {
-  text-decoration: none;
-}
 .writing ul li ol li a h6 {
   font-size: var(--xxxs);
   color: var(--black);
@@ -329,6 +406,8 @@ header button svg {
   font-style: normal;
   line-height: 125%;
   transition: all 0.2s ease-in-out;
+  position: relative;
+  left: 0;
 }
 .writing ul li ol li a h2 {
   font-size: var(--xs);
@@ -339,9 +418,11 @@ header button svg {
   line-height: 1;
   line-height: 125%;
   transition: all 0.2s ease-in-out;
+  position: relative;
+  left: 0;
 }
 .writing ul li ol li a:hover h6, .writing ul li ol li a:hover h2 {
-  transform: translateX(4px);
+  left: 4px;
 }
 
 .clients {
