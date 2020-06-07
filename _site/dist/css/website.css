@@ -344,4 +344,30 @@ header button svg {
   transform: translateX(4px);
 }
 
+.clients {
+  background-color: var(--black);
+  padding: var(--xxl) var(--m);
+}
+.clients ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clients ul li {
+  font-size: 8vw;
+  color: var(--white);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  line-height: 1;
+}
+.clients ul li span {
+  display: inline-block;
+  width: var(--m);
+  color: var(--grey);
+}
+.clients ul li:last-child span {
+  display: none;
+}
+
 /*# sourceMappingURL=website.css.map */
