@@ -238,4 +238,53 @@ header button svg {
   transform: translateY(-4px);
 }
 
+.work-teach-speak {
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+.work-teach-speak .list {
+  display: flex;
+}
+.work-teach-speak .list li {
+  flex: 1;
+  padding: var(--m) var(--xs);
+  border-right: var(--border);
+}
+.work-teach-speak .list li h4 {
+  font-size: var(--xxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: var(--m);
+}
+.work-teach-speak .list li:last-child {
+  border-right: none;
+}
+.work-teach-speak .list li ol li {
+  padding: 0;
+  border-right: none;
+  display: flex;
+  align-items: baseline;
+  font-size: var(--xs);
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  line-height: 1.6;
+}
+.work-teach-speak .list li ol li span {
+  font-size: var(--xxxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: var(--xxxs);
+}
+
 /*# sourceMappingURL=website.css.map */

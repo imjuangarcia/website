@@ -1,0 +1,37 @@
+<section class="work-teach-speak">
+  <ul class="list">
+    <li>
+      <h4>Worked at</h4>
+      {% for work in works %}
+        <ol>
+          <li>
+            <h3>{{ work.name }}</h3>
+            <span>{{ work.timeframe }}</span>
+          </li>
+        </ol>
+      {% endfor %}
+    </li>
+    <li>
+      <h4>Taught at</h4>
+      {% for teach in teaching %}
+        <ol>
+          <li>
+            <h3>{{ teach.name }}</h3>
+            <span>{{ teach.timeframe }}</span>
+          </li>
+        </ol>
+      {% endfor %}
+    </li>
+    <li>
+      <h4>Spoken at</h4>
+      {% for talk in talks %}
+        <ol>
+          <li>
+            <h3>{{ talk.name }}</h3>
+            <span>{{ talk.timeframe }}</span>
+          </li>
+        </ol>
+      {% endfor %}
+    </li>
+  </ul>
+</section>

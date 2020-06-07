@@ -1,0 +1,41 @@
+@use '../../config/fonts';
+
+.work-teach-speak {
+  border-top: var(--border);
+  border-bottom: var(--border);
+
+  .list {
+    display: flex;
+
+    li {
+      flex: 1;
+      padding: var(--m) var(--xs);
+      border-right: var(--border);
+
+      h4 {
+        @include fonts.uppercase-text(var(--xxs), var(--black));
+        margin-bottom: var(--m);
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+
+      ol {
+        li {
+          padding: 0;
+          border-right: none;
+          display: flex;
+          align-items: baseline;
+          @include fonts.light-text(var(--xs), var(--black));
+          line-height: 1.6;
+
+          span {
+            @include fonts.uppercase-text(var(--xxxs), var(--black));
+            margin-left: var(--xxxs);
+          }
+        }
+      }
+    }
+  }
+}
