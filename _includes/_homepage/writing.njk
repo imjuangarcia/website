@@ -1,0 +1,19 @@
+<section class="writing">
+  <ul>
+    <li>
+      <h3>Writing</h3>
+    </li>
+    <li>
+      <ol>
+        {% for post in blog %}
+        <li>
+          <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
+            <h6>{{ post.timestamp }} - Published on {{ post.publisher }}</h6>
+            <h2>{{ post.title }}</h2>
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </li>
+  </ul>
+</section>

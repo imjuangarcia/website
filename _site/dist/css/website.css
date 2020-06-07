@@ -287,4 +287,61 @@ header button svg {
   margin-left: var(--xxxs);
 }
 
+.writing ul {
+  display: flex;
+}
+.writing ul li:first-child {
+  border-right: var(--border);
+}
+.writing ul li {
+  flex: 1;
+  padding: var(--l) var(--m);
+}
+.writing ul li h3 {
+  font-size: 4vw;
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  line-height: 0.8;
+}
+.writing ul li ol li {
+  padding: 0;
+  padding-bottom: var(--s);
+}
+.writing ul li ol li:first-child {
+  border-right: none;
+}
+.writing ul li ol li:last-child {
+  padding-bottom: 0;
+}
+.writing ul li ol li a {
+  text-decoration: none;
+}
+.writing ul li ol li a h6 {
+  font-size: var(--xxxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  transition: all 0.2s ease-in-out;
+}
+.writing ul li ol li a h2 {
+  font-size: var(--xs);
+  color: var(--black);
+  font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  line-height: 125%;
+  transition: all 0.2s ease-in-out;
+}
+.writing ul li ol li a:hover h6, .writing ul li ol li a:hover h2 {
+  transform: translateX(4px);
+}
+
 /*# sourceMappingURL=website.css.map */

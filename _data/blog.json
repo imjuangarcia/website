@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "OCT 29, 2019",
+    "publisher": "Logrocket",
+    "title": "5 things you can do with CSS instead of JavaScript",
+    "url": "https://blog.logrocket.com/5-things-you-can-do-with-css-instead-of-javascript/"
+  },
+  {
+    "timestamp": "FEB 26, 2019",
+    "publisher": "CSS-Tricks",
+    "title": "Look Ma, No Media Queries! Responsive Layouts with CSS Grid",
+    "url": "https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/"
+  },
+  {
+    "timestamp": "JUN 18, 2018",
+    "publisher": "Medium",
+    "title": "What I've learned from my first Speaking Event",
+    "url": "https://medium.com/@imjuangarcia/what-ive-learned-about-my-first-speaking-event"
+  },
+  {
+    "timestamp": "MAY 17, 2018",
+    "publisher": "UX Collective",
+    "title": "Comparable Experiences: The Starting Point for Inclusive Design",
+    "url": "https://uxdesign.cc/comparable-experiences-the-starting-point-for-inclusive-design-39838d9565c2"
+  },
+  {
+    "timestamp": "FEB 20, 2018",
+    "publisher": "Medium",
+    "title": "How to make Chrome Canary your default browsers",
+    "url": "https://medium.com/@imjuangarcia/how-to-make-chrome-canary-your-default-browser-cd8b4c9b882a"
+  },
+  {
+    "timestamp": "JAN 29, 2018",
+    "publisher": "Medium",
+    "title": "Floating labels: Using patterns to boost your contact form conversions",
+    "url": "https://medium.com/@imjuangarcia/floating-labels-using-patterns-to-boost-your-contact-form-conversions-3f7a040e7efb"
+  }
+]

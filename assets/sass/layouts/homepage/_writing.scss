@@ -1,0 +1,58 @@
+@use '../../config/fonts';
+
+.writing {
+  ul {
+    display: flex;
+    
+    li:first-child {
+      border-right: var(--border);
+    }
+
+    li {
+      flex: 1;
+      padding: var(--l) var(--m);
+
+      h3 {
+        @include fonts.light-text(4vw, var(--black));
+        line-height: 0.8;
+      }
+
+      ol {
+        li {
+          padding: 0;
+          padding-bottom: var(--s);
+
+          &:first-child {
+            border-right: none;
+          }
+
+          &:last-child {
+            padding-bottom: 0;
+          }
+
+          a {
+            text-decoration: none;
+
+            h6 {
+              @include fonts.uppercase-text(var(--xxxs), var(--black));
+              line-height: 125%;
+              transition: all .2s ease-in-out;
+            }
+
+            h2 {
+              @include fonts.light-text(var(--xs), var(--black));
+              line-height: 125%;
+              transition: all .2s ease-in-out;
+            }
+
+            &:hover {
+              h6, h2 {
+                transform: translateX(4px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
