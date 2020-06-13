@@ -2,10 +2,13 @@
 
 header {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   border-bottom: var(--border);
   max-height: 88px;
   position: sticky;
+  top: 0;
+  background-color: var(--white);
+  z-index: 1;
 
   svg {
     path {
@@ -23,17 +26,108 @@ header {
     flex: 2;
     text-align: center;
     @include fonts.uppercase-text(var(--xxxs), var(--black));
+    align-self: center;
+  }
+    
+  .toggle-button {
+    cursor: pointer;
+    border-left: var(--border);
+    padding: var(--s) var(--l);
+    .bar {
+      width: var(--s);
+      height: 2px;
+      background-color: var(--black);
+      margin: .25rem 0;
+      transition: all .2s ease-in-out;
+    }
   }
 
-  button {
-    border: none;
-    border-left: var(--border);
-    background: transparent;
-    padding: var(--s) var(--l);
-    margin: 0;
+  &:hover {
+    .bar:first-child {
+      transform: translateX(.25rem);
+    }
+    
+    .bar:nth-child(2) {
+      transform: translateX(.5rem);
+    }
+    
+    .bar:last-child {
+      transform: translateX(.75rem);
+    }
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
 
-    svg {
-      height: var(--xs);
+  input[type="checkbox"]:checked {
+    & ~ nav {
+      opacity: 1;
+      visibility: visible;
+
+      ul {
+        li {
+          transform: translateY(0px);
+          opacity: 1;
+
+          @for $i from 1 through 6 {
+            $t: $i * 0.1;
+            &:nth-child(#{$i}) {
+              transition: all 0.3s cubic-bezier(.6,0,.8,1.5) #{$t}s; 
+            }
+          }
+        }
+      }
+    }
+
+    & ~ label {
+      .bar {
+        &:first-child {
+          transform: translateY(6px) rotate(45deg);
+        }
+        
+        &:nth-child(2) {
+          opacity: 0;
+        }
+
+        &:last-child {
+          transform: translateY(-6px) rotate(-45deg);
+        }
+      }
+    }
+  }
+
+
+  nav {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    width: 100vw;
+    height: calc(100vh - 90px);
+    background-color: var(--black);
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    padding: var(--xxl) var(--m);
+    box-sizing: border-box;
+
+    ul {
+      li {
+        transform: translateY(-.5rem);
+        opacity: 0;
+
+        a {
+          @include fonts.light-text(8.5vw, var(--white));
+          transition: all .2s ease-in-out;
+          position: relative;
+          left: 0;
+
+          &:hover {
+            left: .5rem;
+          }
+        }
+      }
     }
   }
 }

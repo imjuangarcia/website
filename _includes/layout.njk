@@ -26,14 +26,37 @@ email: hello@juangarcia.com.ar
         </svg>
       </a>
       <h1>{{ role }}</h1>
-      <button class="mobile-menu">
-        <svg width="32" height="14" viewBox="0 0 32 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M32 2.00001V1.90735e-06L0 0V2L32 2.00001ZM32 6V8.00001L0 8V6H32ZM32 12V14L0 14V12H32Z" />
-        </svg>
-      </button>
+      <input type='checkbox' id='toggle' />
+      <label class='toggle-button toggle-cross' for='toggle'>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </label>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#speaking">Speaking</a>
+          </li>
+          <li>
+            <a href="#writing">Writing</a>
+          </li>
+          <li>
+            <a href="#clients">Clients</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>{{ content | safe }}</main>
-    <footer>
+    <footer id="contact">
       <ul>
         <li>
           <h4>{{ getInTouchTitle }}</h4>
@@ -91,5 +114,6 @@ email: hello@juangarcia.com.ar
         </a>.
       </p>
     </footer>
+    <script src="/dist/js/menu.js" async defer></script>
   </body>
 </html>
