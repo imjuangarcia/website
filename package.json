@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass assets/sass/website.scss _site/dist/css/website.css",
+    "babel": "./node_modules/.bin/babel assets/js/ --out-dir _site/dist/js/",
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
+    "watch:babel": "npm run babel -- --watch",
     "start": "npm-run-all --parallel watch:*"
   },
   "repository": {
@@ -23,7 +25,13 @@
   "homepage": "https://gitlab.com/personal-branding/website-11ty#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
     "npm-run-all": "^4.1.5",
     "sass": "^1.26.7"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1"
   }
 }

@@ -1,3 +1,3 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addWatchTarget("./assets/sass/");
+  eleventyConfig.addWatchTarget("./assets/");
 };

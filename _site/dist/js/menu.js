@@ -1,3 +1,5 @@
+"use strict";
+
 const menuItems = document.querySelectorAll('header nav ul li a');
 
 const closeMenu = () => {
@@ -7,6 +9,6 @@ const closeMenu = () => {
     toggle.checked = false;
     window.scrollBy(0, -menu.offsetHeight);
   }, 40);
-}
+};
 
 menuItems.forEach(item => item.addEventListener('click', closeMenu));
