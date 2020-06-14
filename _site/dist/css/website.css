@@ -254,7 +254,7 @@ footer ul li ol li {
   border-right: none;
   padding: 0;
 }
-footer ul li ol li a {
+footer ul li ol li a, footer ul li ol li button {
   font-size: var(--xs);
   color: var(--black);
   font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
@@ -267,8 +267,34 @@ footer ul li ol li a {
   position: relative;
   left: 0;
 }
-footer ul li ol li a:hover {
+footer ul li ol li a:hover, footer ul li ol li button:hover {
   left: 4px;
+}
+footer ul li ol li button {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+footer ul li ol li button::after {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  content: "Copied!";
+  background-color: var(--grey);
+  position: absolute;
+  font-size: var(--xxs);
+  color: var(--black);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  left: 100%;
+  top: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+footer ul li ol li .is-copied:after {
+  opacity: 1;
 }
 footer ul li ol.social {
   display: flex;
