@@ -650,7 +650,7 @@ footer p a:hover svg {
   .work-teach-speak .list li ol li {
     flex-wrap: wrap;
   }
-  .work-teach-speak .list li ol li h5 {
+  .work-teach-speak .list li ol li h5, .work-teach-speak .list li ol li a {
     flex: 100%;
     order: 1;
   }
