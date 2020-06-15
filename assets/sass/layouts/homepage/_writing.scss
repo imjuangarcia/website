@@ -31,7 +31,7 @@
           }
 
           a {
-            h6 {
+            p {
               @include fonts.uppercase-text(var(--xxxs), var(--black));
               line-height: 125%;
               transition: all .2s ease-in-out;
@@ -48,7 +48,7 @@
             }
 
             &:hover {
-              h6, h2 {
+              p, h2 {
                 left: 4px;
               }
             }

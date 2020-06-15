@@ -8,7 +8,7 @@
         {% for post in blog %}
         <li>
           <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
-            <h6>{{ post.timestamp }} - Published on {{ post.publisher }}</h6>
+            <p>{{ post.timestamp }} - Published on {{ post.publisher }}</p>
             <h2>{{ post.title }}</h2>
           </a>
         </li>

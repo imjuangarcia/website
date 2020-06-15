@@ -274,7 +274,7 @@ footer ul li {
 footer ul li:last-child {
   border: none;
 }
-footer ul li h4 {
+footer ul li h6 {
   font-size: var(--xxs);
   color: var(--black);
   text-transform: uppercase;
@@ -473,7 +473,7 @@ footer p a:hover svg {
   padding: var(--xs);
   position: relative;
 }
-.projects li .text-container h2 {
+.projects li .text-container h3 {
   font-size: var(--xs);
   color: var(--black);
   font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
@@ -650,7 +650,7 @@ footer p a:hover svg {
   .work-teach-speak .list li ol li {
     flex-wrap: wrap;
   }
-  .work-teach-speak .list li ol li h3 {
+  .work-teach-speak .list li ol li h5 {
     flex: 100%;
     order: 1;
   }
@@ -717,7 +717,7 @@ footer p a:hover svg {
 .writing ul li ol li:last-child {
   padding-bottom: 0;
 }
-.writing ul li ol li a h6 {
+.writing ul li ol li a p {
   font-size: var(--xxxs);
   color: var(--black);
   text-transform: uppercase;
@@ -742,7 +742,7 @@ footer p a:hover svg {
   position: relative;
   left: 0;
 }
-.writing ul li ol li a:hover h6, .writing ul li ol li a:hover h2 {
+.writing ul li ol li a:hover p, .writing ul li ol li a:hover h2 {
   left: 4px;
 }
 

@@ -24,7 +24,7 @@
       padding: var(--xs);
       position: relative;
 
-      h2 {
+      h3 {
         @include fonts.medium-text(var(--xs), var(--black));
         line-height: 2;
         margin-bottom: var(--m);
