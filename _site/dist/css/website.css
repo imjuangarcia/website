@@ -326,9 +326,10 @@ footer ul li ol li button::after {
   letter-spacing: 1px;
   font-weight: 500;
   font-style: normal;
-  left: 100%;
+  left: 105%;
   top: 0.25rem;
   padding: 0.25rem 0.5rem;
+  z-index: 1;
 }
 footer ul li ol li .is-copied:after {
   opacity: 1;
