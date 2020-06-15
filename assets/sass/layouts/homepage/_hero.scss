@@ -13,3 +13,23 @@
     }
   }
 }
+
+// Big monitors
+@media screen and (min-width: 1680px) {
+  .hero {
+    padding: var(--l) var(--m);
+    
+    h2 {
+      font-size: 7vw;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero {
+    h2 {
+      max-width: 90%;
+      font-size: 5vw;
+    }
+  }
+}

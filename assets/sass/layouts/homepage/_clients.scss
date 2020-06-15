@@ -14,7 +14,7 @@
 
       span {
         display: inline-block;
-        width: var(--m);
+        margin-right: var(--xs);
         color: var(--grey);
       }
 
@@ -22,6 +22,29 @@
         span {
           display: none;
         }
+      }
+    }
+  }
+}
+
+// Big monitors
+@media screen and (min-width: 1680px) {
+  .clients {
+    padding: var(--l) var(--m);
+
+    ul {
+      li {
+        font-size: 7vw;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .clients {
+    ul {
+      li {
+        font-size: 5vw;
       }
     }
   }

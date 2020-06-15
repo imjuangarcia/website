@@ -131,3 +131,34 @@ header {
     }
   }
 }
+
+// Big monitors
+@media screen and (min-width: 1680px) {
+  header {
+    nav {
+      padding: var(--l) var(--m);
+
+      ul {
+        li {
+          a {
+            font-size: 7vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    nav {
+      ul {
+        li {
+          a {
+            font-size: 5vw;
+          }
+        }
+      }
+    }
+  }
+}
