@@ -235,10 +235,28 @@ header nav ul li a:hover {
 }
 @media screen and (max-width: 1220px) {
   header nav, header .logo, header .toggle-button {
-    padding: var(--xs) var(--s);
+    padding: var(--xs);
   }
   header nav {
     height: calc(100vh - 74px);
+  }
+}
+@media screen and (max-width: 570px) {
+  header nav, header .logo, header .toggle-button {
+    padding: var(--xxs);
+  }
+  header .logo {
+    flex: 1;
+    border-right: none;
+  }
+  header h1 {
+    display: none;
+  }
+  header nav {
+    height: calc(100vh - 58px);
+  }
+  header nav ul li a {
+    font-size: 12vw;
   }
 }
 footer ul {
@@ -284,6 +302,7 @@ footer ul li ol li a, footer ul li ol li button {
   display: inline-block;
   position: relative;
   left: 0;
+  padding: 0;
 }
 footer ul li ol li a:hover, footer ul li ol li button:hover {
   left: 4px;
@@ -349,6 +368,9 @@ footer p a:hover svg {
   footer ul li {
     padding: var(--xs);
   }
+  footer p {
+    padding: var(--xs);
+  }
 }
 @media screen and (max-width: 860px) {
   footer ul {
@@ -365,6 +387,26 @@ footer p a:hover svg {
   }
   footer ul li ol li:last-child {
     border-top: none;
+  }
+}
+@media screen and (max-width: 570px) {
+  footer ul {
+    flex-direction: column;
+  }
+  footer ul li {
+    border-right: none;
+    padding: var(--xxs);
+  }
+  footer ul li:first-child {
+    border-bottom: var(--border);
+  }
+  footer ul li ol li:first-child {
+    border-bottom: none;
+  }
+  footer p {
+    padding: var(--xxs);
+    text-align: left;
+    line-height: 1.2;
   }
 }
 .hero {
@@ -397,7 +439,15 @@ footer p a:hover svg {
 }
 @media screen and (max-width: 1220px) {
   .hero {
-    padding: var(--s);
+    padding: var(--xs);
+  }
+}
+@media screen and (max-width: 570px) {
+  .hero {
+    padding: var(--xxs);
+  }
+  .hero h2 {
+    font-size: 12vw;
   }
 }
 .projects li {
@@ -479,6 +529,11 @@ footer p a:hover svg {
     border-bottom: var(--border);
   }
 }
+@media screen and (max-width: 570px) {
+  .projects li .text-container {
+    padding: var(--xxs);
+  }
+}
 .links {
   display: flex;
   padding: var(--xl) var(--m);
@@ -517,6 +572,11 @@ footer p a:hover svg {
   }
   .links li a svg {
     bottom: 25%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .links {
+    padding: var(--xxs);
   }
 }
 .work-teach-speak {
@@ -606,6 +666,16 @@ footer p a:hover svg {
     border-top: none;
   }
 }
+@media screen and (max-width: 570px) {
+  .work-teach-speak {
+    border-top: none;
+  }
+  .work-teach-speak .list li {
+    flex: 100%;
+    border-top: var(--border);
+    padding: var(--xxs);
+  }
+}
 .writing ul {
   display: flex;
 }
@@ -677,6 +747,19 @@ footer p a:hover svg {
     border-right: none;
   }
 }
+@media screen and (max-width: 720px) {
+  .writing ul li h3 {
+    font-size: 8vw;
+  }
+}
+@media screen and (max-width: 570px) {
+  .writing ul li {
+    padding: var(--xxs);
+  }
+  .writing ul li h3 {
+    font-size: 12vw;
+  }
+}
 .clients {
   background-color: var(--black);
   padding: 10vh var(--m);
@@ -716,6 +799,17 @@ footer p a:hover svg {
 @media screen and (max-width: 1220px) {
   .clients {
     padding: var(--xs);
+  }
+}
+@media screen and (max-width: 570px) {
+  .clients {
+    padding: var(--xxs);
+  }
+  .clients ul li {
+    font-size: 12vw;
+  }
+  .clients ul li span {
+    margin-right: 0.25rem;
   }
 }
 

@@ -45,3 +45,10 @@
     }
   }
 }
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .links {
+    padding: var(--xxs);
+  }
+}

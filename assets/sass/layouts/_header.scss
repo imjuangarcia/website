@@ -165,11 +165,41 @@ header {
 @media screen and (max-width: 1220px) {
   header {
     nav, .logo, .toggle-button {
-      padding: var(--xs) var(--s);
+      padding: var(--xs);
     }
 
     nav {
       height: calc(100vh - 74px);
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  header {
+    nav, .logo, .toggle-button {
+      padding: var(--xxs);
+    }
+
+    .logo {
+      flex: 1;
+      border-right: none;
+    }
+
+    h1 {
+      display: none;
+    }
+
+    nav {
+      height: calc(100vh - 58px);
+
+      ul {
+        li {
+          a {
+            font-size: 12vw;
+          }
+        }
+      }
     }
   }
 }

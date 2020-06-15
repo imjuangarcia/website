@@ -54,3 +54,20 @@
     padding: var(--xs);
   }
 }
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .clients {
+    padding: var(--xxs);
+
+    ul {
+      li {
+        font-size: 12vw;
+
+        span {
+          margin-right: .25rem;
+        }
+      }
+    }
+  }
+}

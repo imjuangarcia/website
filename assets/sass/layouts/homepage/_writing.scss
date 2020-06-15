@@ -84,3 +84,31 @@
     }
   }
 }
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .writing {
+    ul {
+      li {
+        h3 {
+          font-size: 8vw;
+        }
+      }
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .writing {
+    ul {
+      li {
+        padding: var(--xxs);
+        
+        h3 {
+          font-size: 12vw;
+        }
+      }
+    }
+  }
+}

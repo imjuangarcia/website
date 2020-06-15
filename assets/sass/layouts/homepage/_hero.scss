@@ -35,6 +35,17 @@
 // Standard size monitors
 @media screen and (max-width: 1220px) {
   .hero {
-    padding: var(--s);
+    padding: var(--xs);
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .hero {
+    padding: var(--xxs);
+
+    h2 {
+      font-size: 12vw;
+    }
   }
 }

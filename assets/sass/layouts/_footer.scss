@@ -35,6 +35,7 @@ footer {
             display: inline-block;
             position: relative;
             left: 0;
+            padding: 0;
 
             &:hover {
               left: 4px;
@@ -113,6 +114,10 @@ footer {
         padding: var(--xs);
       }
     }
+
+    p {
+      padding: var(--xs);
+    }
   }
 }
 
@@ -141,6 +146,38 @@ footer {
           }
         }
       }
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  footer {
+    ul {
+      flex-direction: column;
+
+      li {
+        border-right: none;
+        padding: var(--xxs);
+        
+        &:first-child {
+          border-bottom: var(--border);
+        }
+
+        ol {
+          li {
+            &:first-child {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      padding: var(--xxs);
+      text-align: left;
+      line-height: 1.2;
     }
   }
 }

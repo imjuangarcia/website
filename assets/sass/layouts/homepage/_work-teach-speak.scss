@@ -100,3 +100,18 @@
     }
   }
 }
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .work-teach-speak {
+    border-top: none;
+    
+    .list {
+      li {
+        flex: 100%;
+        border-top: var(--border);
+        padding: var(--xxs);
+      }
+    }
+  }
+}
