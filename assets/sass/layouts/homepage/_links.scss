@@ -25,3 +25,23 @@
     }
   }
 }
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .links {
+    flex-direction: column;
+    padding: var(--xs);
+    
+    li {
+      margin: var(--xs) 0;
+
+      a {
+        font-size: 8.5vw;
+
+        svg {
+          bottom: 25%;
+        }
+      }
+    }
+  }
+}

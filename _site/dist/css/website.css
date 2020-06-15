@@ -470,6 +470,15 @@ footer p a:hover svg {
     display: block;
   }
 }
+@media screen and (max-width: 720px) {
+  .projects li {
+    flex-direction: column;
+  }
+  .projects li .image-container {
+    border-right: 0;
+    border-bottom: var(--border);
+  }
+}
 .links {
   display: flex;
   padding: var(--xl) var(--m);
@@ -495,6 +504,21 @@ footer p a:hover svg {
   transform: translateY(-4px);
 }
 
+@media screen and (max-width: 720px) {
+  .links {
+    flex-direction: column;
+    padding: var(--xs);
+  }
+  .links li {
+    margin: var(--xs) 0;
+  }
+  .links li a {
+    font-size: 8.5vw;
+  }
+  .links li a svg {
+    bottom: 25%;
+  }
+}
 .work-teach-speak {
   border-top: var(--border);
   border-bottom: var(--border);

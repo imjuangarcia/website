@@ -75,3 +75,17 @@
     }
   }
 }
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .projects {
+    li {
+      flex-direction: column;
+
+      .image-container {
+        border-right: 0;
+        border-bottom: var(--border);
+      }
+    }
+  }
+}
