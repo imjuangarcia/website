@@ -698,7 +698,7 @@ footer p a:hover svg {
   flex: 1;
   padding: var(--l) var(--m);
 }
-.writing ul li h3 {
+.writing ul li h5 {
   font-size: 4vw;
   color: var(--black);
   font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
@@ -730,7 +730,7 @@ footer p a:hover svg {
   position: relative;
   left: 0;
 }
-.writing ul li ol li a h2 {
+.writing ul li ol li a h6 {
   font-size: var(--xs);
   color: var(--black);
   font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
@@ -742,7 +742,7 @@ footer p a:hover svg {
   position: relative;
   left: 0;
 }
-.writing ul li ol li a:hover p, .writing ul li ol li a:hover h2 {
+.writing ul li ol li a:hover p, .writing ul li ol li a:hover h6 {
   left: 4px;
 }
 
@@ -760,7 +760,7 @@ footer p a:hover svg {
   }
 }
 @media screen and (max-width: 720px) {
-  .writing ul li h3 {
+  .writing ul li h5 {
     font-size: 8vw;
   }
 }
@@ -768,7 +768,7 @@ footer p a:hover svg {
   .writing ul li {
     padding: var(--xxs);
   }
-  .writing ul li h3 {
+  .writing ul li h5 {
     font-size: 12vw;
   }
 }
