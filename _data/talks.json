@@ -1,10 +1,14 @@
 [
   {
     "name": "Dev Day Ar",
-    "timeframe": "2018"
+    "timeframe": "2018",
+    "slides": "https://www.scribd.com/document/395755304/Tips-de-diseno-para-desarolladores-DevDay-Argentina-2018"
   },
   {
     "name": "UX Conf BR",
-    "timeframe": "2018"
+    "timeframe": "2018",
+    "video": "https://www.youtube.com/watch?v=lRvzAepMse8",
+    "slides": "https://www.scribd.com/document/380360471/Comparable-experiences-the-starting-point-for-inclusive-design-Slides",
+    "blog": "https://uxdesign.cc/comparable-experiences-the-starting-point-for-inclusive-design-39838d9565c2"
   }
 ]

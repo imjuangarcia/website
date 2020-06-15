@@ -27,7 +27,13 @@
       {% for talk in talks %}
         <ol>
           <li>
-            <h3>{{ talk.name }}</h3>
+            {% if talk.video %}
+              <a href="{{ talk.video }}" target="_blank" rel="noopener noreferrer">{{ talk.name }}</a>
+            {% elif talk.blog %}
+              <a href="{{ talk.blog }}" target="_blank" rel="noopener noreferrer">{{ talk.name }}</a>
+            {% else %}
+              <a href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer">{{ talk.name }}</a>
+            {% endif %}
             <span>{{ talk.timeframe }}</span>
           </li>
         </ol>

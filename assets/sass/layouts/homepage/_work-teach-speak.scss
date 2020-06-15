@@ -30,6 +30,17 @@
           @include fonts.light-text(var(--xs), var(--black));
           line-height: 1.6;
 
+          a {
+            color: var(--black);
+            transition: all .2s ease-in-out;
+            position: relative;
+            left: 0;
+
+            &:hover {
+              left: 4px;
+            }
+          }
+
           span {
             @include fonts.uppercase-text(var(--xxxs), var(--black));
             margin-left: var(--xxxs);

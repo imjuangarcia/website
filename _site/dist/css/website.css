@@ -618,6 +618,15 @@ footer p a:hover svg {
   line-height: 1;
   line-height: 1.6;
 }
+.work-teach-speak .list li ol li a {
+  color: var(--black);
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  left: 0;
+}
+.work-teach-speak .list li ol li a:hover {
+  left: 4px;
+}
 .work-teach-speak .list li ol li span {
   font-size: var(--xxxs);
   color: var(--black);
