@@ -8,6 +8,7 @@ body {
   src: url("/fonts/founders-grotesk-web-light.eot") format("eot"),
        url("/fonts/founders-grotesk-web-light.woff") format("woff"),
        url("/fonts/founders-grotesk-web-light.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -15,6 +16,7 @@ body {
   src: url("/fonts/founders-grotesk-web-medium.eot") format("eot"),
        url("/fonts/founders-grotesk-web-medium.woff") format("woff"),
        url("/fonts/founders-grotesk-web-medium.woff2") format("woff2");
+  font-display: swap;
 }
 
 @mixin uppercase-text($font-size, $color) {
