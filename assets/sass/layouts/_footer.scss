@@ -115,3 +115,32 @@ footer {
     }
   }
 }
+
+// iPad portrait
+@media screen and (max-width: 860px) {
+  footer {
+    ul {
+      flex-wrap: wrap;
+
+      li {
+        flex: 40%;
+
+        &:nth-child(2) {
+          border-right: none;
+        }
+
+        &:last-child {
+          border-top: var(--border);
+        }
+        
+        ol {
+          li {
+            &:last-child {
+              border-top: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

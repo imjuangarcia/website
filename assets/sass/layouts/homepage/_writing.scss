@@ -69,3 +69,18 @@
     }
   }
 }
+
+// iPad portrait
+@media screen and (max-width: 860px) {
+  .writing {
+    ul {
+      flex-direction: column;
+
+      li {
+        &:first-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}

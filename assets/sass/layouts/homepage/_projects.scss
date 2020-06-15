@@ -59,3 +59,19 @@
     }
   }
 }
+
+// Regular desktop computers
+@media screen and (max-width: 1220px) {
+  .projects {
+    li {
+      .text-container {
+        a {
+          position: relative;
+          bottom: auto;
+          margin-top: var(--m);
+          display: block;
+        }
+      }
+    }
+  }
+}

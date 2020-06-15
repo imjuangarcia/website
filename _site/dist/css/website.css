@@ -350,6 +350,23 @@ footer p a:hover svg {
     padding: var(--xs);
   }
 }
+@media screen and (max-width: 860px) {
+  footer ul {
+    flex-wrap: wrap;
+  }
+  footer ul li {
+    flex: 40%;
+  }
+  footer ul li:nth-child(2) {
+    border-right: none;
+  }
+  footer ul li:last-child {
+    border-top: var(--border);
+  }
+  footer ul li ol li:last-child {
+    border-top: none;
+  }
+}
 .hero {
   padding: 10vh var(--m);
   border-bottom: var(--border);
@@ -445,6 +462,14 @@ footer p a:hover svg {
   transform: translateY(-4px);
 }
 
+@media screen and (max-width: 1220px) {
+  .projects li .text-container a {
+    position: relative;
+    bottom: auto;
+    margin-top: var(--m);
+    display: block;
+  }
+}
 .links {
   display: flex;
   padding: var(--xl) var(--m);
@@ -540,6 +565,23 @@ footer p a:hover svg {
     margin-bottom: 0;
   }
 }
+@media screen and (max-width: 860px) {
+  .work-teach-speak .list {
+    flex-wrap: wrap;
+  }
+  .work-teach-speak .list li {
+    flex: 40%;
+  }
+  .work-teach-speak .list li:nth-child(2) {
+    border-right: none;
+  }
+  .work-teach-speak .list li:last-child {
+    border-top: var(--border);
+  }
+  .work-teach-speak .list li ol li:last-child {
+    border-top: none;
+  }
+}
 .writing ul {
   display: flex;
 }
@@ -601,6 +643,14 @@ footer p a:hover svg {
 @media screen and (max-width: 1220px) {
   .writing ul li {
     padding: var(--xs);
+  }
+}
+@media screen and (max-width: 860px) {
+  .writing ul {
+    flex-direction: column;
+  }
+  .writing ul li:first-child {
+    border-right: none;
   }
 }
 .clients {
