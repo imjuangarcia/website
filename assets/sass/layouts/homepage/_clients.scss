@@ -2,7 +2,7 @@
 
 .clients {
   background-color: var(--black);
-  padding: var(--xxl) var(--m);
+  padding: 10vh var(--m);
 
   ul {
     display: flex;
@@ -30,8 +30,6 @@
 // Big monitors
 @media screen and (min-width: 1680px) {
   .clients {
-    padding: var(--l) var(--m);
-
     ul {
       li {
         font-size: 7vw;

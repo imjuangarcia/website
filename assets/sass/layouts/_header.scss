@@ -109,7 +109,7 @@ header {
     bottom: 0;
     left: 0;
     z-index: 0;
-    padding: var(--xxl) var(--m);
+    padding: 10vh var(--m);
     box-sizing: border-box;
 
     ul {
@@ -136,8 +136,6 @@ header {
 @media screen and (min-width: 1680px) {
   header {
     nav {
-      padding: var(--l) var(--m);
-
       ul {
         li {
           a {

@@ -1,7 +1,7 @@
 @use '../../config/fonts';
 
 .hero {
-  padding: var(--xxl) var(--m);
+  padding: 10vh var(--m);
   border-bottom: var(--border);
 
   h2 {
@@ -17,8 +17,6 @@
 // Big monitors
 @media screen and (min-width: 1680px) {
   .hero {
-    padding: var(--l) var(--m);
-    
     h2 {
       font-size: 7vw;
     }

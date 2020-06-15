@@ -201,7 +201,7 @@ header nav {
   bottom: 0;
   left: 0;
   z-index: 0;
-  padding: var(--xxl) var(--m);
+  padding: 10vh var(--m);
   box-sizing: border-box;
 }
 header nav ul li {
@@ -224,9 +224,6 @@ header nav ul li a:hover {
 }
 
 @media screen and (min-width: 1680px) {
-  header nav {
-    padding: var(--l) var(--m);
-  }
   header nav ul li a {
     font-size: 7vw;
   }
@@ -341,7 +338,7 @@ footer p a:hover svg {
 }
 
 .hero {
-  padding: var(--xxl) var(--m);
+  padding: 10vh var(--m);
   border-bottom: var(--border);
 }
 .hero h2 {
@@ -358,9 +355,6 @@ footer p a:hover svg {
 }
 
 @media screen and (min-width: 1680px) {
-  .hero {
-    padding: var(--l) var(--m);
-  }
   .hero h2 {
     font-size: 7vw;
   }
@@ -565,7 +559,7 @@ footer p a:hover svg {
 
 .clients {
   background-color: var(--black);
-  padding: var(--xxl) var(--m);
+  padding: 10vh var(--m);
 }
 .clients ul {
   display: flex;
@@ -590,9 +584,6 @@ footer p a:hover svg {
 }
 
 @media screen and (min-width: 1680px) {
-  .clients {
-    padding: var(--l) var(--m);
-  }
   .clients ul li {
     font-size: 7vw;
   }
