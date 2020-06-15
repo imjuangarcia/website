@@ -233,6 +233,14 @@ header nav ul li a:hover {
     font-size: 5vw;
   }
 }
+@media screen and (max-width: 1220px) {
+  header nav, header .logo, header .toggle-button {
+    padding: var(--xs) var(--s);
+  }
+  header nav {
+    height: calc(100vh - 74px);
+  }
+}
 footer ul {
   display: flex;
 }
@@ -337,6 +345,11 @@ footer p a:hover svg {
   transform: translateY(-4px);
 }
 
+@media screen and (max-width: 1220px) {
+  footer ul li {
+    padding: var(--xs);
+  }
+}
 .hero {
   padding: 10vh var(--m);
   border-bottom: var(--border);
@@ -365,6 +378,11 @@ footer p a:hover svg {
     font-size: 5vw;
   }
 }
+@media screen and (max-width: 1220px) {
+  .hero {
+    padding: var(--s);
+  }
+}
 .projects li {
   display: flex;
   border-bottom: var(--border);
@@ -378,6 +396,8 @@ footer p a:hover svg {
 .projects li .image-container img {
   width: 100%;
   display: block;
+  height: 100%;
+  object-fit: cover;
 }
 .projects li .text-container {
   padding: var(--xs);
@@ -499,6 +519,27 @@ footer p a:hover svg {
   margin-left: var(--xxxs);
 }
 
+@media screen and (max-width: 1220px) {
+  .work-teach-speak .list li {
+    padding: var(--xs);
+  }
+  .work-teach-speak .list li ol {
+    margin-bottom: var(--xxxs);
+  }
+  .work-teach-speak .list li ol li {
+    flex-wrap: wrap;
+  }
+  .work-teach-speak .list li ol li h3 {
+    flex: 100%;
+    order: 1;
+  }
+  .work-teach-speak .list li ol li span {
+    margin-left: 0;
+  }
+  .work-teach-speak .list li ol:last-child {
+    margin-bottom: 0;
+  }
+}
 .writing ul {
   display: flex;
 }
@@ -557,6 +598,11 @@ footer p a:hover svg {
   left: 4px;
 }
 
+@media screen and (max-width: 1220px) {
+  .writing ul li {
+    padding: var(--xs);
+  }
+}
 .clients {
   background-color: var(--black);
   padding: 10vh var(--m);
@@ -591,6 +637,11 @@ footer p a:hover svg {
 @media screen and (min-width: 1920px) {
   .clients ul li {
     font-size: 5vw;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .clients {
+    padding: var(--xs);
   }
 }
 

@@ -160,3 +160,16 @@ header {
     }
   }
 }
+
+// Standard size monitors
+@media screen and (max-width: 1220px) {
+  header {
+    nav, .logo, .toggle-button {
+      padding: var(--xs) var(--s);
+    }
+
+    nav {
+      height: calc(100vh - 74px);
+    }
+  }
+}

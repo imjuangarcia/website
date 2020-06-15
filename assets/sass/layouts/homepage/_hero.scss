@@ -31,3 +31,10 @@
     }
   }
 }
+
+// Standard size monitors
+@media screen and (max-width: 1220px) {
+  .hero {
+    padding: var(--s);
+  }
+}

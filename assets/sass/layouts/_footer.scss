@@ -104,3 +104,14 @@ footer {
     }
   }
 }
+
+// Regular desktop computers
+@media screen and (max-width: 1220px) {
+  footer {
+    ul {
+      li {
+        padding: var(--xs);
+      }
+    }
+  }
+}
