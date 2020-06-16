@@ -7,9 +7,9 @@
       <ol>
         {% for post in blog %}
         <li>
+          <p>{{ post.timestamp }} - Published on {{ post.publisher }}</p>
           <a href="{{ post.url }}" target="_blank" rel="noopener noreferrer">
-            <p>{{ post.timestamp }} - Published on {{ post.publisher }}</p>
-            <h6>{{ post.title }}</h6>
+            {{ post.title }}
           </a>
         </li>
         {% endfor %}

@@ -135,6 +135,20 @@ body {
   box-sizing: border-box;
 }
 
+a[target=_blank] {
+  transition: all 0.1s ease-out;
+  display: inline-block;
+  position: relative;
+  left: 0;
+}
+a[target=_blank]:after {
+  content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMiAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjEyNSA4SDkuMzc1QzkuMTY0MDYgOCA5IDguMTg3NSA5IDguMzc1VjExSDEuNVYzLjVINC44NzVDNS4wNjI1IDMuNSA1LjI1IDMuMzM1OTQgNS4yNSAzLjEyNVYyLjM3NUM1LjI1IDIuMTg3NSA1LjA2MjUgMiA0Ljg3NSAySDEuMTI1QzAuNDkyMTg4IDIgMCAyLjUxNTYyIDAgMy4xMjVWMTEuMzc1QzAgMTIuMDA3OCAwLjQ5MjE4OCAxMi41IDEuMTI1IDEyLjVIOS4zNzVDOS45ODQzOCAxMi41IDEwLjUgMTIuMDA3OCAxMC41IDExLjM3NVY4LjM3NUMxMC41IDguMTg3NSAxMC4zMTI1IDggMTAuMTI1IDhaTTExLjEwOTQgMC41SDcuNDA2MjVDNy4wMzEyNSAwLjUgNi43NSAwLjgwNDY4OCA2Ljc1IDEuMTU2MjVWMS42MDE1NkM2Ljc1IDEuOTUzMTIgNy4wMzEyNSAyLjIzNDM4IDcuMzgyODEgMi4yMzQzOEM3LjQwNjI1IDIuMjM0MzggNy40MDYyNSAyLjIzNDM4IDcuNDA2MjUgMi4yMzQzOEw5IDIuMTg3NUwzLjE2NDA2IDhDMy4wNzAzMSA4LjA5Mzc1IDIuOTc2NTYgOC4yNTc4MSAyLjk3NjU2IDguMzk4NDRDMi45NzY1NiA4LjUxNTYyIDMuMDcwMzEgOC43MDMxMiAzLjE2NDA2IDguNzk2ODhMMy43MDMxMiA5LjMzNTk0SDMuNzI2NTZDMy43OTY4OCA5LjQyOTY5IDMuOTg0MzggOS41IDQuMTAxNTYgOS41QzQuMjQyMTkgOS41IDQuNDI5NjkgOS40Mjk2OSA0LjUgOS4zMzU5NEwxMC4zMTI1IDMuNUwxMC4yNjU2IDUuMDkzNzVDMTAuMjY1NiA1LjQ2ODc1IDEwLjU0NjkgNS43NSAxMC45MjE5IDUuNzVIMTEuMzQzOEMxMS42OTUzIDUuNzUgMTIgNS40Njg3NSAxMiA1LjA5Mzc1VjEuMzkwNjJDMTIgMC44OTg0MzggMTEuNjAxNiAwLjUgMTEuMTA5NCAwLjVaIiBmaWxsPSIjMUYxRjFGIi8+Cjwvc3ZnPgo=");
+  position: relative;
+}
+a[target=_blank]:hover {
+  left: 4px;
+}
+
 header {
   display: flex;
   align-items: stretch;
@@ -332,14 +346,13 @@ footer ul li ol li a, footer ul li ol li button {
   font-style: normal;
   line-height: 1;
   line-height: 1.6;
+  padding: 0;
   transition: all 0.1s ease-in-out;
-  display: inline-block;
   position: relative;
   left: 0;
-  padding: 0;
 }
 footer ul li ol li a:hover, footer ul li ol li button:hover {
-  left: 4px;
+  left: 0.25rem;
 }
 footer ul li ol li button {
   background: transparent;
@@ -388,15 +401,6 @@ footer p {
 }
 footer p a {
   color: inherit;
-}
-footer p a svg {
-  transition: all 0.1s ease-in-out;
-}
-footer p a svg path {
-  fill: var(--black);
-}
-footer p a:hover svg {
-  transform: translateY(-4px);
 }
 
 @media screen and (max-width: 1220px) {
@@ -534,17 +538,10 @@ footer p a:hover svg {
   letter-spacing: 1px;
   font-weight: 500;
   font-style: normal;
+  left: auto;
 }
-.projects li .text-container a svg {
-  transition: all 0.1s ease-out;
-  position: relative;
-  top: 0;
-}
-.projects li .text-container a svg path {
-  fill: var(--black);
-}
-.projects li .text-container a:hover svg {
-  transform: translateY(-4px);
+.projects li .text-container a:hover {
+  transform: translateX(4px);
 }
 
 @media screen and (max-width: 1220px) {
@@ -585,13 +582,8 @@ footer p a:hover svg {
   font-style: normal;
   line-height: 1;
 }
-.links li a svg {
-  position: relative;
-  transition: all 0.1s ease-out;
-  bottom: 20%;
-}
-.links li a:hover svg {
-  transform: translateY(-4px);
+.links li a:after {
+  bottom: 10px;
 }
 
 @media screen and (max-width: 720px) {
@@ -604,9 +596,6 @@ footer p a:hover svg {
   }
   .links li a {
     font-size: 8.5vw;
-  }
-  .links li a svg {
-    bottom: 25%;
   }
 }
 @media screen and (max-width: 570px) {
@@ -654,12 +643,9 @@ footer p a:hover svg {
 }
 .work-teach-speak .list li ol li a {
   color: var(--black);
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  left: 0;
 }
-.work-teach-speak .list li ol li a:hover {
-  left: 4px;
+.work-teach-speak .list li ol li a::after {
+  margin-left: 0.25rem;
 }
 .work-teach-speak .list li ol li span {
   font-size: var(--xxxs);
@@ -718,6 +704,7 @@ footer p a:hover svg {
     flex: 100%;
     border-top: var(--border);
     padding: var(--xxs);
+    border-right: none;
   }
 }
 .writing ul {
@@ -749,7 +736,7 @@ footer p a:hover svg {
 .writing ul li ol li:last-child {
   padding-bottom: 0;
 }
-.writing ul li ol li a p {
+.writing ul li ol li p {
   font-size: var(--xxxs);
   color: var(--black);
   text-transform: uppercase;
@@ -762,7 +749,7 @@ footer p a:hover svg {
   position: relative;
   left: 0;
 }
-.writing ul li ol li a h6 {
+.writing ul li ol li a {
   font-size: var(--xs);
   color: var(--black);
   font-family: "Founders Grotesk Light", Arial, Helvetica, sans-serif;
@@ -770,12 +757,7 @@ footer p a:hover svg {
   font-style: normal;
   line-height: 1;
   line-height: 125%;
-  transition: all 0.2s ease-in-out;
-  position: relative;
-  left: 0;
-}
-.writing ul li ol li a:hover p, .writing ul li ol li a:hover h6 {
-  left: 4px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 1220px) {

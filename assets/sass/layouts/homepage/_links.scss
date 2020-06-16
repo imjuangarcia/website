@@ -11,16 +11,8 @@
     a {
       @include fonts.light-text(4vw, var(--black));
 
-      svg {
-        position: relative;
-        transition: all .1s ease-out;
-        bottom: 20%;
-      }
-
-      &:hover {
-        svg {
-          transform: translateY(-4px);
-        }
+      &:after {
+        bottom: 10px;
       }
     }
   }
@@ -37,10 +29,6 @@
 
       a {
         font-size: 8.5vw;
-
-        svg {
-          bottom: 25%;
-        }
       }
     }
   }

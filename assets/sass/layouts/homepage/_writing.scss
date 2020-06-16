@@ -30,28 +30,18 @@
             padding-bottom: 0;
           }
 
+          p {
+            @include fonts.uppercase-text(var(--xxxs), var(--black));
+            line-height: 125%;
+            transition: all .2s ease-in-out;
+            position: relative;
+            left: 0;
+          }
+
           a {
-            p {
-              @include fonts.uppercase-text(var(--xxxs), var(--black));
-              line-height: 125%;
-              transition: all .2s ease-in-out;
-              position: relative;
-              left: 0;
-            }
-
-            h6 {
-              @include fonts.light-text(var(--xs), var(--black));
-              line-height: 125%;
-              transition: all .2s ease-in-out;
-              position: relative;
-              left: 0;
-            }
-
-            &:hover {
-              p, h6 {
-                left: 4px;
-              }
-            }
+            @include fonts.light-text(var(--xs), var(--black));
+            line-height: 125%;
+            display: inline-block;
           }
         }
       }

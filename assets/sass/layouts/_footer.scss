@@ -31,14 +31,13 @@ footer {
           a, button {
             @include fonts.light-text(var(--xs), var(--black));
             line-height: 1.6;
+            padding: 0;
             transition: all .1s ease-in-out;
-            display: inline-block;
             position: relative;
             left: 0;
-            padding: 0;
 
             &:hover {
-              left: 4px;
+              left: .25rem;
             }
           }
 
@@ -89,20 +88,6 @@ footer {
 
     a {
       color: inherit;
-
-      svg {
-        transition: all .1s ease-in-out;
-
-        path {
-          fill: var(--black);
-        }
-      }
-
-      &:hover {
-        svg {
-          transform: translateY(-4px);
-        }
-      }
     }
   }
 }
