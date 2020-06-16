@@ -16,6 +16,14 @@
     <link href="/dist/css/website.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <a
+      href="#about"
+      class="skip"
+      aria-label="Skip links and go to the text content"
+    >
+      Skip to main content
+      <i class="far fa-arrow-right"></i>
+    </a>
     <header>
       <a href="/" class="logo">
         <svg width="68" height="24" viewBox="0 0 68 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +36,7 @@
       </a>
       <h1>Product Designer &amp; front-end Developer</h1>
       <input type='checkbox' id='toggle' />
-      <label class='toggle-button toggle-cross' for='toggle'>
+      <label class='toggle-button toggle-cross' for='toggle' tabindex="0" role="button">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>

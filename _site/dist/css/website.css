@@ -103,6 +103,38 @@ body {
   --border: 2px solid var(--black);
 }
 
+.skip {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+.skip:focus, .skip:active {
+  color: var(--white);
+  background-color: var(--black);
+  position: static;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  padding: var(--xs);
+  text-align: center;
+  z-index: 999;
+  display: inline-block;
+  font-size: var(--xxs);
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: "Founders Grotesk Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
 header {
   display: flex;
   align-items: stretch;

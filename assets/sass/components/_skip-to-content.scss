@@ -1,0 +1,28 @@
+@use '../config/fonts';
+
+.skip {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+
+  &:focus, &:active {
+    color: var(--white);
+    background-color: var(--black);
+    position: static;
+    left: auto;
+    top: auto;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding: var(--xs);
+    text-align: center;
+    z-index: 999;
+    display: inline-block;
+    @include fonts.uppercase-text(var(--xxs), var(--white));
+    box-sizing: border-box;
+  }
+}
