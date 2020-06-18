@@ -191,13 +191,13 @@ header .toggle-button .bar {
   margin: 0.25rem 0;
   transition: all 0.2s ease-in-out;
 }
-header:hover .bar:first-child {
+header .toggle-button:hover .bar:first-child {
   transform: translateX(0.25rem);
 }
-header:hover .bar:nth-child(2) {
+header .toggle-button:hover .bar:nth-child(2) {
   transform: translateX(0.5rem);
 }
-header:hover .bar:last-child {
+header .toggle-button:hover .bar:last-child {
   transform: translateX(0.75rem);
 }
 header input[type=checkbox] {

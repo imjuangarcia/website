@@ -40,21 +40,22 @@ header {
       margin: .25rem 0;
       transition: all .2s ease-in-out;
     }
+    
+    &:hover {
+      .bar:first-child {
+        transform: translateX(.25rem);
+      }
+      
+      .bar:nth-child(2) {
+        transform: translateX(.5rem);
+      }
+      
+      .bar:last-child {
+        transform: translateX(.75rem);
+      }
+    }
   }
 
-  &:hover {
-    .bar:first-child {
-      transform: translateX(.25rem);
-    }
-    
-    .bar:nth-child(2) {
-      transform: translateX(.5rem);
-    }
-    
-    .bar:last-child {
-      transform: translateX(.75rem);
-    }
-  }
   
   input[type="checkbox"] {
     display: none;
