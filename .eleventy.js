@@ -20,6 +20,7 @@ module.exports = config => {
   // To pass the fonts and images to the dist version
   config.addPassthroughCopy('./src/fonts/');
   config.addPassthroughCopy('./src/images/');
+  config.addPassthroughCopy('./src/js/');
 
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {
