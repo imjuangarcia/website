@@ -21,7 +21,9 @@
       </ol>
     </li>
     <li>
-      <h6>&copy; <span>2020</span> | {{ site.name }}</h6>
+      {# Get the current year #}
+      {% set currentYear = helpers.getCurrentYear() %}
+      <h6>&copy; <span>{{ currentYear }}</span> | {{ site.name }}</h6>
       <ol>
         <li>
           <a href="/">Privacy Policy</a>

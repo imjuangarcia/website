@@ -56,5 +56,11 @@ module.exports = {
       }
 
       return filteredItems;
+    },
+
+    getCurrentYear() {
+      const date = new Date().getFullYear();
+
+      return date;
     }
 };
