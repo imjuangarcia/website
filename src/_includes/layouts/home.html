@@ -2,10 +2,10 @@
 {% set pageCriticalStyles = ['css/home.css'] %} 
 
 {% block content %}
-  {% include "layouts/_homepage/hero.njk" %}
+  {% include "partials/_homepage/hero.html" %}
   {% include "partials/homepage/featured-projects.html" %}
-  {% include "layouts/_homepage/links.njk" %}
-  {% include "layouts/_homepage/work-teach-talks.njk" %}
+  {% include "partials/_homepage/links.html" %}
+  {% include "partials/_homepage/work-teach-talks.html" %}
   {% include "partials/homepage/writing.html" %}
-  {% include "layouts/_homepage/clients.njk" %}
+  {% include "partials/_homepage/clients.html" %}
 {% endblock %}
