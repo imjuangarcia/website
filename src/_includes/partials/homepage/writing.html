@@ -1,0 +1,19 @@
+<section class="writing" id="writing">
+  <ul>
+    <li>
+      <h5>Writing</h5>
+    </li>
+    <li>
+      <ol>
+        {% for post in collections.blog %}
+        <li>
+          <p>{{ post.data.date }} - Published on {{ post.data.publishedOn }}</p>
+          <a href="{{ post.data.url }}" target="_blank" rel="noopener noreferrer">
+            {{ post.data.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </li>
+  </ul>
+</section>
