@@ -2,6 +2,9 @@
 
 {% set pageHeaderTitle = title %}
 
+{# Grab other posts that aren’t this one for the 'more from the blog' feed #}
+{% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
+
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
   <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
@@ -21,5 +24,10 @@
   <article>
     {% include "partials/page-header.html" %}
     {{ content | safe }}
+    <section>
+      {% set postListItems = recommendedPosts %}
+      {% set postListHeadline = 'More from the blog' %}
+      {% include "partials/blog/post-list.html" %}
+    </section>
   </article>
 {% endblock %}
