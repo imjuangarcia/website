@@ -1,0 +1,49 @@
+<footer id="contact">
+  <ul>
+    <li>
+      <h6>Get In touch</h6>
+      <ol>
+        <li>
+          <button class="click-to-copy" title="Click/Tap to Copy">hello@juangarcia.com.ar</button>
+        </li>
+      </ol>
+    </li>
+    <li>
+      <h6>Follow Me</h6>
+      <ol class="social">
+        {% for link in social %}
+        <li>
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+            {{ link.name }}
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    </li>
+    <li>
+      <h6>&copy; <span>2020</span> | Juan Mart&iacute;n Garc&iacute;a</h6>
+      <ol>
+        <li>
+          <a href="/">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="/">Credits</a>
+        </li>
+      </ol>
+    </li>
+  </ul>
+  <p>
+    Website built with
+    <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">
+      Eleventy
+    </a>
+    and hosted on
+    <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">
+      Netlify
+    </a>.
+    Source code is on
+    <a href="https://gitlab.com/personal-branding/website-11ty" target="_blank" rel="noopener noreferrer">
+      Gitlab
+    </a>.
+  </p>
+</footer>

@@ -4,13 +4,7 @@
   "description": "Repo for my new website, using 11ty",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass assets/sass/website.scss _site/dist/css/website.css",
-    "babel": "./node_modules/.bin/babel assets/js/ --out-dir _site/dist/js/",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "npm run sass -- --watch",
-    "watch:babel": "npm run babel -- --watch",
-    "start": "npm-run-all --parallel watch:*"
+    "start": "npx eleventy --serve"
   },
   "repository": {
     "type": "git",
