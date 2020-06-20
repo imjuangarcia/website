@@ -15,24 +15,11 @@
   </label>
   <nav aria-label="Primary navigaton">
     <ul>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#work">Work</a>
-      </li>
-      <li>
-        <a href="#speaking">Speaking</a>
-      </li>
-      <li>
-        <a href="#writing">Writing</a>
-      </li>
-      <li>
-        <a href="#clients">Clients</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
+      {% for item in navigation.items %}
+        <li>
+          <a href="{{ item.url }}">{{ item.text }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
 </header>

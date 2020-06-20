@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "About",
+      "url": "#about"
+    },
+    {
+      "text": "Work",
+      "url": "#work"
+    },
+    {
+      "text": "Speaking",
+      "url": "#speaking"
+    },
+    {
+      "text": "Writing",
+      "url": "#writing"
+    },
+    {
+      "text": "Clients",
+      "url": "#clients"
+    },
+    {
+      "text": "Contact",
+      "url": "#contact"
+    }
+  ]
+}
