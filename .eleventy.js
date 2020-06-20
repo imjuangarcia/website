@@ -1,5 +1,6 @@
 // Utils
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -12,6 +13,9 @@ module.exports = config => {
   
   // To pass the fonts to the dist version
   config.addPassthroughCopy('./src/fonts/');
+
+  // Plugins
+  config.addPlugin(rssPlugin);
 
   // Returns work items, sorted by display order
   config.addCollection('work', collection => {
