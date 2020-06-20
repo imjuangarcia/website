@@ -13,6 +13,7 @@ module.exports = config => {
   
   // To pass the fonts to the dist version
   config.addPassthroughCopy('./src/fonts/');
+  config.addPassthroughCopy('./src/images/');
 
   // Plugins
   config.addPlugin(rssPlugin);
