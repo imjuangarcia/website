@@ -76,7 +76,7 @@
   .projects {
     li {
       .text-container {
-        a {
+        button {
           position: relative;
           bottom: auto;
           margin-top: var(--m);
@@ -90,7 +90,7 @@
 // Mobile landscape
 @media screen and (max-width: 720px) {
   .projects {
-    li {
+    a {
       flex-direction: column;
 
       .image-container {
