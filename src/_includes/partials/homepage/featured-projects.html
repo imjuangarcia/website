@@ -1,24 +1,24 @@
 <ul class="projects" id="work">
   {% for project in collections.featuredWork %}
     <li>
-      <div class="image-container">
-        <img 
-          src="{{ project.data.image }}"
-          srcset="{{ project.data.imageSrcset }}"
-          sizes="(min-width: 721px) 50vw, 100vw"
-          alt="{{ project.data.title }} | {{ project.data.type }}"
-          loading="lazy"
-          width="1280"
-          height="840"
-        />
-      </div>
-      <div class="text-container">
-        <h3>{{ project.data.title }} | {{ project.data.type }}</h3>
-        <p>{{ project.data.summary }}</p>
-        <a href="{{ project.data.url }}" target="_blank" rel="noopener noreferrer">
-          View Project
-        </a>
-      </div>
+      <a href="{{ project.data.url }}" target="_blank" rel="noopener noreferrer">
+        <div class="image-container">
+          <img 
+            src="{{ project.data.image }}"
+            srcset="{{ project.data.imageSrcset }}"
+            sizes="(min-width: 721px) 50vw, 100vw"
+            alt="{{ project.data.title }} | {{ project.data.type }}"
+            loading="lazy"
+            width="1280"
+            height="840"
+          />
+        </div>
+        <div class="text-container">
+          <h3>{{ project.data.title }} | {{ project.data.type }}</h3>
+          <p>{{ project.data.summary }}</p>
+          <button>View Project</button>
+        </div>
+      </a>
     </li>
   {% endfor %}
 </ul>
