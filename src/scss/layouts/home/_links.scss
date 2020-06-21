@@ -22,10 +22,16 @@
 @media screen and (max-width: 720px) {
   .links {
     flex-direction: column;
-    padding: var(--xs);
+    padding: 0;
     
     li {
-      margin: var(--xs) 0;
+      padding: var(--m) var(--xs);
+      border-top: var(--border);
+      text-align: left;
+
+      &:first-child {
+        border-top: none;
+      }
 
       a {
         font-size: 8.5vw;
@@ -37,6 +43,8 @@
 // Mobile portrait
 @media screen and (max-width: 570px) {
   .links {
-    padding: var(--xxs);
+    li {
+      padding: var(--xxs);
+    }
   }
 }
