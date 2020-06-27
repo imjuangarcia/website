@@ -7,7 +7,7 @@ tags: ['speaking', 'accessibility', 'inclusive design']
 url: 'https://uxdesign.cc/comparable-experiences-the-starting-point-for-inclusive-design-39838d9565c2'
 ---
 
-*Adapted from a conference delivered on May 18 in Porto Alegre, in the UX Conf Brazil 2018.*
+### Adapted from a conference delivered on May 18 in Porto Alegre, in the UX Conf Brazil 2018.
 
 <figure>
   <img
@@ -15,7 +15,6 @@ url: 'https://uxdesign.cc/comparable-experiences-the-starting-point-for-inclusiv
     srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
-    height="420"
     loading="lazy"
     alt="A hand holding a Coca-Cola. Photo by Talles Alves on Unsplash."
   />
