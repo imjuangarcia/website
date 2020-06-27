@@ -151,7 +151,7 @@ The header will only be able to stick on the area that its parent (in this case,
   (<a href='https://codepen.io/imjuangarcia'>@imjuangarcia</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-### Bonus to wrap up: @supports media-rule
+### Bonus before we go: @supports media-rule
 
 Even though these CSS features are widely adopted and supported, as discussed above, you might still want to check if they <a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">are available on the browser</a> before adding them. If that’s the case, you can use the `@supports` feature query, which is <a href="https://caniuse.com/#feat=css-featurequeries" target="_blank" rel="noopener noreferrer">widely adopted by browsers</a> and allows you to test if the browser supports a specific `property: value` pair before applying a set of styles. The syntax looks as follow:
 
@@ -164,5 +164,7 @@ Even though these CSS features are widely adopted and supported, as discussed ab
 ```
 
 With this handy feature query, you can apply a set of styles just on those browsers that support them. The syntax might sound familiar since it’s exactly how we write media queries and is a great way to do what’s called progressive enhancement, using these top-notch features right now on browsers that have them, while preventing inconsistent behavior on browsers that don’t have them. Jen Simmons explains this better on her <a href="https://youtu.be/T8uxmUQZsck" target="_blank" rel="noopener noreferrer">Resilient CSS</a> videos.
+
+#### Wrapping up
 
 So that’s it! Hopefully, these state-of-the-art CSS features will help you ship a smaller JavaScript bundle, while still creating interesting and compelling UIs. Also, feel free to check out these <a href="https://codepen.io/collection/DrGkMr" target="_blank" rel="noopener noreferrer">Codepens</a> again as well.
