@@ -1,0 +1,46 @@
+@use '../../config/fonts';
+@use '../../components/tags';
+
+.post {
+  .heading {
+    padding: var(--xxl) var(--m);
+    border-bottom: var(--border);
+
+    time, span {
+      @include fonts.uppercase-text(var(--xxxs), var(--text-grey));
+
+      a {
+        color: var(--black);
+
+        &::after {
+          transform: scale(.9);
+          display: inline-block;
+          margin-left: .1rem;
+        }
+      }
+    }
+
+    h2 {
+      @include fonts.light-text(4vw, var(--black));
+      margin-top: var(--xxs);
+      max-width: 80%;
+    }
+
+    .tags-list {
+      display: flex;
+      margin-top: var(--m);
+
+      li {
+        margin-right: var(--xxs);
+
+        a {
+          @include tags.tag(var(--background-grey), var(--black));
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

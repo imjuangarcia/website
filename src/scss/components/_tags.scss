@@ -1,0 +1,13 @@
+@use '../config/fonts';
+
+@mixin tag($background, $text) {
+  background-color: $background;
+  padding: var(--xxxs) var(--xxs);
+  border-radius: var(--m);
+  @include fonts.uppercase-text(var(--xxxs), $text);
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
