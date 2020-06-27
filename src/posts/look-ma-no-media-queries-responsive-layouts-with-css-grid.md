@@ -1,5 +1,6 @@
 ---
 title: 'Look Ma, No Media Queries! Responsive Layouts with CSS Grid'
+metaDesc: 'In this article, we’ll start dipping our toes into the power of CSS Grid by building a couple of common responsive navigation layouts. It’s easier than what you may think, and since CSS Grid was built with responsiveness in mind, it’ll take less code than writing media queries all over the place.'
 date: '2019-02-26'
 publishedOn: 'CSS-Tricks'
 tags: ['css', 'responsive', 'css grid', 'media queries']
