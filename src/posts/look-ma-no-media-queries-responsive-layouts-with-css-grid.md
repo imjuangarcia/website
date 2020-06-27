@@ -101,6 +101,7 @@ In the hero for our beer example above, we set our `minmax()` property to be `24
     width="650"
     height="420"
     loading="lazy"
+    alt="Using the Firefox Grid Inspector to check the change on the track’s size when resizing"
   />
   <figcaption>
     Using the Firefox Grid Inspector to check the change on the track’s size when resizing
@@ -121,6 +122,7 @@ The `auto-fit` keyword allows us to wrap our columns into rows when there’s no
     width="650"
     height="420"
     loading="lazy"
+    alt="The column is automatically wrapping when there’s not enough space in the viewport"
   />
   <figcaption>
     The column is automatically wrapping when there’s not enough space in the viewport
@@ -149,6 +151,7 @@ That’s right! We’re using the exact same approach: On the first line we defi
     width="650"
     height="420"
     loading="lazy"
+    alt="The grid responds to the change in the number of tracks, and adapts the layout"
   />
   <figcaption>
     The grid responds to the change in the number of tracks, and adapts the layout
@@ -216,6 +219,7 @@ Now, the real deal here is `grid-auto-flow: dense;`. Check what happens when we 
     width="650"
     height="420"
     loading="lazy"
+    alt="Removing grid-auto-flow: dense; leads to inconsistent placement of the elements on the grid"
   />
   <figcaption>
     Removing grid-auto-flow: dense; leads to inconsistent placement of the elements on the grid
@@ -272,6 +276,7 @@ We learned about <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-
     width="650"
     height="420"
     loading="lazy"
+    alt="Modifying the grid-auto-flow property will make this demo behave like the real-world Trello"
   />
   <figcaption>
     Modifying the grid-auto-flow property will make this demo behave like the real-world Trello
