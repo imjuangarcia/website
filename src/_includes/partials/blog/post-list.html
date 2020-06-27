@@ -1,8 +1,8 @@
-<div id="post-list"></div>
-{% if postListHeadline %}
-  {{ postListHeadline }}
-{% endif %}
-
 {% for post in postListItems %}
-{{ post.data.title }}
+  <li>
+    <p>{{ post.data.date }} - Published on {{ post.data.publishedOn }}</p>
+    <a href="{{ post.data.url }}" target="_blank" rel="noopener noreferrer">
+      {{ post.data.title }}
+    </a>
+  </li>
 {% endfor %}

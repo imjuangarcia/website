@@ -1,0 +1,7 @@
+@use 'layouts/home/writing';
+
+.recommended-posts {
+  @extend .writing;
+  border-top: var(--border);
+  border-bottom: var(--border);
+}

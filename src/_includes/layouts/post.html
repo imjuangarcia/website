@@ -39,9 +39,18 @@
       {{ content | safe }}
     </section>
     <section class="recommended-posts">
-      {% set postListItems = recommendedPosts %}
-      {% set postListHeadline = 'More from the blog' %}
-      {% include "partials/blog/post-list.html" %}
+      <ul>
+        <li>
+          {% set postListHeadline = 'More from the blog' %}
+          <h5>{{ postListHeadline }}</h5>
+        </li>
+        <li>
+          <ol>
+            {% set postListItems = recommendedPosts %}
+            {% include "partials/blog/post-list.html" %}
+          </ol>
+        </li>
+      </ul>
     </section>
   </article>
 {% endblock %}
