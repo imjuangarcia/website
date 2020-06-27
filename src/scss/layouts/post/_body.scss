@@ -1,0 +1,71 @@
+@use '../../config/fonts';
+@use '../../components/tags';
+
+.post {
+  .text {
+    max-width: 650px;
+    margin: var(--xl) auto;
+
+    p {
+      @include fonts.light-text(var(--xs), var(--black));
+      line-height: 160%;
+      margin-bottom: var(--xs);
+
+      strong {
+        @include fonts.medium-text(inherit, inherit);
+      }
+
+      code {
+        @include tags.inline-code(var(--background-grey), var(--black));
+        display: inline-block;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+        display: inline;
+
+        &::after {
+          display: inline-block;
+          margin-left: .25rem;
+          margin-right: .25rem;
+        }
+      }
+    }
+
+    h3 {
+      @include fonts.light-text(var(--m), var(--black));
+      margin-top: var(--xl);
+      margin-bottom: var(--s);
+    }
+    
+    h4, h5, h6 {
+      @include fonts.medium-text(var(--xs), var(--black));
+      margin-top: var(--xl);
+      margin-bottom: var(--s);
+    }
+
+    pre {
+      background-color: var(--black);
+      @include fonts.monospaced-text(var(--xxs), var(--white));
+      padding: var(--xs);
+      line-height: 160%;
+      border-radius: .5rem;
+      margin: var(--m) 0;
+      white-space: pre-wrap;
+    }
+
+    p + iframe {
+      margin-top: var(--xs);
+    }
+
+    iframe {
+      margin: var(--m) 0;
+      border-radius: .5rem;
+    }
+
+    iframe + h3, iframe + h4, iframe + h5, iframe + h6 {
+      margin-top: var(--m);
+    }
+  }
+}

@@ -19,6 +19,14 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Founders Grotesk Mono Regular";
+  src: url("/fonts/founders-grotesk-mono-web-regular.eot") format("eot"),
+       url("/fonts/founders-grotesk-mono-web-regular.woff") format("woff"),
+       url("/fonts/founders-grotesk-mono-web-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
 @mixin uppercase-text($font-size, $color) {
   font-size: $font-size;
   color: $color;
@@ -43,6 +51,15 @@ body {
   color: $color;
   font-family: 'Founders Grotesk Medium', Arial, Helvetica, sans-serif;
   font-weight: 500;
+  font-style: normal;
+  line-height: 1;
+}
+
+@mixin monospaced-text($font-size, $color) {
+  font-size: $font-size;
+  color: $color;
+  font-family: 'Founders Grotesk Mono Regular', 'Courier New', Courier, monospace;
+  font-weight: 400;
   font-style: normal;
   line-height: 1;
 }

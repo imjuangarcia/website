@@ -11,3 +11,10 @@
     opacity: 0.9;
   }
 }
+
+@mixin inline-code($background, $text) {
+  background-color: $background;
+  padding: .25rem .5rem;
+  border-radius: .25rem;
+  @include fonts.monospaced-text(var(--xxs), $text);
+}
