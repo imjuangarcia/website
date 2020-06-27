@@ -6,7 +6,7 @@
     max-width: 650px;
     margin: var(--xl) auto;
 
-    p {
+    p, li {
       @include fonts.light-text(var(--xs), var(--black));
       line-height: 160%;
       margin-bottom: var(--xs);
@@ -33,6 +33,22 @@
       }
     }
 
+    ol {
+      @include fonts.light-text(var(--xs), var(--black));
+      line-height: 160%;
+      counter-reset: customCounter;
+
+      li {
+        counter-increment: customCounter;
+
+        &:before {
+          content: counter(customCounter) ".";
+          @include fonts.monospaced-text(var(--xxs), var(--text-grey));
+          margin-right: var(--xxxs);
+        }
+      }
+    }
+
     h3 {
       @include fonts.light-text(var(--m), var(--black));
       margin-top: var(--xl);
@@ -55,7 +71,7 @@
       white-space: pre-wrap;
     }
 
-    p + iframe {
+    p + iframe, h3 + iframe {
       margin-top: var(--xs);
     }
 
@@ -67,6 +83,21 @@
     iframe + h3, iframe + h4, iframe + h5, iframe + h6 {
       margin-top: var(--m);
     }
+
+    figure {
+      margin: var(--m) 0;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: .5rem;
+      }
+
+      figcaption {
+        @include fonts.uppercase-text(var(--xxxs), var(--text-grey));
+        margin-top: .5rem;
+      }
+    }
   }
 }
 
@@ -75,8 +106,6 @@
   .post {
     .text {
       margin: var(--m) auto;
-      max-width: 100%;
-      padding: var(--xxs);
     }
   }
 }
@@ -86,13 +115,15 @@
   .post {
     .text {
       margin: 0;
+      max-width: 100%;
+      padding: var(--xxs);
 
       h3 {
         font-size: 8vw;
         margin-top: var(--m);
       }
 
-      iframe + h3, iframe + h4, iframe + h5, iframe + h6, p + iframe, h4, h5, h6 {
+      iframe + h3, iframe + h4, iframe + h5, iframe + h6, p + iframe, h3 + iframe, h4, h5, h6 {
         margin-top: var(--xs);
       }
 
@@ -117,6 +148,10 @@
       
       iframe {
         height: 300px;
+        margin: var(--xxs) 0;
+      }
+      
+      figure {
         margin: var(--xxs) 0;
       }
     }

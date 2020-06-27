@@ -28,10 +28,12 @@
 
     .tags-list {
       display: flex;
+      flex-wrap: wrap;
       margin-top: var(--m);
 
       li {
         margin-right: var(--xxs);
+        margin-bottom: var(--xxs);
 
         a {
           @include tags.tag(var(--background-grey), var(--black));
