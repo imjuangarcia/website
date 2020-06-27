@@ -35,11 +35,52 @@
 
         a {
           @include tags.tag(var(--background-grey), var(--black));
+          display: inline-block;
         }
 
         &:last-child {
           margin-right: 0;
         }
+      }
+    }
+  }
+}
+
+// Standard size monitors
+@media screen and (max-width: 1220px) {
+  .post {
+    .heading {
+      padding: var(--xs);
+
+      .tags-list {
+        margin-top: var(--xs);
+      }
+    }
+  }
+}
+
+// iPad portrait
+@media screen and (max-width: 860px) {
+  .post {
+    .heading {
+      h2 {
+        font-size: 8vw;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .post {
+    .heading {
+      h2 {
+        font-size: 12vw;
+      }
+
+      span {
+        display: block;
       }
     }
   }

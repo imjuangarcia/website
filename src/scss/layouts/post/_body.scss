@@ -69,3 +69,56 @@
     }
   }
 }
+
+// Standard size monitors
+@media screen and (max-width: 1220px) {
+  .post {
+    .text {
+      margin: var(--m) auto;
+      max-width: 100%;
+      padding: var(--xxs);
+    }
+  }
+}
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .post {
+    .text {
+      margin: 0;
+
+      h3 {
+        font-size: 8vw;
+        margin-top: var(--m);
+      }
+
+      iframe + h3, iframe + h4, iframe + h5, iframe + h6, p + iframe, h4, h5, h6 {
+        margin-top: var(--xs);
+      }
+
+      pre {
+        padding: var(--xxs);
+      }
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .post {
+    .text {
+      p, h3, h4, h5, h6 {
+        margin-bottom: var(--xxs);
+      }
+
+      pre {
+        margin: var(--xxs) 0;
+      }
+      
+      iframe {
+        height: 300px;
+        margin: var(--xxs) 0;
+      }
+    }
+  }
+}
