@@ -176,7 +176,7 @@ For situations like these UX designers came up with the “show password” butt
 
 These examples that we mentioned were possible thanks to many people that understood that *accessibility is not just another task to complete in a list or a tool that must be learned, but a philosophy, new lens to think our profession through them,* so that everyone, regardless of their abilities, can use digital products in their full potential.
 
-#### Wrapping up
+### Wrapping up
 
 Accessibility is a path that can have many ways, and that seems to have no ending point. However, if we can adopt understand the impact that it has on the experience of all our users, we may have found the starting point.
 
