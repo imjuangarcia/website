@@ -1,5 +1,6 @@
 ---
 title: '5 things you can do with CSS instead of JavaScript'
+metaDesc: 'In this post, we’ll learn about some CSS golden nuggets you might not have heard about, that will natively (and gracefully!) handle things like smooth scrolling, dark mode, truncation, and more features that previously required multiple lines of JS trickery to work.'
 date: '2019-10-29'
 publishedOn: 'Logrocket'
 tags: ['css', 'javascript']
