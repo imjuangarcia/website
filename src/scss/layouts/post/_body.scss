@@ -31,6 +31,24 @@
           margin-right: .25rem;
         }
       }
+
+      em {
+        font-style: italic;
+      }
+    }
+
+    blockquote {
+      padding: var(--xs);
+      border-top: var(--border);
+      border-bottom: var(--border);
+      text-align: center;
+      margin: var(--m) 0;
+
+      p {
+        @include fonts.medium-text(var(--xs), var(--black));
+        margin-bottom: 0;
+        line-height: 160%;
+      }
     }
 
     ol {
@@ -98,6 +116,19 @@
         margin-top: .5rem;
       }
     }
+
+    figure.full-bleed {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+
+      img {
+        border-radius: 0;
+      }
+
+      figcaption {
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -130,6 +161,10 @@
       pre {
         padding: var(--xxs);
       }
+
+      blockquote {
+        margin: var(--xxs) 0;
+      }
     }
   }
 }
@@ -153,6 +188,13 @@
       
       figure {
         margin: var(--xxs) 0;
+      }
+
+      figure.full-bleed {
+        figcaption {
+          text-align: left;
+          padding-left: var(--xxs);
+        }
       }
     }
   }
