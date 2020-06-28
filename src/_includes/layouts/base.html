@@ -34,7 +34,11 @@
   {% include "partials/footer.html" %}
   <!-- javascript -->
   <script src="/js/menu.js" async defer></script>
+  {{ page.slug }}
   <script src="/js/clickToCopy.js" async defer></script>
+  {% if 'blog' in page.url %}
+    <script src="/js/copyCodeBlock.js" async defer></script>
+  {% endif %}
 </body>
 
 </html>

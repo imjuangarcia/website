@@ -96,35 +96,45 @@
     pre {
       background-color: var(--black);
       @include fonts.monospaced-text(var(--xxs), var(--white));
-      padding: var(--xs);
+      padding: var(--xxs) var(--xs);
       line-height: 160%;
       border-radius: .5rem;
       margin: var(--m) 0;
       white-space: pre-wrap;
       position: relative;
 
-      &::after {
-        color: var(--red);
+      &::before {
+        @include fonts.uppercase-text(var(--xxxs), var(--background-grey));
+        line-height: 1.2;
+        margin-bottom: var(--xxs);
+        display: block;
+      }
+      
+      button {
         position: absolute;
         right: 1rem;
-        top: .5rem;
+        top: 1rem;
+        padding: 0;
+        background: transparent;
+        @include fonts.uppercase-text(var(--xxxs), var(--red));
+        border: none;
       }
     }
 
     pre.language-html {
-      &::after {
+      &::before {
         content: 'HTML';
       }
     }
 
     pre.language-css {
-      &::after {
+      &::before {
         content: 'CSS';
       }
     }
     
     pre.language-js {
-      &::after {
+      &::before {
         content: 'JS';
       }
     }

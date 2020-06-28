@@ -9,7 +9,7 @@ url: 'https://blog.logrocket.com/5-things-you-can-do-with-css-instead-of-javascr
 
 I’m <a href="https://davidwalsh.name/css-facts" target="_blank" rel="noopener noreferrer">not the first one</a> to state that the lines between CSS and JavaScript are becoming blurry as both languages evolve.
 
-From custom properties (<abbr title="also known as">aka</a> variables) to filters, animations, or math operations, CSS has taken a lot of what we used to do in JavaScript (or in popular CSS preprocessors) and made it available to us, natively.
+From custom properties (<abbr title="also known as">aka</abbr> variables) to filters, animations, or math operations, CSS has taken a lot of what we used to do in JavaScript (or in popular CSS preprocessors) and made it available to us, natively.
 
 Both languages serve different purposes. With each browser release, feature release, and increase in properties, CSS is becoming an incredibly powerful language, capable of handling functionality that we previously relied on JavaScript for.
 
