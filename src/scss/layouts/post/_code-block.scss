@@ -17,3 +17,14 @@
 .number, .function {
   color: var(--red);
 }
+
+mark.highlight-line {
+  background-color: rgba(114,202,151,.2);
+  display: block;
+  color: var(--green);
+
+  &::before {
+    content: '+';
+    padding: 0 .5rem;
+  }
+}

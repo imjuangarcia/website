@@ -76,7 +76,7 @@ Now, that’s quite dull. We can use the `repeat()` function to make that less v
 
 After refactoring our code to use `repeat()`, we should expect the same results from these lines of code:
 
-```css
+```css/2,4
 .element {
   /* this is the same as grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(4, 1fr);
