@@ -12,8 +12,8 @@ url: 'https://medium.com/@imjuangarcia/how-to-make-chrome-canary-your-default-br
     src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_IgwmdjJoRlFRPOdFzFBnEw.jpg"
     srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_IgwmdjJoRlFRPOdFzFBnEw.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_IgwmdjJoRlFRPOdFzFBnEw.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_IgwmdjJoRlFRPOdFzFBnEw.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
-    width="860"
-    height="485"
+    width="328"
+    height="185"
     loading="lazy"
     alt="A group of yellow birds."
   />
