@@ -12,8 +12,8 @@ url: 'https://medium.com/@imjuangarcia/what-ive-learned-about-my-first-speaking-
     src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg"
     srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
-    width="328"
-    height="185"
+    width="650"
+    height="420"
     loading="lazy"
     alt="A group of people on the audience. Photo Credit: UX Conf BR 2018."
   />
@@ -26,7 +26,20 @@ Even though I had experience as a teacher at my former university and on my UX a
 
 As this was my first experience in this kind of events, I was full of prejudices and wrong thoughts that, one by one, started to fell apart as the conference took place. In this post, I want to share with you some of these learnings I had from this unique experience. Here are some of them:
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/snEeOh54kCFxe" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/nervous-the-office-michael-scott-snEeOh54kCFxe">via GIPHY</a></p>
+<figure>
+  <img
+    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp"
+    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 650w"
+    sizes="(min-width: 650px) 650px, 100vw"
+    width="650"
+    height="420"
+    loading="lazy"
+    alt="A GIF animation where the main character is showing a scared expression."
+  />
+  <figcaption>
+    A GIF animation where the main character is showing a scared expression.
+  </figcaption>
+</figure>
 
 ### Whether you are a newbie or an experienced speaker, you might be nervous before jumping on stage.
 
@@ -40,7 +53,20 @@ There are several techniques that can help you minimize the impact of that feeli
 
 Instead, if you embrace that feeling, naturalize it, make it part of the process itself, you’ll be able to reduce its impact on your confidence. Even the most experienced speakers have been newbies once, have felt that way, and have learned to deal with it. *And so will you, if you work for it.*
 
-<div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/Qh6NZWsFx1G1O" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/lost-finale-corn-Qh6NZWsFx1G1O">via GIPHY</a></p>
+<figure>
+  <img
+    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp"
+    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 650w"
+    sizes="(min-width: 650px) 650px, 100vw"
+    width="650"
+    height="420"
+    loading="lazy"
+    alt="A GIF animation where the main character says 'Yes, that's awesome!'."
+  />
+  <figcaption>
+    A GIF animation where the main character says 'Yes, that's awesome!'.
+  </figcaption>
+</figure>
 
 ### We all have awesome stuff to share. What we need to have is our eyes open to find it.
 
@@ -50,7 +76,20 @@ One of the key points on my talk (you can read the [full transcript here](www.ju
 
 I was concerned that this quality of examples weren’t as good as the audience expected, when a man from the crowd approached to me after my talk to tell me that he felt especially interested in my lecture, because a couple of years ago he broke his arm, and had to deliver a writing project regardless of his injury. That thought me that sometimes, the better examples are the ones that reach the public somehow, no matter how dumb they seem to be.
 
-<div style="width:100%;height:0;padding-bottom:74%;position:relative;"><iframe src="https://giphy.com/embed/glmRyiSI3v5E4" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/glmRyiSI3v5E4">via GIPHY</a></p>
+<figure>
+  <img
+    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp"
+    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 650w"
+    sizes="(min-width: 650px) 650px, 100vw"
+    width="650"
+    height="420"
+    loading="lazy"
+    alt="A GIF animation where the main character has a confused expression and says 'What?'."
+  />
+  <figcaption>
+    A GIF animation where the main character has a confused expression and says 'What?'.
+  </figcaption>
+</figure>
 
 ### Images prevail over words.
 
@@ -62,7 +101,20 @@ Turns out that everyone understood the key points of it, or at least, they’ve 
 
 And now, time for one of the “not-so-good” ones…
 
-<div style="width:100%;height:0;padding-bottom:53%;position:relative;"><iframe src="https://giphy.com/embed/4qYVOqMzeaxKE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/happy-excited-im-so-amazing-4qYVOqMzeaxKE">via GIPHY</a></p>
+<figure>
+  <img
+    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp"
+    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 650w"
+    sizes="(min-width: 650px) 650px, 100vw"
+    width="650"
+    height="420"
+    loading="lazy"
+    alt="A GIF animation where an anime character says 'I'm so amazing!'."
+  />
+  <figcaption>
+    A GIF animation where an anime character says 'I'm so amazing!'.
+  </figcaption>
+</figure>
 
 ### There will be egocentric people at this events.
 
@@ -72,7 +124,20 @@ I was really scared when I arrived at the conference and listened to other speak
 
 My advice on this kind of situations is: *try not to put your attention there.* Otherwise, you’re going to feel that you’re behind these people, when that’s not true at all: you’ve been selected the same way as the other speakers: because of your skills, because you’ve something valuable to say to the audience, not because of what you tell to the others about you.
 
-<div style="width:100%;height:0;padding-bottom:66%;position:relative;"><iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/party-birthday-celebration-s2qXK8wAvkHTO">via GIPHY</a></p>
+<figure>
+  <img
+    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp"
+    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 650w"
+    sizes="(min-width: 650px) 650px, 100vw"
+    width="650"
+    height="420"
+    loading="lazy"
+    alt="A GIF animation showing a man throwing confetti."
+  />
+  <figcaption>
+    A GIF animation showing a man throwing confetti.
+  </figcaption>
+</figure>
 
 ### Don’t miss after hours, dinners, parties, or any social event during the conference.
 
