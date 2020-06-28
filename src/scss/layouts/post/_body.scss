@@ -71,12 +71,26 @@
       @include fonts.light-text(var(--m), var(--black));
       margin-top: var(--xl);
       margin-bottom: var(--s);
+      display: inline-block;
     }
     
     h4, h5, h6 {
       @include fonts.medium-text(var(--xs), var(--black));
       margin-top: var(--xl);
       margin-bottom: var(--s);
+    }
+
+    h3 > p, h4 > p, h5 > p, h6 > p {
+      display: inline;
+      margin-left: .25rem;
+    }
+
+    h3 > p svg {
+      width: 24px;
+    }
+    
+    h4 > p svg, h5 > p svg, h6 > p svg {
+      width: 21px;
     }
 
     pre {
@@ -221,6 +235,14 @@
           text-align: left;
           padding-left: var(--xxs);
         }
+      }
+
+      h3 > p svg {
+        width: 21px;
+      }
+      
+      h4 > p svg, h5 > p svg, h6 > p svg {
+        width: 18px;
       }
     }
   }
