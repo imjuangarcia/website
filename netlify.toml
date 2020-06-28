@@ -3,13 +3,37 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/wp-admin"
+  to = "/spam"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/wp-login"
+  to = "/spam"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/wp-config"
+  to = "/spam"
+  status = 301
+  force = false
+
+[[redirects]]
   from = "/wp-config.php"
   to = "/spam"
   status = 301
   force = false
 
 [[redirects]]
-  from = "/wp-admin"
+  from = "/wp-login.php"
+  to = "/spam"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/wp-admin.php"
   to = "/spam"
   status = 301
   force = false
