@@ -13,7 +13,6 @@ url: 'https://medium.com/@imjuangarcia/what-ive-learned-about-my-first-speaking-
     srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
-    height="420"
     loading="lazy"
     alt="A group of people on the audience. Photo Credit: UX Conf BR 2018."
   />
