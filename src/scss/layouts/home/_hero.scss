@@ -12,6 +12,27 @@
       text-decoration: line-through;
     }
   }
+
+  h3 {
+    margin-top: var(--xs);
+    @include fonts.light-text(4vw, var(--text-grey));
+  }
+  
+  p {
+    margin-top: var(--xs);
+    @include fonts.light-text(var(--xs), var(--black));
+    line-height: 2;
+    max-width: 60%;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 // Big monitors
@@ -39,6 +60,24 @@
   }
 }
 
+// iPad portrait
+@media screen and (max-width: 860px) {
+  .hero {
+    p {
+      max-width: 100%;
+    }
+  }
+}
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .hero {
+    h3 {
+      font-size: 8vw;
+    }
+  }
+}
+
 // Mobile portrait
 @media screen and (max-width: 570px) {
   .hero {
@@ -46,6 +85,10 @@
 
     h2 {
       font-size: 12vw;
+    }
+
+    h3, p {
+      margin-top: var(--xxs);
     }
   }
 }

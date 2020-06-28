@@ -1,0 +1,6 @@
+
+@use 'layouts/home/hero';
+
+.internal {
+  @extend .hero;
+}

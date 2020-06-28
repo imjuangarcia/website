@@ -1,3 +1,9 @@
 [build]
   command = "npm run production"
   publish = "dist"
+
+[[redirects]]
+  from = "/wp-config.php"
+  to = "/wp-config"
+  status = 301
+  force = false
