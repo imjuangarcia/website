@@ -19,7 +19,8 @@
   },
   "homepage": "https://gitlab.com/personal-branding/website-11ty#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.7",

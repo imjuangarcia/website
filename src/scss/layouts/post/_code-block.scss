@@ -1,0 +1,19 @@
+.punctuation, .tag, .property {
+  color: var(--blue);
+}
+
+.attr-name, .url {
+  color: var(--green);
+}
+
+.attr-value, .selector, .language-css {
+  color: var(--yellow);
+}
+
+.comment {
+  color: var(--background-grey);
+}
+
+.number, .function {
+  color: var(--red);
+}

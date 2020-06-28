@@ -1,6 +1,9 @@
 // Utils
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+
+// Plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 // Transforms
 const htmlMinTransform = require('./src/transforms/html-min-transform.js');
@@ -29,6 +32,7 @@ module.exports = config => {
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(syntaxHighlight);
 
   // Returns work items, sorted by display order
   config.addCollection('work', collection => {
