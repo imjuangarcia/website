@@ -7,20 +7,6 @@ tags: ['speaking', 'accessibility']
 url: 'https://medium.com/@imjuangarcia/what-ive-learned-about-my-first-speaking-event'
 ---
 
-<figure>
-  <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/1_GjsXjxFW-KFwgw9g7paoLQ.jpg 650w"
-    sizes="(min-width: 650px) 650px, 100vw"
-    width="650"
-    loading="lazy"
-    alt="A group of people on the audience. Photo Credit: UX Conf BR 2018."
-  />
-  <figcaption>
-    A group of people on the audience. Photo Credit: UX Conf BR 2018.
-  </figcaption>
-</figure>
-
 Even though I had experience as a teacher at my former university and on my UX and development courses, this was my first speaking event, and I was freaking out about it. Thankfully, everything went as I expected, and now I’m looking forward to new possibilities in the speaking universe.
 
 As this was my first experience in this kind of events, I was full of prejudices and wrong thoughts that, one by one, started to fell apart as the conference took place. In this post, I want to share with you some of these learnings I had from this unique experience. Here are some of them:
