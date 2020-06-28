@@ -2,7 +2,7 @@ const button = document.querySelector('.click-to-copy');
 
 const clickToCopy = (e) => {
   e.preventDefault();
-  copyToClipboard('hello@juangarcia.com.ar');
+  copyToClipboard(e.currentTarget.textContent);
   e.target.classList.add('is-copied');
   setTimeout(() => { e.target.classList.remove('is-copied') }, 1200);
 }
