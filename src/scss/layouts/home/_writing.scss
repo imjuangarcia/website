@@ -31,7 +31,7 @@
           }
 
           p {
-            @include fonts.uppercase-text(var(--xxxs), var(--black));
+            @include fonts.uppercase-text(var(--xxxs), var(--text-grey));
             line-height: 125%;
             transition: all .2s ease-in-out;
             position: relative;

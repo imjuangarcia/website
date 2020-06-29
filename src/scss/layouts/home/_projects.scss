@@ -41,6 +41,10 @@
         @include fonts.medium-text(var(--xs), var(--black));
         line-height: 2;
         margin-bottom: var(--m);
+
+        span {
+          color: var(--text-grey);
+        }
       }
       
       p {

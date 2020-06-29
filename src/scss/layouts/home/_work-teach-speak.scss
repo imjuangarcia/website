@@ -39,7 +39,7 @@
           }
 
           span {
-            @include fonts.uppercase-text(var(--xxxs), var(--black));
+            @include fonts.uppercase-text(var(--xxxs), var(--text-grey));
             margin-left: var(--xxxs);
           }
         }
