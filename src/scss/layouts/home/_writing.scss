@@ -33,15 +33,19 @@
           p {
             @include fonts.uppercase-text(var(--xxxs), var(--text-grey));
             line-height: 125%;
-            transition: all .2s ease-in-out;
-            position: relative;
-            left: 0;
           }
 
           a {
             @include fonts.light-text(var(--xs), var(--black));
             line-height: 125%;
             display: inline-block;
+            transition: all .2s ease-in-out;
+            position: relative;
+            left: 0;
+
+            &:hover {
+              left: .25rem;
+            }
           }
         }
       }
