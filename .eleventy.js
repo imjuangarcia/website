@@ -24,6 +24,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/fonts/');
   config.addPassthroughCopy('./src/images/');
   config.addPassthroughCopy('./src/js/');
+  config.addPassthroughCopy('./src/robots.txt');
 
   // Only minify HTML if we are in production because it slows builds _right_ down
   if (isProduction) {
