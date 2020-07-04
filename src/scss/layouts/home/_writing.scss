@@ -30,9 +30,17 @@
             padding-bottom: 0;
           }
 
-          p {
+          time, span {
             @include fonts.uppercase-text(var(--xxxs), var(--text-grey));
             line-height: 125%;
+            
+            a {
+              @include fonts.uppercase-text(var(--xxxs), var(--black));
+
+              &::after {
+                margin-left: .25rem;
+              }
+            }
           }
 
           a {
@@ -46,6 +54,10 @@
             &:hover {
               left: .25rem;
             }
+          }
+
+          p, .tags-list {
+            display: none;
           }
         }
       }

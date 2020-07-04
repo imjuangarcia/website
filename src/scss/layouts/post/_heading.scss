@@ -2,7 +2,7 @@
 @use '../../components/tags';
 
 .post {
-  .heading {
+  & > .heading {
     padding: var(--xxl) var(--m);
     border-bottom: var(--border);
 
