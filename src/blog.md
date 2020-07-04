@@ -1,6 +1,7 @@
 ---
 title: 'Writing'
 layout: 'layouts/feed.html'
+metaDesc: 'A list of my blog posts, listing my thoughts on design and web development.'
 pagination:
   data: collections.blog
   size: 5
