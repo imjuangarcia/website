@@ -1,0 +1,9 @@
+@use 'layouts/home/hero';
+@use 'layouts/blog/post-list';
+@use 'layouts/blog/pagination';
+
+.blog {
+  .heading {
+    @extend .hero;
+  }
+}

@@ -4,7 +4,7 @@
   padding: 10vh var(--m);
   border-bottom: var(--border);
 
-  h2 {
+  h2, .title {
     @include fonts.light-text(8.5vw, var(--black));
 
     span {
@@ -38,7 +38,7 @@
 // Big monitors
 @media screen and (min-width: 1680px) {
   .hero {
-    h2 {
+    h2, .title {
       font-size: 7vw;
     }
   }
@@ -46,7 +46,7 @@
 
 @media screen and (min-width: 1920px) {
   .hero {
-    h2 {
+    h2, .title {
       max-width: 90%;
       font-size: 5vw;
     }

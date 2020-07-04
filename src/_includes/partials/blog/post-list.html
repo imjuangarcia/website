@@ -1,8 +1,24 @@
 {% for post in postListItems %}
-  <li>
-    <p>{{ post.data.date }} - Published on {{ post.data.publishedOn }}</p>
-    <a href="{{ post.url }}">
-      {{ post.data.title }}
-    </a>
+  <li class="heading {% if loop.first %}featured{% endif %}">
+    <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}.</time>
+    {% if post.data.publishedOn %}
+      <span>
+        Originally published on
+        <a href="{{ post.data.url }}" target="_blank" rel="noopener noreferrer">{{ post.data.publishedOn }}</a>
+      </span>
+      <a href="{{ post.url }}">
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.metaDesc }}</p>
+      </a>
+    {% endif %}
+    {% if post.data.tags %}
+      <ul class="tags-list" aria-describedby="tags-desc">
+        {% for tag in post.data.tags %}
+          <li>
+            <a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </li>
 {% endfor %}

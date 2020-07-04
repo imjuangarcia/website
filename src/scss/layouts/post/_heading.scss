@@ -20,7 +20,7 @@
       }
     }
 
-    h2 {
+    h2, h3 {
       @include fonts.light-text(4vw, var(--black));
       margin-top: var(--xxs);
       max-width: 80%;
@@ -65,7 +65,7 @@
 @media screen and (max-width: 860px) {
   .post {
     .heading {
-      h2 {
+      h2, h3 {
         font-size: 8vw;
         max-width: 100%;
       }
@@ -77,7 +77,7 @@
 @media screen and (max-width: 570px) {
   .post {
     .heading {
-      h2 {
+      h2, h3 {
         font-size: 12vw;
       }
 

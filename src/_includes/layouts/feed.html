@@ -1,4 +1,5 @@
 {% extends "layouts/base.html" %} 
+{% set pageCriticalStyles = ['css/blog.css'] %}
 
 {% set pageHeaderTitle = title %}
 {% set pageHeaderSummary = content %}
@@ -11,9 +12,13 @@
 {% endif %}
 
 {% block content %}
-  <article>
-    {% include "partials/page-header.html" %}
-    {% include "partials/blog/post-list.html" %}
+  <article class="blog">
+    <div class="heading">
+      {% include "partials/page-header.html" %}
+    </div>
+    <ul>
+      {% include "partials/blog/post-list.html" %}
+    </ul>
 
     {# If we leave pagination in for tags, the next and prev links will
       link to tags and be rather confusing, so don't render in that situation #}

@@ -1,6 +1,6 @@
 {# Only renders this section if there are links to render #}
 {% if pagination.href.next or pagination.href.previous %}
-  <section>
+  <section class="pagination">
     <nav aria-label="Pagination links">
       {% if pagination.href.previous %}
         <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">

@@ -1,0 +1,82 @@
+@use '../post/heading';
+
+.blog {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    @extend .post;
+
+    li.heading {
+      box-sizing: border-box;
+
+      p {
+        line-height: 160%;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+      }
+    }
+
+    .heading:not(.featured) {
+      flex: 50%;
+      padding: var(--l) var(--m);
+
+      h3 {
+        font-size: var(--s);
+      }
+
+      &:nth-child(odd) {
+        border-left: var(--border);
+      }
+
+      p {
+        max-width: 100%;
+        -webkit-line-clamp: 2;
+      }
+    }
+    
+    li.featured {
+      flex: 100%;
+      background-color: var(--black);
+
+      h3 {
+        color: var(--white);
+      }
+
+      time, span, p {
+        color: var(--background-grey);
+
+        a {
+          color: inherit;
+        }
+      }
+    }
+  }
+}
+
+// Regular desktop computers
+@media screen and (max-width: 1220px) {
+  .blog {
+    ul {
+      .heading:not(.featured) {
+        padding: var(--xs);
+      }
+    }
+  }
+}
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .blog {
+    ul {
+      .heading:not(.featured) {
+        flex: 100%;
+
+        &:nth-child(odd) {
+          border-left: none;
+        }
+      }
+    }
+  }
+}

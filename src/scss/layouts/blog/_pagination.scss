@@ -1,0 +1,42 @@
+@use '../../config/fonts';
+
+.pagination {
+  padding: var(--xl) var(--m);
+  border-bottom: var(--border);
+
+  nav {
+    text-align: center;
+
+    a {
+      @include fonts.light-text(4vw, var(--black));
+
+      &:after {
+        bottom: 10px;
+      }
+    }
+  }
+}
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .pagination {
+    flex-direction: column;
+    padding: 0;
+    padding: var(--m) var(--xs);
+    
+    nav {
+      text-align: left;
+
+      a {
+        font-size: 8.5vw;
+      }
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .pagination {
+    padding: var(--xxs);
+  }
+}
