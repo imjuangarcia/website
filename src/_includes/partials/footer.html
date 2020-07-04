@@ -1,7 +1,7 @@
 <footer id="contact">
   <ul>
     <li>
-      <h5>Get In touch</h5>
+      <span>Get In touch</span>
       <ol>
         <li>
           <button class="click-to-copy" title="Click/Tap to Copy">{{ site.email }}</button>
@@ -9,7 +9,7 @@
       </ol>
     </li>
     <li>
-      <h6>Follow Me</h6>
+      <span>Follow Me</span>
       <ol class="social">
         {% for link in social %}
         <li>
@@ -23,7 +23,7 @@
     <li>
       {# Get the current year #}
       {% set currentYear = helpers.getCurrentYear() %}
-      <h6>&copy; <span>{{ currentYear }}</span> | {{ site.name }}</h6>
+      <span>&copy; <span>{{ currentYear }}</span> | {{ site.name }}</span>
       <ol>
         <li>
           <a href="/">Privacy Policy</a>

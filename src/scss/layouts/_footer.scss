@@ -15,7 +15,7 @@ footer {
         border: none;
       }
 
-      h5, h6 {
+      span {
         @include fonts.uppercase-text(var(--xxs), var(--black));
         margin-bottom: var(--m);
         flex: 100%;
