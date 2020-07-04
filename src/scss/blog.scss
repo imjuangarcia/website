@@ -5,5 +5,9 @@
 .blog {
   .heading {
     @extend .hero;
+
+    h2 {
+      text-transform: capitalize;
+    }
   }
 }
