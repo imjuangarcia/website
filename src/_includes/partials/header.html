@@ -20,7 +20,10 @@
           {% if page.url == '/' %}
             <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
           {% else %}
-            <a href="/index.html{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+            {% if item.url == '/blog'%}
+              <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
+            {% endif %}
+              <a href="/index.html{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
           {% endif %}
         </li>
       {% endfor %}
