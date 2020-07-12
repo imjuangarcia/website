@@ -3,10 +3,6 @@
 
 {% block content %}
   <article class="internal">
-    <h2>Hi Spammer!</h2>
-    <h3>This is not a Wordpress site, so stop pinging this url.</h3>
-    <p>
-      If you are not a robot and landed this page by accident, I apologize for the inconvenience, and invite you to go to <a href="/">my homepage</a> instead.
-    </p>
+    {{ content|safe }}
   </article>
 {% endblock %}
