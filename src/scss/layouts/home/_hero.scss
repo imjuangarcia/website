@@ -37,6 +37,11 @@
       }
     }
   }
+
+  h4 {
+    @include fonts.medium-text(var(--xs), var(--black));
+    margin-top: var(--xs);
+  }
 }
 
 // Big monitors
@@ -76,7 +81,7 @@
 // Mobile landscape
 @media screen and (max-width: 720px) {
   .hero {
-    h3 {
+    h3, h4 {
       font-size: 8vw;
     }
   }
@@ -87,7 +92,7 @@
   .hero {
     padding: var(--xxs);
 
-    h2 {
+    h2, h5 {
       font-size: 12vw;
     }
 
