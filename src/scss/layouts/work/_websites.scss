@@ -1,0 +1,96 @@
+@use '../../config/fonts';
+
+.websites {
+  padding: var(--xl) 0;
+  border-bottom: var(--border);
+
+  h4 {
+    @include fonts.light-text(4vw, var(--black));
+    padding: var(--m);
+    padding-top: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > * {
+      flex: 33%;
+    }
+
+    li {
+      padding: 0 var(--m);
+      box-sizing: border-box;
+
+      a {
+        @include fonts.light-text(var(--xs), var(--black));
+        line-height: 1.6;
+
+        &::after {
+          margin-left: .25rem;
+        }
+      }
+    }
+  }
+}
+
+// Standard size monitors
+@media screen and (max-width: 1220px) {
+  .websites {
+    padding: var(--xs) 0;
+
+    h4 {
+      padding: var(--xs);
+      padding-top: 0;
+    }
+
+    ul {
+      li {
+        padding: 0 var(--xs);
+      }
+    }
+  }
+}
+
+// iPad portrait
+@media screen and (max-width: 860px) {
+  .websites {
+    ul {
+      & > * {
+        flex: 50%;
+      }
+    }
+  }
+}
+
+// Mobile landscape
+@media screen and (max-width: 720px) {
+  .websites {
+    h4 {
+      font-size: 8vw;
+    }
+  }
+}
+
+// Mobile portrait
+@media screen and (max-width: 570px) {
+  .websites {
+    padding: var(--xxs) 0;
+
+    h4 {
+      padding: 0 var(--xxs);
+      padding-bottom: var(--s);
+      font-size: 12vw;
+    }
+
+    ul {
+      li {
+        padding: 0 var(--xxs);
+      }
+
+      & > * {
+        flex: 100%;
+      }
+    }
+  }
+}

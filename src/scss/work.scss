@@ -1,5 +1,9 @@
+// Borrowed from homepage
 @use 'layouts/home/hero';
 @use 'layouts/home/projects';
+
+// Work specific styles
+@use 'layouts/work/websites';
 
 .work {
   .heading {
