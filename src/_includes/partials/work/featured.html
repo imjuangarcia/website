@@ -1,0 +1,29 @@
+{% for project in collections.featuredWork %}
+  <li>
+    <a href="{{ project.data.url }}" target="_blank" rel="noopener noreferrer">
+      <div class="image-container">
+        <img 
+          src="{{ project.data.image }}"
+          srcset="{{ project.data.imageSrcset }}"
+          sizes="(min-width: 721px) 50vw, 100vw"
+          alt="{{ project.data.title }} | {{ project.data.type }}"
+          loading="lazy"
+          width="1280"
+          height="840"
+        />
+      </div>
+      <div class="text-container">
+        <h3>{{ project.data.title }} | <span>{{ project.data.type }}</span></h3>
+        <p>{{ project.data.summary }}</p>
+        <ul class="tag-list">
+          {% for tag in project.data.tags%}
+          <li>
+            {{ tag }}
+          </li>
+          {% endfor %}
+        </ul>
+        <button>View Project</button>
+      </div>
+    </a>
+  </li>
+{% endfor %}

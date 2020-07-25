@@ -1,13 +1,16 @@
 {% extends "layouts/base.html" %} 
+{% set pageCriticalStyles = ['css/work.css'] %}
 
 {% set pageHeaderTitle = title %} 
 {% set pageHeaderSummary = content %} 
 
 {% block content %}
-  <article>
-    {% include "partials/page-header.html" %}
+  <article class="work">
+    <div class="heading">
+      {% include "partials/page-header.html" %}
+    </div>
+    <ul class="featured-projects">
+      {% include "partials/work/featured.html" %}
+    </ul>
   </article>
-  {% for item in collections.work %}
-    {{ item.data.title }}
-  {% endfor %}
 {% endblock %}

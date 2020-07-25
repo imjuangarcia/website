@@ -1,4 +1,5 @@
 @use '../../config/fonts';
+@use '../../components/tags';
 
 .projects {
   li {
@@ -50,6 +51,16 @@
       p {
         @include fonts.light-text(var(--xs), var(--black));
         line-height: 2;
+      }
+
+      ul {
+        margin: var(--s) 0;
+        display: flex;
+
+        li {
+          margin-right: var(--xs);
+          @include tags.tag(var(--background-grey), var(--black));
+        }
       }
 
       button {

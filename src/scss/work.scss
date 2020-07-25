@@ -1,0 +1,25 @@
+@use 'layouts/home/hero';
+@use 'layouts/home/projects';
+
+.work {
+  .heading {
+    @extend .hero;
+
+    h2 {
+      text-transform: capitalize;
+    }
+  }
+
+  .featured-projects {
+    @extend .projects;
+
+    li {
+      .text-container {
+        button {
+          position: relative;
+          bottom: auto;
+        }
+      }
+    }
+  }
+}

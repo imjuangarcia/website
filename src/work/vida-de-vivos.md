@@ -7,4 +7,5 @@ imageSrcset: 'https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_
 url: 'https://www.behance.net/gallery/44561509/Vida-de-Vivos-Editorial-Fascicles'
 displayOrder: 2
 featured: true
+tags: ['design', 'editorial']
 ---

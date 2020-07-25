@@ -7,4 +7,5 @@ imageSrcset: 'https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_
 url: 'https://www.behance.net/gallery/85344027/Museo-de-Arte-Hispanoamericano-Brand-Identity'
 displayOrder: 1
 featured: true
+tags: ['design', 'identity']
 ---
