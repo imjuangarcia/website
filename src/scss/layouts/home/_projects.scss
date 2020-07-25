@@ -123,6 +123,10 @@
     li {
       .text-container {
         padding: var(--xxs);
+
+        h3 {
+          margin-bottom: var(--s);
+        }
       }
     }
   }
