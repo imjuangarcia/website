@@ -1,15 +1,21 @@
 @use '../../config/fonts';
 @use '../../components/tags';
 
-.projects {
+.project-grid {
+  display: flex;
+  border-bottom: var(--border);
+
+  & > * {
+    flex: 1;
+  }
+
   li {
-    a[target="_blank"] {
-      border-bottom: var(--border);
-      display: flex;
-  
-      & > * {
-        flex: 1;
-      }
+    border-right: var(--border);
+    display: grid;
+
+    a {
+      display: grid;
+      grid-template-rows: 1fr;
 
       &::after {
         content: '';
@@ -24,8 +30,13 @@
       }
     }
 
+    &:last-child {
+      border-right: none;
+    }
+
     .image-container {
-      border-right: var(--border);
+      align-self: flex-start;
+      border-bottom: var(--border);
 
       img {
         width: 100%;
@@ -36,19 +47,18 @@
     }
 
     .text-container {
-      padding: var(--xs);
-      position: relative;
+      padding: var(--s) var(--m);
 
-      h3 {
+      h5 {
         @include fonts.medium-text(var(--xs), var(--black));
         line-height: 1.4;
-        margin-bottom: var(--m);
+        margin-bottom: var(--xs);
 
         span {
           color: var(--text-grey);
         }
       }
-      
+
       p {
         @include fonts.light-text(var(--xs), var(--black));
         line-height: 2;
@@ -59,12 +69,13 @@
       }
 
       ul {
-        margin: var(--s) 0 var(--m) 0;
         display: flex;
+        margin: var(--s) 0;
 
         li {
           margin-right: var(--xs);
           @include tags.tag(var(--background-grey), var(--black));
+          border-right: none;
         }
       }
 
@@ -72,8 +83,6 @@
         padding: 0;
         background: transparent;
         border: none;
-        position: absolute;
-        bottom: var(--xs);
         @include fonts.uppercase-text(var(--xxs), var(--black));
         left: auto;
         transition: all .1s ease-in-out;
@@ -92,17 +101,34 @@
   }
 }
 
-// Regular desktop computers
+// Regular desktop screens
 @media screen and (max-width: 1220px) {
-  .projects {
+  .project-grid {
     li {
+      .image-container {
+        height: 240px;
+      }
+
       .text-container {
-        button {
-          position: relative;
-          bottom: auto;
-          margin-top: var(--m);
-          display: block;
-        }
+        padding: var(--xs);
+      }
+    }
+  }
+}
+
+// iPad portrait
+@media screen and (max-width: 860px) {
+  .project-grid {
+    flex-wrap: wrap;
+
+    & > * {
+      flex: 50%;
+      box-sizing: border-box;
+    }
+
+    li:last-child {
+      .image-container {
+        height: auto;
       }
     }
   }
@@ -110,13 +136,14 @@
 
 // Mobile landscape
 @media screen and (max-width: 720px) {
-  .projects {
-    a {
-      flex-direction: column;
+  .project-grid {
+    & > * {
+      flex: 100%;
+    }
 
+    li {
       .image-container {
-        border-right: 0;
-        border-bottom: var(--border);
+        height: auto;
       }
     }
   }
@@ -124,14 +151,10 @@
 
 // Mobile portrait
 @media screen and (max-width: 570px) {
-  .projects {
+  .project-grid {
     li {
       .text-container {
         padding: var(--xxs);
-
-        h3 {
-          margin-bottom: var(--xxs);
-        }
       }
     }
   }
