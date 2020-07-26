@@ -54,7 +54,7 @@
       }
 
       ul {
-        margin: var(--s) 0;
+        margin: var(--s) 0 var(--m) 0;
         display: flex;
 
         li {
@@ -125,7 +125,7 @@
         padding: var(--xxs);
 
         h3 {
-          margin-bottom: var(--s);
+          margin-bottom: var(--xxs);
         }
       }
     }
