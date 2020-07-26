@@ -19,7 +19,7 @@
         <li>
           {% if page.url == '/' %}
             <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
-          {% elif item.url == '/blog' %}
+          {% elif item.url == '/blog' or item.url == '/work' %}
             <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
           {% else %}
             <a href="/index.html{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}</a>
