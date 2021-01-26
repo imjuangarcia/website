@@ -6,6 +6,10 @@
     max-width: 650px;
     margin: var(--xl) auto;
 
+    img {
+      width: 100%;
+    }
+
     p, li {
       @include fonts.light-text(var(--xs), var(--black));
       line-height: 160%;
