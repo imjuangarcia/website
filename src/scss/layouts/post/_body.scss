@@ -67,6 +67,11 @@
       }
     }
 
+    ul {
+      list-style-type: disc;
+      padding-left: var(--m);
+    }
+
     h3 {
       @include fonts.light-text(var(--m), var(--black));
       margin-top: var(--xl);
@@ -214,6 +219,10 @@
 
       blockquote {
         margin: var(--xxs) 0;
+      }
+
+      ul {
+        padding-left: var(--xxs);
       }
     }
   }
