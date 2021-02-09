@@ -82,7 +82,7 @@ We are surrounded by products that were created for a certain use, and ended up 
   </figcaption>
 </figure>
 
-I want to bring a slightly different example: ramps for disabled. This is not a product itself, like the previous ones, it’s what we call a <a href="https://inclusivedesignprinciples.org/#provide-comparable-experience" target="_blank" rel="noopener noreferrer">comparable experience</a>: Ensuring that people can accomplish tasks in a way that suits their needs without undermining the quality of the content.
+I want to bring a slightly different example: ramps for disabled. This is not a product itself, like the previous ones, it’s what we call a [comparable experience](https://inclusivedesignprinciples.org/#provide-comparable-experience): Ensuring that people can accomplish tasks in a way that suits their needs without undermining the quality of the content.
 
 But these ramps are not used exclusively by them: Parents use them to carry their babies in strollers, we use them when leaving the supermarket with our trolley, or to carry our luggage through an airport. It’s amazing how a product that was not intended for these uses makes our lives easier.
 
@@ -141,7 +141,7 @@ In addition, these abilities or limitations can be temporary: What would happen 
   </figcaption>
 </figure>
 
-Do you remember the Ice Bucket Challenge? That contest where the participants threw a bucket of ice water in their heads, and upload the video to their social networks? Few of them knew that the contest was an awareness campaign about <a href="https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis" target="_blank" rel="noopener noreferrer">Amyotrophic Lateral Sclerosis</a>, a degenerative disease that affects the nervous system and atrophies mobility and speech. A person with advanced ALS operates a computer with just one finger, and with the help of voice commands.
+Do you remember the Ice Bucket Challenge? That contest where the participants threw a bucket of ice water in their heads, and upload the video to their social networks? Few of them knew that the contest was an awareness campaign about [Amyotrophic Lateral Sclerosis](https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis), a degenerative disease that affects the nervous system and atrophies mobility and speech. A person with advanced ALS operates a computer with just one finger, and with the help of voice commands.
 
 <figure>
   <img

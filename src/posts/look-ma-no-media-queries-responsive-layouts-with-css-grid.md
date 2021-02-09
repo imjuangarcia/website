@@ -115,7 +115,7 @@ Much cleaner, yeah?
 
 Now, the above examples are explicitly defining sizes for the tracks (`1fr` and `300px`). That might work for some scenarios, but for our beer example here, we need to be able to automatically calculate the size of the track, based on the width of the viewport, and automatically adjust the number of columns shown. To be able to do that, we’ll define a range of values using the `minmax()` function. What will we be defining? You’ve probably guessed by now: The *minimum* and *maximum* values we want these columns to be able to resize to.
 
-In the hero for our beer example above, we set our `minmax()` property to be `240px` at its minimum size, and `1fr` at its maximum size. `fr` units, if you’ve never heard of them, stand for fractional units. Nobody can explain them better than Jen Simmons on <a href="https://www.youtube.com/watch?v=ZPtpzuRajzM" target="_blank" rel="noopener noreferrer">this video</a> and Robin Rendle <a href="https://css-tricks.com/introduction-fr-css-unit/" target="_blank" rel="noopener noreferrer">in this post</a>.
+In the hero for our beer example above, we set our `minmax()` property to be `240px` at its minimum size, and `1fr` at its maximum size. `fr` units, if you’ve never heard of them, stand for fractional units. Nobody can explain them better than Jen Simmons on [this video](https://www.youtube.com/watch?v=ZPtpzuRajzM) and Robin Rendle [in this post](https://css-tricks.com/introduction-fr-css-unit/).
 
 <figure>
   <img
@@ -142,7 +142,7 @@ That results in our tracks being `1fr` when there's plenty of space on our viewp
   </a>
 </h4>
 
-The `auto-fit` keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. Sara Soueidan <a href="https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/" target="_blank" rel="noopener noreferrer">wrote an excellent article</a> about auto-sizing columns using the `auto-fill` and `auto-fit` keywords, in case you want to dive a little deeper into what’s going on under the hood. Now, with that last bit of code in place, we should be able to achieve this result:
+The `auto-fit` keyword allows us to wrap our columns into rows when there’s not enough space in our viewport to fit the 240px minimum value without overflowing the content. Sara Soueidan [wrote an excellent article](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/ about auto-sizing columns using the `auto-fill` and `auto-fit` keywords, in case you want to dive a little deeper into what’s going on under the hood. Now, with that last bit of code in place, we should be able to achieve this result:
 
 <figure>
   <img
@@ -194,7 +194,7 @@ That’s right! We’re using the exact same approach: On the first line we defi
   </figcaption>
 </figure>
 
-That’s all, folks! A fully responsive website layout, using just six lines of CSS code. Not bad, huh? Make sure you check the source code and play around with this example on <a href="https://codepen.io/imjuangarcia/pen/pGgmbe" target="_blank" rel="noopener noreferrer">CodePen</a>.
+That’s all, folks! A fully responsive website layout, using just six lines of CSS code. Not bad, huh? Make sure you check the source code and play around with this example on [CodePen](https://codepen.io/imjuangarcia/pen/pGgmbe).
 
 <h3 id="layout-2-full-width-image-gallery">
   Layout #2: Full-width image gallery
@@ -209,7 +209,7 @@ That’s all, folks! A fully responsive website layout, using just six lines of 
   (<a href='https://codepen.io/imjuangarcia'>@imjuangarcia</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-On this next example, we’ll embrace the power of our newly learned combination of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/repeat" target="_blank" rel="noopener noreferrer">repeat()</a>, <a href="https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/" target="_blank" rel="noopener noreferrer">auto-fit</a> and <a href="https://developer.mozilla.org/es/docs/Web/CSS/minmax" target="_blank" rel="noopener noreferrer">minmax()</a> to create this responsive image gallery. We’ll also be sizing our tracks using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column" target="_blank" rel="noopener noreferrer">grid-column</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row" target="_blank" rel="noopener noreferrer">grid-row</a>, and learning about the handy property:value combination of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow" target="_blank" rel="noopener noreferrer">grid-auto-flow: dense;</a> that allows us to change the default behavior of the elements that can’t fit on our explicit tracks: Instead of wrapping themselves in new rows or columns, we’ll make them fit into the unused spots on our grid. Let’s get into the coding!
+On this next example, we’ll embrace the power of our newly learned combination of [repeat()](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat), [auto-fit](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) and [minmax()](https://developer.mozilla.org/es/docs/Web/CSS/minmax) to create this responsive image gallery. We’ll also be sizing our tracks using [grid-columnn](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [grid-row](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row), and learning about the handy property:value combination of [grid-auto-flow: dense;](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow) that allows us to change the default behavior of the elements that can’t fit on our explicit tracks: Instead of wrapping themselves in new rows or columns, we’ll make them fit into the unused spots on our grid. Let’s get into the coding!
 
 <h4 id="the-grid-setup">
   The grid setup
@@ -231,7 +231,7 @@ The grid is created using our familiar `display: grid;` property, where columns 
 }
 ```
 
-We also created a repetition pattern using the <a href="https://css-tricks.com/almanac/selectors/n/nth-child/" target="_blank" rel="noopener noreferrer">nth-child()</a> pseudo-selector to set different sizes for our tracks using `grid-column` and `grid-row`. Notice here that we’re using the `span` keyword to allow the selected item to occupy more than one column or row.
+We also created a repetition pattern using the [nth-child()](https://css-tricks.com/almanac/selectors/n/nth-child/) pseudo-selector to set different sizes for our tracks using `grid-column` and `grid-row`. Notice here that we’re using the `span` keyword to allow the selected item to occupy more than one column or row.
 
 ```css
 /* This will create 2x images every 4 elements */
@@ -276,7 +276,7 @@ Now, the real deal here is `grid-auto-flow: dense;`. Check what happens when we 
 
 See those holes on our beautifully crafted grid? That’s because some of the elements on it are taking 2x or 3x spots, and when there isn’t enough space on our tracks to fit them, they’ll wrap into a new row, since that’s the default behavior. By changing it from `row` to `dense`, we’re telling the grid to fill any gaps we might have with elements that could fit them, regardless of their source order on the DOM.
 
-That’s why this technique might come especially handy for things like image galleries, but might not be suitable for other use cases where you might need to preserve the order of the markup. Feel free to play around with the <a href="https://codepen.io/imjuangarcia/pen/bzpYyj" target="_blank" rel="noopener noreferrer">CodePen demo</a> to check the differences between where items are placed.
+That’s why this technique might come especially handy for things like image galleries, but might not be suitable for other use cases where you might need to preserve the order of the markup. Feel free to play around with the [CodePen demo](https://codepen.io/imjuangarcia/pen/bzpYyj) to check the differences between where items are placed.
 
 <h3 id="trello-style-card-layout">
   Layout #3: Trello-style card layout
@@ -291,7 +291,7 @@ That’s why this technique might come especially handy for things like image ga
   (<a href='https://codepen.io/imjuangarcia'>@imjuangarcia</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-Now, on to the last demo, where we’ll take advantage of the ability to nest grids to recreate this <a href="https://trello.com/b/1Jz6SorC/the-dev-board" target="_blank" rel="noopener noreferrer">Trello Board</a>. We’ll be creating a grid to hold our four different columns, and inside of those, we’ll create a child grid for our cards. Even though this example won’t explore new properties or revolutionary methods, it’ll help us to get a grasp on how easy it is to build complex layouts with a few lines of CSS code. This demo has a lot of extra code to achieve the styling of the Trello layout, so we’ll focus solely on the grid styles.
+Now, on to the last demo, where we’ll take advantage of the ability to nest grids to recreate this [Trello Board](https://trello.com/b/1Jz6SorC/the-dev-board). We’ll be creating a grid to hold our four different columns, and inside of those, we’ll create a child grid for our cards. Even though this example won’t explore new properties or revolutionary methods, it’ll help us to get a grasp on how easy it is to build complex layouts with a few lines of CSS code. This demo has a lot of extra code to achieve the styling of the Trello layout, so we’ll focus solely on the grid styles.
 
 <h4 id="the-columns">
   The columns
@@ -326,7 +326,7 @@ Now, the original Trello is not responsive by default: If you resize your browse
 }
 ```
 
-We learned about <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow" target="_blank" rel="noopener noreferrer">grid-auto-flow</a> in our previous demo and discovered that it let us control how the auto-placement algorithm work, and how implicit elements should be added in the flow of the grid. The default behavior is `row`, meaning that any extra element that won’t fit on our grid will wrap into a new line. We changed that to be `dense` on our previous demo, and we’ll change it to be `column` on this one: That way, any new column added here will end up in an implicit column, and have a horizontal scroll. We’ll also define a width for those auto-generated columns with the `grid-auto-columns` property.
+We learned about [grid-auto-flow](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow) in our previous demo and discovered that it let us control how the auto-placement algorithm work, and how implicit elements should be added in the flow of the grid. The default behavior is `row`, meaning that any extra element that won’t fit on our grid will wrap into a new line. We changed that to be `dense` on our previous demo, and we’ll change it to be `column` on this one: That way, any new column added here will end up in an implicit column, and have a horizontal scroll. We’ll also define a width for those auto-generated columns with the `grid-auto-columns` property.
 
 <figure>
   <img
@@ -362,7 +362,7 @@ For the cards grid, we’ll use a similar approach. We’ll `display: grid;` on 
 }
 ```
 
-And, again, that’s all folks! Two more lines to set a gap and a margin to the cards, and we’re done! Everything else in the <a href="https://codepen.io/imjuangarcia/pen/MLyQPO" target="_blank" rel="noopener noreferrer">Pen</a> is standard CSS to achieve the Trello look and feel.
+And, again, that’s all folks! Two more lines to set a gap and a margin to the cards, and we’re done! Everything else in the [Pen](https://codepen.io/imjuangarcia/pen/MLyQPO) is standard CSS to achieve the Trello look and feel.
 
 <h4 id="so-then-are-media-queries-dead">
   So then... are media queries dead?
@@ -374,4 +374,4 @@ And, again, that’s all folks! Two more lines to set a gap and a margin to the 
 
 Back in the day, when we were building layouts using `display: inline-block` or floats, media queries made a lot of sense in order to change the size of our elements as the viewport got smaller. But now, with the incredibly powerful layouts that we’re able to create with a couple of CSS lines, you might feel tempted to think that media queries are doomed. I strongly disagree with that: I believe that we should change the way we think about them, and therefore use them differently.
 
-As <a href="https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/" target="_blank" rel="noopener noreferrer">Rachel Andrew stated</a>, we should use media queries to fix our layout when it breaks, rather than targeting devices: There are so many out there! With the advent of Media Queries <a href="https://drafts.csswg.org/mediaqueries-4/" target="_blank" rel="noopener noreferrer">Level 4</a> and <a href="https://drafts.csswg.org/mediaqueries-5/" target="_blank" rel="noopener noreferrer">5</a>, we’re not only able to detect screen sizes now, but pointer types as well. As a result, we can dig into a user’s system preferences and adapt our code for those who prefer reduced motion or whether we should use inverted colors. That means media queries are not dead; on the flipside, I’d say it’s an exciting time for using media queries, but we need to learn to use them right. In the meantime, building robust layouts using modern techniques such as Flexbox or CSS Grid, will save you a bunch of time, code, and headaches.
+As [Rachel Andrew stated](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/), we should use media queries to fix our layout when it breaks, rather than targeting devices: There are so many out there! With the advent of Media Queries [Level 4](https://drafts.csswg.org/mediaqueries-4/) and [5](https://drafts.csswg.org/mediaqueries-5/), we’re not only able to detect screen sizes now, but pointer types as well. As a result, we can dig into a user’s system preferences and adapt our code for those who prefer reduced motion or whether we should use inverted colors. That means media queries are not dead; on the flipside, I’d say it’s an exciting time for using media queries, but we need to learn to use them right. In the meantime, building robust layouts using modern techniques such as Flexbox or CSS Grid, will save you a bunch of time, code, and headaches.

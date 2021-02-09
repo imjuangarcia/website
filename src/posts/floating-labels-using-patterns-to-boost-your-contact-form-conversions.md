@@ -11,7 +11,7 @@ url: "https://medium.com/@imjuangarcia/floating-labels-using-patterns-to-boost-y
 
 I’ve launched [my website](https://www.juangarcia.design) about two weeks ago and was surprised by the number of inquiries I had received from the contact form at the bottom of my index page.
 
-As a UX Designer, I’m always seeking for patterns and standards to improve mine and my client’s conversion rates, and when I first saw Matt D Smith’s <a href="https://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction" target="_blank" rel="noopener noreferrer">floating label pattern</a>, I knew I wanted to test it on my website.
+As a UX Designer, I’m always seeking for patterns and standards to improve mine and my client’s conversion rates, and when I first saw Matt D Smith’s [floating label pattern](https://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction), I knew I wanted to test it on my website.
 
 The thing is that [my website](https://www.juangarcia.design) took almost three years to release its beta version (because, you know, there’s always something more important to do rather than personal stuff 🙈), and after two weeks live, my mailbox had received more emails than ever before, and even though I don’t think that’s only because of the pattern, I’ve decided to create a post showing the code behind it. Here’s the pen:
 
@@ -28,9 +28,9 @@ The thing is that [my website](https://www.juangarcia.design) took almost three 
   </a>
 </h3>
 
-Floating labels <a href="http://mds.is/float-label-pattern/" target="_blank" rel="noopener noreferrer">were born in 2013</a>. Matt D Smith first introduced them on <a href="https://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction" target="_blank" rel="noopener noreferrer">this shot</a>, and since then, it had become in one of the most discussed design patterns so far.
+Floating labels [were born in 2013](http://mds.is/float-label-pattern/). Matt D Smith first introduced them on [this shot](https://dribbble.com/shots/1254439--GIF-Float-Label-Form-Interaction), and since then, it had become in one of the most discussed design patterns so far.
 
-To be truly fair, I think both supporters and detractors have exposed valid arguments for and against the use of floating labels. Here’s <a href="https://css-tricks.com/float-labels-css/" target="_blank" rel="noopener noreferrer">Chris Coyier’s opinion</a> on the matter, Brad Frost’s <a href="https://bradfrost.com/blog/post/float-label-pattern/" target="_blank" rel="noopener noreferrer">pros and cons</a>, one of the <a href="https://medium.com/simple-human/floating-labels-are-a-bad-idea-82edb64220f6" target="_blank" rel="noopener noreferrer">most bitter critics</a>, and <a href="https://medium.com/bymds/are-float-labels-really-that-problematic-after-all-da7ffe7d5417" target="_blank" rel="noopener noreferrer">Matt Smith’s reply</a> to it. They’ve all made good points on their assumptions, so I’ll leave them all the theoretical stuff and focus on the practical side. Let’s dive into it!
+To be truly fair, I think both supporters and detractors have exposed valid arguments for and against the use of floating labels. Here’s [Chris Coyier’s opinion](https://css-tricks.com/float-labels-css/) on the matter, Brad Frost’s [pros and cons](https://bradfrost.com/blog/post/float-label-pattern/), one of the [most bitter critics](https://medium.com/simple-human/floating-labels-are-a-bad-idea-82edb64220f6), and [Matt Smith’s reply](https://medium.com/bymds/are-float-labels-really-that-problematic-after-all-da7ffe7d5417) to it. They’ve all made good points on their assumptions, so I’ll leave them all the theoretical stuff and focus on the practical side. Let’s dive into it!
 
 <h4 id="hows-my-approach-built">
   How's my approach built:
@@ -40,7 +40,7 @@ To be truly fair, I think both supporters and detractors have exposed valid argu
   </a>
 </h4>
 
-I relied on two awesome CSS features to create <a href="https://codepen.io/imjuangarcia/pen/LeoeGw" target="_blank" rel="noopener noreferrer">this pen</a>: Sibling selectors and pseudo-classes. The mix of this underrated yet powerful techniques had created this result:
+I relied on two awesome CSS features to create [this pen](https://codepen.io/imjuangarcia/pen/LeoeGw): Sibling selectors and pseudo-classes. The mix of this underrated yet powerful techniques had created this result:
 
 <figure>
   <img
@@ -56,11 +56,11 @@ I relied on two awesome CSS features to create <a href="https://codepen.io/imjua
   </figcaption>
 </figure>
 
-One of the most common concerns about floating label patterns is that the placeholder becomes the label. That’s a <a href="https://www.456bereastreet.com/archive/201204/the_html5_placeholder_attribute_is_not_a_substitute_for_the_label_element/" target="_blank" rel="noopener noreferrer">huge usability mistake</a>. The trick here is that the label <em>is not displaced:</em> It’s visually hidden (using `opacity: 0;` which still makes it readable for screen readers) until you type something on the input: When the placeholder disappears, the label becomes visible. How’s that possible by using only CSS? Thanks to the <a href="https://css-tricks.com/almanac/selectors/v/valid/" target="_blank" rel="noopener noreferrer">:valid</a> pseudo-class.
+One of the most common concerns about floating label patterns is that the placeholder becomes the label. That’s a [huge usability mistake](https://www.456bereastreet.com/archive/201204/the_html5_placeholder_attribute_is_not_a_substitute_for_the_label_element/). The trick here is that the label <em>is not displaced:</em> It’s visually hidden (using `opacity: 0;` which still makes it readable for screen readers) until you type something on the input: When the placeholder disappears, the label becomes visible. How’s that possible by using only CSS? Thanks to the [:valid](https://css-tricks.com/almanac/selectors/v/valid/) pseudo-class.
 
-The `:valid` pseudo-class ensures that the label (sibling of the input field) becomes visible <em>only</em> when the input has at least one character, and the placeholder had disappeared. We do so by using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator" target="_blank" rel="noopener noreferrer">sibling selectors</a> (learn about them in an easy and fun way in <a href="https://thoughtbot.com/blog/basic-css-selectors-explained-with-cats" target="_blank" rel="noopener noreferrer">this post</a> which explains CSS selectors using cats).
+The `:valid` pseudo-class ensures that the label (sibling of the input field) becomes visible <em>only</em> when the input has at least one character, and the placeholder had disappeared. We do so by using [sibling selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator) (learn about them in an easy and fun way in [this post](https://thoughtbot.com/blog/basic-css-selectors-explained-with-cats) which explains CSS selectors using cats).
 
-There’s only one thing to consider, and it’s validating the input content: the `:valid` pseudo-class is used to check if there’s content inside the input, but it’s not helpful to determine if what the user had inputted is a valid email, for example. So, the `:valid` pseudo-class should be used with the help of any frontend validation library (in my case, <a href="http://parsleyjs.org/" target="_blank" rel="noopener noreferrer">Parsley</a>, but you’re free to use whatever you like) to throw an error if the user had inputted invalid content.
+There’s only one thing to consider, and it’s validating the input content: the `:valid` pseudo-class is used to check if there’s content inside the input, but it’s not helpful to determine if what the user had inputted is a valid email, for example. So, the `:valid` pseudo-class should be used with the help of any frontend validation library (in my case, [Parsley](http://parsleyjs.org/), but you’re free to use whatever you like) to throw an error if the user had inputted invalid content.
 
 <h4 id="wrapping-up">
   Wrapping up
@@ -70,4 +70,4 @@ There’s only one thing to consider, and it’s validating the input content: t
   </a>
 </h4>
 
-So, that’s all folks! With less than 50 lines of code, you can implement one of the most extended design patterns on your website, and boost your contact form conversions. Dependency-Free, Cross-Browser compatible, no need to use Javascript, and fully WCAG compliant. Don’t forget to <a href="https://codepen.io/imjuangarcia/pen/LeoeGw" target="_blank" rel="noopener noreferrer">fork</a> and use the snippet wherever you want, share this post if you like it, follow me for more tips & tricks, and let me know how it goes!
+So, that’s all folks! With less than 50 lines of code, you can implement one of the most extended design patterns on your website, and boost your contact form conversions. Dependency-Free, Cross-Browser compatible, no need to use Javascript, and fully WCAG compliant. Don’t forget to [fork](https://codepen.io/imjuangarcia/pen/LeoeGw) and use the snippet wherever you want, share this post if you like it, follow me for more tips & tricks, and let me know how it goes!

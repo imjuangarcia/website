@@ -59,7 +59,7 @@ However, you might not like the default styling for them, or you want to change 
 
 So, does that mean we need to use JavaScript for a task like this? The answer is **no**. Let me introduce you to CSS Counters!
 
-> 💡 The technique we will explore is more of a workaround than a best practice. Alternatively, you could use the more semantic `::marker` <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::marker" target="_blank" rel="noopener noreferrer">pseudo-element</a> to style the default marker box for list items, but at the time I’m writing this, <a href="https://bugs.webkit.org/show_bug.cgi?id=204163" target="_blank" rel="noopener noreferrer">support is limited in Safari</a> to just `font-size` and `color`,  which means you can’t change the content on the counter.
+> 💡 The technique we will explore is more of a workaround than a best practice. Alternatively, you could use the more semantic `::marker` [pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker to style the default marker box for list items, but at the time I’m writing this, [support is limited in Safari](https://bugs.webkit.org/show_bug.cgi?id=204163) to just `font-size` and `color`,  which means you can’t change the content on the counter.
 
 <h3 id="css-counters">
   CSS Counters
@@ -119,7 +119,7 @@ The output for the custom counter example looks exactly the same:
 There are no major styling differences (for now) between the two, but we now have a custom counter we can edit to our liking. Before we do that though, let’s explain what’s happening above:
 
 * In the `<ol>` tag, we first remove the default styling using `list-style: none;` and we then initialize our custom counter with `counter-reset`. For the value on `counter-reset`, I used the name of the list we’re creating, in this case, `ingredients`. When you start a custom counter, its initial value is `0`.
-* In the `<li>` tag for the `<ol>`, we use the `counter-increment` property. So every time we add a new `<li>` to the list, we’ll be incrementing the `ingredients` counter. It defaults to `1`, but <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/counter-increment#syntax" target="_blank" rel="noopener noreferrer">you can define any increment (or decrement!) that you want</a>.
+* In the `<li>` tag for the `<ol>`, we use the `counter-increment` property. So every time we add a new `<li>` to the list, we’ll be incrementing the `ingredients` counter. It defaults to `1`, but [you can define any increment (or decrement!) that you want](https://developer.mozilla.org/en-US/docs/Web/CSS/counter-increment#syntax).
 * Finally, we use the `:before` pseudo-element on the `<li>` tag to modify the content for the item. Inside the `content` property, we use the `counter()` CSS function to display the current value of the counter, followed by a dot.
 
 <h3 id="styling">
@@ -160,7 +160,7 @@ Something along these lines will render a counter like this one:
   (<a href='https://codepen.io/imjuangarcia'>@imjuangarcia</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
-But possibilities are endless! Feel free to play around with the styles for it, or even check <a href="https://css-tricks.com/custom-list-number-styling/" target="_blank" rel="noopener noreferrer">these cool examples</a> that build on top of the same principles.
+But possibilities are endless! Feel free to play around with the styles for it, or even check [these cool examples](https://css-tricks.com/custom-list-number-styling/) that build on top of the same principles.
 
 <h3 id="browser-support">
   Browser Support
@@ -186,7 +186,7 @@ Even tough they feel as a rather advanced functionality, CSS Counters had been a
   </a>
 </h3>
 
-An important aspect to consider is that the content for these counters is held inside the `:before` pseudo-element, which some screen readers might have trouble rendering. If the content you are representing is critical, I'd rather use the native `<ol>` numbers, and style them using the `::marker` pseudo-element. It might be <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::marker#allowable_properties" target="_blank" rel="noopener noreferrer">a bit more limited on the styling options</a>, but you'll ensure your content is accessible to everyone.
+An important aspect to consider is that the content for these counters is held inside the `:before` pseudo-element, which some screen readers might have trouble rendering. If the content you are representing is critical, I'd rather use the native `<ol>` numbers, and style them using the `::marker` pseudo-element. It might be [a bit more limited on the styling options](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker#allowable_properties), but you'll ensure your content is accessible to everyone.
 
 <h4 id="conclusion">
   Conclusion
@@ -196,4 +196,4 @@ An important aspect to consider is that the content for these counters is held i
   </a>
 </h4>
 
-That’s about it for this nifty CSS trick! Hope you learned a thing or two, and start using this when faced with the opportunity. Remember, this isn’t useful only for styling lists: People created <a href="https://codersblock.com/blog/fun-times-with-css-counters/" target="_blank" rel="noopener noreferrer">pagination components</a>, <a href="https://codepen.io/rpsthecoder/pen/qpaoGq" target="_blank" rel="noopener noreferrer">to-do lists</a>, <a href="https://codepen.io/snookca/pen/qYoLaq" target="_blank" rel="noopener noreferrer">timelines</a>, and <a href="https://css-tricks.com/custom-list-number-styling/" target="_blank" rel="noopener noreferrer">all sorts of fun things</a>. The sky’s the limit!
+That’s about it for this nifty CSS trick! Hope you learned a thing or two, and start using this when faced with the opportunity. Remember, this isn’t useful only for styling lists: People created [pagination components](https://codersblock.com/blog/fun-times-with-css-counters/), [to-do lists](https://codepen.io/rpsthecoder/pen/qpaoGq), [timelines](https://codepen.io/snookca/pen/qYoLaq), and [all sorts of fun things](https://css-tricks.com/custom-list-number-styling/). The sky’s the limit!
