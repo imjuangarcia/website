@@ -3,40 +3,40 @@
     <li>
       <h4>Worked at</h4>
       {% for work in works %}
-        <ol>
-          <li>
-            <h5>{{ work.name }}</h5>
-            <span>{{ work.timeframe }}</span>
-          </li>
-        </ol>
+      <ol>
+        <li>
+          <h5>{{ work.name }}</h5>
+          <span>{{ work.timeframe }}</span>
+        </li>
+      </ol>
       {% endfor %}
     </li>
     <li>
       <h4>Taught at</h4>
       {% for teach in teaching %}
-        <ol>
-          <li>
-            <h5>{{ teach.name }}</h5>
-            <span>{{ teach.timeframe }}</span>
-          </li>
-        </ol>
+      <ol>
+        <li>
+          <h5>{{ teach.name }}</h5>
+          <span>{{ teach.timeframe }}</span>
+        </li>
+      </ol>
       {% endfor %}
     </li>
     <li>
       <h4>Spoken at</h4>
       {% for talk in talks %}
-        <ol>
-          <li>
-            {% if talk.video %}
-              <a href="{{ talk.video }}" target="_blank" rel="noopener noreferrer">{{ talk.name }}</a>
-            {% elif talk.blog %}
-              <a href="{{ talk.blog }}" target="_blank" rel="noopener noreferrer">{{ talk.name }}</a>
-            {% else %}
-              <a href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer">{{ talk.name }}</a>
-            {% endif %}
-            <span>{{ talk.timeframe }}</span>
-          </li>
-        </ol>
+      <ol>
+        <li>
+          {% if talk.video %}
+          <a href="{{ talk.video }}">{{ talk.name }}</a>
+          {% elif talk.blog %}
+          <a href="{{ talk.blog }}">{{ talk.name }}</a>
+          {% else %}
+          <a href="{{ talk.slides }}">{{ talk.name }}</a>
+          {% endif %}
+          <span>{{ talk.timeframe }}</span>
+        </li>
+      </ol>
       {% endfor %}
     </li>
   </ul>

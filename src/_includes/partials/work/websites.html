@@ -2,9 +2,9 @@
   <h4>Websites I built:</h4>
   <ul class="website-list">
     {% for website in websites %}
-      <li>
-        <a href="{{ website.url }}" rel="noopener noreferrer" target="_blank">{{ website.name }}</a>
-      </li>
+    <li>
+      <a href="{{ website.url }}">{{ website.name }}</a>
+    </li>
     {% endfor %}
   </ul>
 </section>

@@ -8,49 +8,49 @@
 
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
-  {# get the post date #}
-  <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}.</time>
-  {# check if the article was posted somewhere else originally #}
-  {% if publishedOn %}
-    <span>
-      Originally published on
-      <a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ publishedOn }}</a>
-    </span>
-  {% endif %}
-  <h2>{{ pageHeaderTitle }}</h2>
-  {# check if there are tags on this post #}
-  {% if tags %}
-    <ul class="tags-list" aria-describedby="tags-desc">
-      {% for tag in tags %}
-        <li>
-          <a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+{# get the post date #}
+<time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}.</time>
+{# check if the article was posted somewhere else originally #}
+{% if publishedOn %}
+<span>
+  Originally published on
+  <a href="{{ url }}">{{ publishedOn }}</a>
+</span>
+{% endif %}
+<h2>{{ pageHeaderTitle }}</h2>
+{# check if there are tags on this post #}
+{% if tags %}
+<ul class="tags-list" aria-describedby="tags-desc">
+  {% for tag in tags %}
+  <li>
+    <a href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
 {% endset %}
 
 {% block content %}
-  <article class="post">
-    <section class="heading">
-      {% include "partials/page-header.html" %}
-    </section>
-    <section class="text">
-      {{ content | safe }}
-    </section>
-    <section class="recommended-posts">
-      <ul>
-        <li>
-          {% set postListHeadline = 'More from the blog' %}
-          <h5>{{ postListHeadline }}</h5>
-        </li>
-        <li>
-          <ol>
-            {% set postListItems = recommendedPosts %}
-            {% include "partials/blog/post-list.html" %}
-          </ol>
-        </li>
-      </ul>
-    </section>
-  </article>
+<article class="post">
+  <section class="heading">
+    {% include "partials/page-header.html" %}
+  </section>
+  <section class="text">
+    {{ content | safe }}
+  </section>
+  <section class="recommended-posts">
+    <ul>
+      <li>
+        {% set postListHeadline = 'More from the blog' %}
+        <h5>{{ postListHeadline }}</h5>
+      </li>
+      <li>
+        <ol>
+          {% set postListItems = recommendedPosts %}
+          {% include "partials/blog/post-list.html" %}
+        </ol>
+      </li>
+    </ul>
+  </section>
+</article>
 {% endblock %}

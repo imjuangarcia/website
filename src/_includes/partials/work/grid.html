@@ -1,31 +1,24 @@
 {% for project in collections.work %}
-  {% if not project.data.featured %}
-    <li>
-      <a href="{{ project.data.url }}" target="_blank" rel="noopener noreferrer">
-        <div class="image-container">
-          <img 
-            src="{{ project.data.image }}"
-            srcset="{{ project.data.imageSrcset }}"
-            sizes="(max-width: 860px) 100vw, 33vw"
-            alt="{{ project.data.title }} | {{ project.data.type }}"
-            loading="lazy"
-            width="450"
-            height="300"
-          />
-        </div>
-        <div class="text-container">
-          <h5>{{ project.data.title }} | <span>{{ project.data.type }}</span></h5>
-          <p>{{ project.data.summary }}</p>
-          <ul class="tag-list">
-            {% for tag in project.data.tags%}
-            <li>
-              {{ tag }}
-            </li>
-            {% endfor %}
-          </ul>
-          <button>View Project</button>
-        </div>
-      </a>
-    </li>
-  {% endif %}
+{% if not project.data.featured %}
+<li>
+  <a href="{{ project.data.url }}">
+    <div class="image-container">
+      <img src="{{ project.data.image }}" srcset="{{ project.data.imageSrcset }}" sizes="(max-width: 860px) 100vw, 33vw"
+        alt="{{ project.data.title }} | {{ project.data.type }}" loading="lazy" width="450" height="300" />
+    </div>
+    <div class="text-container">
+      <h5>{{ project.data.title }} | <span>{{ project.data.type }}</span></h5>
+      <p>{{ project.data.summary }}</p>
+      <ul class="tag-list">
+        {% for tag in project.data.tags%}
+        <li>
+          {{ tag }}
+        </li>
+        {% endfor %}
+      </ul>
+      <button>View Project</button>
+    </div>
+  </a>
+</li>
+{% endif %}
 {% endfor %}
