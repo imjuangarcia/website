@@ -3,24 +3,11 @@
 
 .projects {
   li {
-    a[target="_blank"] {
+    a {
       border-bottom: var(--border);
-      display: flex;
-  
-      & > * {
-        flex: 1;
-      }
-
-      &::after {
-        content: '';
-      }
 
       &:hover {
         left: 0;
-
-        button {
-          transform: translateX(4px);
-        }
       }
     }
 
