@@ -6,7 +6,7 @@
         alt="{{ project.data.title }} | {{ project.data.type }}" loading="lazy" width="1280" height="840" />
     </div>
     <div class="text-container">
-      <h3>{{ project.data.title }} | <span>{{ project.data.type }}</span></h3>
+      <h3>{{ project.data.title }} <span>{{ project.data.type }}</span></h3>
       <p>{{ project.data.summary }}</p>
       <ul class="tag-list">
         {% for tag in project.data.tags%}

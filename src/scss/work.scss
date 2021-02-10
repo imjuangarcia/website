@@ -18,12 +18,59 @@
 
   .featured-projects {
     @extend .projects;
+    grid-template-columns: repeat(3, 1fr);
 
     li {
       .text-container {
+        .tag-list {
+          li {
+            border: none;
+          }
+        }
+
         button {
-          position: relative;
-          bottom: auto;
+          position: absolute;
+          bottom: var(--s);
+        }
+      }
+    }
+  }
+
+  // Small desktop
+  @media screen and (max-width: 1200px) {
+    .featured-projects {
+      grid-template-columns: repeat(2, 1fr);
+
+      li:last-child {
+        grid-column: span 2;
+
+        .image-container {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  // Mobile landscape
+  @media screen and (max-width: 720px) {
+    .featured-projects {
+      grid-template-columns: 1fr;
+
+      li {
+        .image-container {
+          height: auto;
+        }
+
+        .text-container {
+          button {
+            position: relative;
+            bottom: auto;
+            margin-top: 0;
+          }
+        }
+
+        &:last-child {
+          grid-column: auto;
         }
       }
     }
