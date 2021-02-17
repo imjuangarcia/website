@@ -10,9 +10,35 @@
 
     a {
       @include fonts.light-text(4vw, var(--black));
-
-      &:after {
-        bottom: 10px;
+    }
+    
+    &:nth-child(1) {
+      a {
+        &:hover {
+          background: linear-gradient(to right, #396afc, #2948ff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+    
+    &:nth-child(2) {
+      a {
+        &:hover {
+          background: linear-gradient(to right, #00c6ff, #0072ff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+    
+    &:nth-child(3) {
+      a {
+        &:hover {
+          background: linear-gradient(to right, #f857a6, #ff5858);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
       }
     }
   }
