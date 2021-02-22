@@ -5,7 +5,7 @@
     </li>
     <li>
       <ol>
-        {% for post in collections.blog %}
+        {% for post in collections.blog.slice(0, 5) %}
         <li>
           <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}.</time>
           {% if post.data.publishedOn %}
