@@ -15,7 +15,7 @@ url: ''
   </a>
 </h3>
 
-Opening links on new windows can be disorienting for some folks, if they are not warned in advance. That's why [it's recommended to limit its usage](https://www.w3.org/TR/WCAG20-TECHS/G200.html). Providing a warning allows the user to decide if they want to leave the current window, and if so, help them find their way back. In this post, we'll discuss about the downsides of new tab links, and explore a few techniques to add an indicator to them, should you need to use them.
+Opening links on new windows automatically can be disorienting for some folks, if they are not warned in advance. That's why [it's recommended to limit its usage](https://www.w3.org/TR/WCAG20-TECHS/G200.html). Providing a warning allows the user to decide if they want to leave the current window, and if so, help them find their way back. In this post, we'll discuss about the downsides of new tab links, and explore a few techniques to add an indicator to them, should you need to use them.
 
 > Spoiler alert: None of my links open in new tabs, so you're welcome to click away and leave my site if you don't agree with me 😄. Otherwise, let's get started!
 
@@ -135,7 +135,7 @@ You can even hide the information, and show it on `:hover` and `:focus` events:
   rel="noopener noreferrer"
 >
   My personal website
-  <span class="visually-hidden">(opens in a new tab)</span>
+  <span class="visually-hidden">This link opens in a new tab</span>
 </a>
 ```
 
@@ -159,24 +159,30 @@ a:hover span.visually-hidden, a:focus span.visually-hidden, a:active span.visual
 }
 ```
 
-You can check out how screen readers will render the above content here. But if you decide to hide the indicator for screen readers, you need to provide a visual indicator with an appropriate alt attribute to give a visual hint:
+You can check out how screen readers will render the above content below:
+
+ <audio controls>
+  <source src="https://res.cloudinary.com/jmg-cursos/video/upload/v1614002889/blog/should-i-stay-or-should-i-go-accessibility-external-links/voiceover-new-tab-link_la1q5a.ogg" type="audio/ogg">
+  <source src="https://res.cloudinary.com/jmg-cursos/video/upload/v1614002889/blog/should-i-stay-or-should-i-go-accessibility-external-links/voiceover-new-tab-link_c3rnml.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio> 
+
+If you decide to hide the indicator and not show it even on `:hover` and `:focus`, you still need to provide a visual indicator with an appropriate `alt` attribute to give a visual hint:
 
 ```html
-<a
-  href="https://www.juangarcia.design"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  My personal website
-  <span class="visually-hidden">(opens in a new tab)</span>
-  <img
-    src="/images/new-tab-icon.svg"
-    alt="New Window Icon. This icon indicates that the link will open in a new tab"
-  />
+<a href="https://www.juangarcia.design" target="_blank" rel="noopener noreferrer">
+	My personal website
+	<span class="visually-hidden">This link opens in a new tab</span>
+	<img src="/images/new-tab-icon.svg" alt="New Window Icon. This icon indicates that the link will open in a new tab" />
 </a>
 ```
 
-Here’s how a screen reader will render it.
+Check how everything would play together on the Codepen link below:
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="New Tab Link Indicator" src="https://codepen.io/imjuangarcia/embed/preview/bGBoLpK?height=300&theme-id=39186&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/imjuangarcia/pen/bGBoLpK'>New Tab Link Indicator</a> by Juan Martín García
+  (<a href='https://codepen.io/imjuangarcia'>@imjuangarcia</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 <h4 id="conclusion">
   Conclusion
