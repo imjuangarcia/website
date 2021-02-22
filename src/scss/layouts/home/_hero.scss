@@ -8,8 +8,27 @@
     @include fonts.light-text(8.5vw, var(--black));
 
     span {
-      font-style: italic;
-      text-decoration: line-through;
+      text-decoration: line-through solid var(--black);
+      background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+      background-size: 600%;
+      background-position: 0 0;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /* Animation */
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-name: gradient;
+
+      &::-moz-selection {
+        background-clip: initial;
+        -webkit-text-fill-color: var(--black);
+      }
+
+      &::selection {
+        background-clip: initial;
+        -webkit-text-fill-color: var(--black);
+      }
     }
   }
 

@@ -10,14 +10,31 @@
 
     a {
       @include fonts.light-text(4vw, var(--black));
+
+      &::-moz-selection {
+        background-clip: initial;
+        -webkit-text-fill-color: var(--black);
+      }
+
+      &::selection {
+        background-clip: initial;
+        -webkit-text-fill-color: var(--black);
+      }
     }
     
     &:nth-child(1) {
       a {
         &:hover {
-          background: linear-gradient(to right, #396afc, #2948ff);
+          background: linear-gradient(to right, #0575e6, #021b79);
+          background-size: 600%;
+          background-position: 0 0;
+          background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          /* Animation */
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-name: gradient;
         }
       }
     }
@@ -26,8 +43,15 @@
       a {
         &:hover {
           background: linear-gradient(to right, #00c6ff, #0072ff);
+          background-size: 600%;
+          background-position: 0 0;
+          background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          /* Animation */
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-name: gradient;
         }
       }
     }
@@ -35,9 +59,16 @@
     &:nth-child(3) {
       a {
         &:hover {
-          background: linear-gradient(to right, #f857a6, #ff5858);
+          background: linear-gradient(to right, #ee0979, #ff6a00);
+          background-size: 600%;
+          background-position: 0 0;
+          background-clip: text;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          /* Animation */
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-name: gradient;
         }
       }
     }
