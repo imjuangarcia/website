@@ -14,16 +14,16 @@
 {% block content %}
   <article class="blog">
     <div class="heading">
-      {% include "partials/page-header.html" %}
+      {% include "layouts/heading.html" %}
     </div>
     <ul>
-      {% include "partials/blog/post-list.html" %}
+      {% include "layouts/blog/post-list.html" %}
     </ul>
 
     {# If we leave pagination in for tags, the next and prev links will
       link to tags and be rather confusing, so don't render in that situation #}
     {% if not tag %}
-      {% include "partials/blog/pagination.html" %}
+      {% include "layouts/blog/pagination.html" %}
     {% endif %}
   </article>
 

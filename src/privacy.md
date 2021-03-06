@@ -1,7 +1,8 @@
 ---
 title: 'Privacy Policy'
-layout: 'layouts/privacy.html'
+layout: 'pages/privacy.html'
 metaDesc: 'Welcome to my Privacy Policy, where you will learn what I do with your data. Spoiler alert: Anything, because I do not collect your data.'
+socialImage: 'https://res.cloudinary.com/jmg-cursos/image/upload/w_auto,f_auto,q_auto/logo/logo.png'
 ---
 
 ## Privacy Policy

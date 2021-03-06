@@ -1,0 +1,11 @@
+{% extends "layouts/base.html" %}
+{% set pageCriticalStyles = ['css/home.css'] %} 
+
+{% block content %}
+  {% include "layouts/home/hero.html" %}
+  {% include "layouts/home/featured-projects.html" %}
+  {% include "layouts/home/links.html" %}
+  {% include "layouts/home/work-teach-talks.html" %}
+  {% include "layouts/home/writing.html" %}
+  {% include "layouts/home/clients.html" %}
+{% endblock %}

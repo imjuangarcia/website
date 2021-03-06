@@ -33,7 +33,7 @@
 {% block content %}
 <article class="post">
   <section class="heading">
-    {% include "partials/page-header.html" %}
+    {% include "layouts/heading.html" %}
   </section>
   <section class="text">
     {{ content | safe }}
@@ -47,7 +47,7 @@
       <li>
         <ol>
           {% set postListItems = recommendedPosts %}
-          {% include "partials/blog/post-list.html" %}
+          {% include "layouts/blog/post-list.html" %}
         </ol>
       </li>
     </ul>

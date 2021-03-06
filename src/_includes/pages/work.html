@@ -7,19 +7,19 @@
 {% block content %}
   <article class="work">
     <div class="heading">
-      {% include "partials/page-header.html" %}
+      {% include "layouts/heading.html" %}
     </div>
     {# featured projects #}
     <ul class="featured-projects">
-      {% include "partials/work/featured.html" %}
+      {% include "layouts/work/featured.html" %}
     </ul>
     {# websites #}
-    {% include "partials/work/websites.html" %}
+    {% include "layouts/work/websites.html" %}
     {# grid of projects #}
     <ul class="project-grid">
-      {% include "partials/work/grid.html" %}
+      {% include "layouts/work/grid.html" %}
     </ul>
     {# clients #}
-    {% include "partials/homepage/clients.html" %}
+    {% include "layouts/home/clients.html" %}
   </article>
 {% endblock %}
