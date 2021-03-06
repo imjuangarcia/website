@@ -1,3 +1,16 @@
+@mixin text-gradient($gradient) {
+  background: $gradient;
+  background-size: 600%;
+  background-position: 0 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Animation */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: gradient;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0 0;

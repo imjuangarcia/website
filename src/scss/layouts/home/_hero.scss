@@ -1,4 +1,5 @@
 @use '../../config/fonts';
+@use '../../tools/animations';
 
 .hero {
   padding: 10vh var(--m);
@@ -9,16 +10,7 @@
 
     span {
       text-decoration: line-through solid var(--black);
-      background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-      background-size: 600%;
-      background-position: 0 0;
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      /* Animation */
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-      animation-name: gradient;
+      @include animations.text-gradient(linear-gradient(to right, #12c2e9, #c471ed, #f64f59));
 
       &::-moz-selection {
         background-clip: initial;

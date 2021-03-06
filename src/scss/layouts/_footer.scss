@@ -1,4 +1,5 @@
 @use '../config/fonts';
+@use '../tools/animations';
 
 footer {
   ul {
@@ -58,8 +59,7 @@ footer {
             button {
               & + span {
                 opacity: 0;
-                transition: all .2s ease-in-out;
-                background-color: var(--background-grey);
+                @include animations.text-gradient(linear-gradient(to right, #12c2e9, #c471ed, #f64f59));
                 position: absolute;
                 @include fonts.uppercase-text(var(--xxs), var(--black));
                 padding: .5rem;
