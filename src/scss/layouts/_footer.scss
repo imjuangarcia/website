@@ -50,25 +50,34 @@ footer {
             border: none;
             box-shadow: none;
             cursor: pointer;
+          }
 
-            &::after {
-              opacity: 0;
-              transition: all .2s ease-in-out;
-              content: 'Copied!';
-              background-color: var(--grey);
-              position: absolute;
-              @include fonts.uppercase-text(var(--xxs), var(--black));
-              left: 105%;
-              top: .25rem;
-              padding: .25rem .5rem;
-              z-index: 1;
+          &.click-to-copy-container {
+            position: relative;
+
+            button {
+              & + span {
+                opacity: 0;
+                transition: all .2s ease-in-out;
+                background-color: var(--background-grey);
+                position: absolute;
+                @include fonts.uppercase-text(var(--xxs), var(--black));
+                padding: .5rem;
+                z-index: 1;
+                left: 105%;
+                top: .25rem;
+              }
+
+              &.is-copied {
+                & + span {
+                  opacity: 1;
+                }
+              }
             }
           }
 
-          .is-copied {
-            &:after {
-              opacity: 1;
-            }
+          &.click-to-copy-fallback-container {
+            display: none;
           }
         }
       }
@@ -132,6 +141,14 @@ footer {
           li {
             &:last-child {
               border-top: none;
+            }
+
+            &.click-to-copy-container {
+              display: none;
+            }
+
+            &.click-to-copy-fallback-container {
+              display: block;
             }
           }
         }
