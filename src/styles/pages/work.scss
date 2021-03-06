@@ -1,11 +1,8 @@
-// Borrowed from homepage
-@use 'layouts/home/hero';
-@use 'layouts/home/projects';
-@use 'layouts/home/clients';
-
-// Work specific styles
-@use 'layouts/work/websites';
-@use 'layouts/work/grid';
+@use '../layouts/home/hero';
+@use '../layouts/home/projects';
+@use '../layouts/home/clients';
+@use '../layouts/work/websites';
+@use '../layouts/work/grid';
 
 .work {
   .heading {

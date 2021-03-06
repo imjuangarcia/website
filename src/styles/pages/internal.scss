@@ -1,4 +1,4 @@
-@use 'layouts/home/hero';
+@use '../layouts/home/hero';
 
 .internal {
   @extend .hero;
