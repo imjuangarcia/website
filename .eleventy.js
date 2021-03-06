@@ -1,19 +1,15 @@
-// Utils
-const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
-
-// Plugins
+// Global Imports
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-// Transforms
-const htmlMinTransform = require('./src/transforms/html-min-transform.js');
+// Local Imports
+const sortByDisplayOrder = require('./src/utilities/sort-by-display-order.js');
+const htmlMinTransform = require('./src/utilities/html-min-transform.js');
+const dateFilter = require('./src/utilities/filters/date-filter.js');
+const w3DateFilter = require('./src/utilities/filters/w3-date-filter.js');
 
-// Create a helpful production flag
+// Production flag
 const isProduction = process.env.NODE_ENV === 'production';
-
-// Filters
-const dateFilter = require('./src/filters/date-filter.js');
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 module.exports = config => {
   // Add filters
@@ -26,7 +22,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/js/');
   config.addPassthroughCopy('./src/robots.txt');
 
-  // Only minify HTML if we are in production because it slows builds _right_ down
+  // Only minify HTML if we are in production to avoid slowing builds
   if (isProduction) {
     config.addTransform('htmlmin', htmlMinTransform);
   }
