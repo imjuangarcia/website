@@ -5,25 +5,25 @@ body {
 
 @font-face {
   font-family: "Founders Grotesk Light";
-  src: url("/fonts/founders-grotesk-web-light.eot") format("eot"),
-       url("/fonts/founders-grotesk-web-light.woff") format("woff"),
-       url("/fonts/founders-grotesk-web-light.woff2") format("woff2");
+  src: url("/public/fonts/founders-grotesk-web-light.eot") format("eot"),
+       url("/public/fonts/founders-grotesk-web-light.woff") format("woff"),
+       url("/public/fonts/founders-grotesk-web-light.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Founders Grotesk Medium";
-  src: url("/fonts/founders-grotesk-web-medium.eot") format("eot"),
-       url("/fonts/founders-grotesk-web-medium.woff") format("woff"),
-       url("/fonts/founders-grotesk-web-medium.woff2") format("woff2");
+  src: url("/public/fonts/founders-grotesk-web-medium.eot") format("eot"),
+       url("/public/fonts/founders-grotesk-web-medium.woff") format("woff"),
+       url("/public/fonts/founders-grotesk-web-medium.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Founders Grotesk Mono Regular";
-  src: url("/fonts/founders-grotesk-mono-web-regular.eot") format("eot"),
-       url("/fonts/founders-grotesk-mono-web-regular.woff") format("woff"),
-       url("/fonts/founders-grotesk-mono-web-regular.woff2") format("woff2");
+  src: url("/public/fonts/founders-grotesk-mono-web-regular.eot") format("eot"),
+       url("/public/fonts/founders-grotesk-mono-web-regular.woff") format("woff"),
+       url("/public/fonts/founders-grotesk-mono-web-regular.woff2") format("woff2");
   font-display: swap;
 }
 

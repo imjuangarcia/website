@@ -1,25 +1,25 @@
 {% set pageTitle = title + ' - ' + site.name %}
 
 {# We don't want any duplication. This is likely for the home page. #}
-{% if site.name === title %} 
-  {% set pageTitle = title %}
+{% if site.name === title %}
+{% set pageTitle = title %}
 {% endif %}
 
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
-{% if not socialImage %} 
-  {% set socialImage = 'https://res.cloudinary.com/jmg-cursos/image/upload/v1592505055/logo/logo.png' %} 
+{% if not socialImage %}
+{% set socialImage = 'https://res.cloudinary.com/jmg-cursos/image/upload/v1592505055/logo/logo.png' %}
 {% endif %}
 
-{# If the page’s Front Matter has specific metaTitle and/or metaDesc items, switch 
-  them into the mix. #}
+{# If the page’s Front Matter has specific metaTitle and/or metaDesc items, switch
+them into the mix. #}
 {% if metaTitle %}
-  {% set pageTitle = metaTitle %}
+{% set pageTitle = metaTitle %}
 {% endif %}
 
 {% if not metaDesc %}
-  {% set metaDesc = summary %}
+{% set metaDesc = summary %}
 {% endif %}
 
 
@@ -32,24 +32,24 @@
 <meta property="og:url" content="{{ currentUrl }}" />
 
 {% if socialImage %}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="{{ socialImage }}" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="{{ socialImage }}" />
+<meta name="twitter:image" content="{{ socialImage }}" />
+<meta property="og:image:alt" content="Page image for {{ site.name }}" />
+<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
 
 {% if metaDesc %}
-  <meta name="description" content="{{ metaDesc }}" />
-  <meta name="twitter:description" content="{{ metaDesc }}" />
-  <meta property="og:description" content="{{ metaDesc }}" />
+<meta name="description" content="{{ metaDesc }}" />
+<meta name="twitter:description" content="{{ metaDesc }}" />
+<meta property="og:description" content="{{ metaDesc }}" />
 {% endif %}
 
 <!-- favicons -->
-<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-<link rel="manifest" href="/images/site.webmanifest">
-<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#1f1f1f">
+<link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-16x16.png">
+<link rel="manifest" href="/public/images/site.webmanifest">
+<link rel="mask-icon" href="/public/images/safari-pinned-tab.svg" color="#1f1f1f">
 <meta name="msapplication-TileColor" content="#1f1f1f">
 <meta name="theme-color" content="#1f1f1f">

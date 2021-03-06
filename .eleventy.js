@@ -17,9 +17,9 @@ module.exports = config => {
   config.addFilter('w3DateFilter', w3DateFilter);
   
   // To pass the fonts and images to the dist version
-  config.addPassthroughCopy('./src/fonts/');
-  config.addPassthroughCopy('./src/images/');
-  config.addPassthroughCopy('./src/js/');
+  config.addPassthroughCopy('./src/public/fonts/');
+  config.addPassthroughCopy('./src/public/images/');
+  config.addPassthroughCopy('./src/public/js/');
   config.addPassthroughCopy('./src/robots.txt');
 
   // Only minify HTML if we are in production to avoid slowing builds
