@@ -1,4 +1,4 @@
-@use '../config/fonts';
+@use '../globals/fonts';
 
 @mixin tag($background, $text) {
   background-color: $background;
