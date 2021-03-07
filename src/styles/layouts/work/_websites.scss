@@ -1,4 +1,5 @@
 @use '../../globals/fonts';
+@use '../../globals/animations';
 
 .websites {
   padding: var(--xl) 0;
@@ -25,6 +26,10 @@
       a {
         @include fonts.light-text(var(--xs), var(--black));
         line-height: 1.6;
+
+        &:hover {
+          @include animations.text-gradient(linear-gradient(to right, #12c2e9, #c471ed, #f64f59));
+        }
 
         &::after {
           margin-left: .25rem;
