@@ -1,12 +1,15 @@
 {% for post in postListItems %}
 <li class="heading {% if loop.first %}featured{% endif %}">
   <time datetime="{{ post.data.date }}">{{ post.data.date | dateFilter }}.</time>
-  {% if post.data.publishedOn %}
+  {# {% if post.data.publishedOn %}
   <span>
     Originally published on
-    <a href="{{ post.data.url }}">{{ post.data.publishedOn }}</a>
+    <a href="{{ post.data.url }}">{{ post.data.publishedOn }}</a>.
   </span>
-  {% endif %}
+  {% endif %} #}
+  <span>
+    Takes {{ post | readingTime }} to read.
+  </span>
   <a href="{{ post.url }}">
     <h3>{{ post.data.title }}</h3>
     <p>{{ post.data.metaDesc }}</p>

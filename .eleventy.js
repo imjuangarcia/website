@@ -1,6 +1,7 @@
 // Global Imports
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const readingTime = require('eleventy-plugin-reading-time');
 
 // Local Imports
 const sortByDisplayOrder = require('./src/utilities/sort-by-display-order.js');
@@ -30,6 +31,7 @@ module.exports = config => {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(readingTime);
 
   // Returns work items, sorted by display order
   config.addCollection('work', collection => {

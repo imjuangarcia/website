@@ -10,13 +10,9 @@
 {% set pageHeaderSummary %}
 {# get the post date #}
 <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}.</time>
-{# check if the article was posted somewhere else originally #}
-{% if publishedOn %}
 <span>
-  Originally published on
-  <a href="{{ url }}">{{ publishedOn }}</a>
+  Takes {{ content | readingTime }} to read.
 </span>
-{% endif %}
 <h2>{{ pageHeaderTitle }}</h2>
 {# check if there are tags on this post #}
 {% if tags %}
@@ -36,6 +32,18 @@
     {% include "layouts/heading.html" %}
   </section>
   <section class="text">
+    {# check if the article was posted somewhere else originally #}
+    {% if publishedOn %}
+      <blockquote>
+        <p>
+          📝
+          This article was originally published on {{ publishedOn}}.
+        </p>
+        <p>
+          If you prefer, you can read the original version <a href="{{ url }}">here</a>.
+        </p>
+      </blockquote>
+    {% endif %}
     {{ content | safe }}
   </section>
   <section class="recommended-posts">

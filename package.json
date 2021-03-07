@@ -25,6 +25,7 @@
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "concurrently": "^5.2.0",
+    "eleventy-plugin-reading-time": "^0.0.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^4.1.0",
