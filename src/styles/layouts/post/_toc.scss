@@ -1,0 +1,57 @@
+@use '../../globals/fonts';
+@use '../../globals/animations';
+
+.text {
+  .table-of-contents {
+    h2 {
+      @include fonts.light-text(var(--m), var(--black));
+      margin-bottom: var(--s);
+    }
+
+    nav {
+      ol {
+        li {
+          margin-bottom: 0;
+
+          &::before {
+            margin-right: 0;
+          }
+
+          a {
+            text-decoration: none;
+
+            &:hover {
+              @include animations.text-gradient(linear-gradient(to right, #12c2e9, #c471ed, #f64f59));
+            }
+          }
+
+          ol {
+            padding-left: var(--m);
+          }
+        }
+      }
+    }
+  }
+
+  // Mobile landscape
+  @media screen and (max-width: 720px) {
+    .table-of-contents {
+      h2 {
+        font-size: 8vw;
+        margin-bottom: var(--xxs);
+      }
+
+      nav {
+        ol {
+          li {
+            font-size: 1.25rem;
+
+            ol {
+              padding-left: var(--xxs);
+            }
+          }
+        }
+      }
+    }
+  }
+}

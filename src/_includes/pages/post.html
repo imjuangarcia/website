@@ -44,6 +44,15 @@
         </p>
       </blockquote>
     {% endif %}
+    {# TOC #}
+    {%if content | toc %}
+      <div class="table-of-contents">
+        <h2>Table of Contents:</h2>
+        {{ content | toc | safe }}
+        <hr />
+      </div>
+    {% endif %}
+    {# Content #}
     {{ content | safe }}
   </section>
   <section class="recommended-posts">
