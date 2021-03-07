@@ -122,6 +122,10 @@
       white-space: pre-wrap;
       position: relative;
 
+      code {
+        word-break: break-word;
+      }
+
       &::before {
         @include fonts.uppercase-text(var(--xxxs), var(--background-grey));
         line-height: 1.2;

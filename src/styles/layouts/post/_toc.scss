@@ -36,6 +36,8 @@
   // Mobile landscape
   @media screen and (max-width: 720px) {
     .table-of-contents {
+      margin-top: var(--xs);
+
       h2 {
         font-size: 8vw;
         margin-bottom: var(--xxs);
