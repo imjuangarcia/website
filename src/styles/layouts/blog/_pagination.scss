@@ -1,4 +1,5 @@
 @use '../../globals/fonts';
+@use '../../globals/animations';
 
 .pagination {
   padding: var(--xl) var(--m);
@@ -9,6 +10,12 @@
 
     a {
       @include fonts.light-text(4vw, var(--black));
+
+      &:hover {
+        h4 {
+          @include animations.text-gradient(linear-gradient(to right, #12c2e9, #c471ed, #f64f59));
+        }
+      }
 
       &:after {
         bottom: 10px;

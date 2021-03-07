@@ -29,6 +29,10 @@
         text-decoration: underline;
         display: inline;
 
+        &:hover {
+          text-decoration: none;
+        }
+
         &::after {
           display: inline-block;
           margin-left: .25rem;
