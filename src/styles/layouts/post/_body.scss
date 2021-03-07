@@ -137,6 +137,7 @@
         background: transparent;
         @include fonts.uppercase-text(var(--xxxs), var(--red));
         border: none;
+        cursor: pointer;
       }
     }
 
