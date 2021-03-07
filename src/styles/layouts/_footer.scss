@@ -101,6 +101,24 @@ footer {
 
     a {
       color: inherit;
+
+      &:first-child {
+        &:hover {
+          @include animations.text-gradient(linear-gradient(to right, #bdc3c7, #2c3e50));
+        }
+      }
+      
+      &:nth-child(2) {
+        &:hover {
+          @include animations.text-gradient(linear-gradient(to right, #00f260, #0575e6));
+        }
+      }
+      
+      &:nth-child(3) {
+        &:hover {
+          @include animations.text-gradient(linear-gradient(to right, #fc4a1a, #f7b733));
+        }
+      }
     }
   }
 }

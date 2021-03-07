@@ -1,4 +1,5 @@
 @use '../../globals/fonts';
+@use '../../globals/animations';
 
 .work-teach-speak {
   border-top: var(--border);
@@ -32,6 +33,10 @@
 
           a {
             color: var(--black);
+
+            &:hover {
+              @include animations.text-gradient(linear-gradient(to right, #12c2e9, #c471ed, #f64f59));
+            }
 
             &::after {
               margin-left: .25rem;
