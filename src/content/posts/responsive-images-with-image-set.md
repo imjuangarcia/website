@@ -1,7 +1,7 @@
 ---
 title: 'Responsive Background Images with image-set()'
 metaDesc: 'When we talk about responsive images, we tend to associate it with the HTML way of doing that, using srcset, sizes or the <picture> element. We were able to set different images in CSS using @media queries since forever, but the syntax was a bit cumbersome. However, CSS also has a less-known way of setting different images based on the screen resolution: The image-set() function.'
-date: '2021-04-15'
+date: '2021-04-14'
 publishedOn: ''
 tags: ['css', 'responsive', 'media queries', 'tips']
 url: ''
