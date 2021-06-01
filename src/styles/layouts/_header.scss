@@ -2,8 +2,9 @@
 
 header {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   border-bottom: var(--border);
+  padding: var(--s) var(--m);
   max-height: 88px;
   position: sticky;
   top: 0;
@@ -17,9 +18,15 @@ header {
   }
 
   .logo {
-    padding: var(--s) var(--m);
-    border-right: var(--border);
     height: var(--xs);
+
+    svg {
+      width: 24px;
+    }
+
+    &:hover {
+      opacity: .8;
+    }
   }
 
   h1 {
@@ -31,8 +38,7 @@ header {
     
   .toggle-button {
     cursor: pointer;
-    border-left: var(--border);
-    padding: var(--s) var(--l);
+
     .bar {
       width: var(--s);
       height: 2px;
@@ -165,9 +171,7 @@ header {
 // Standard size monitors
 @media screen and (max-width: 1220px) {
   header {
-    nav, .logo, .toggle-button {
-      padding: var(--xs);
-    }
+    padding: var(--xs);
 
     nav {
       height: calc(100vh - 74px);
@@ -178,9 +182,7 @@ header {
 // Mobile portrait
 @media screen and (max-width: 570px) {
   header {
-    nav, .logo, .toggle-button {
-      padding: var(--xxs);
-    }
+    padding: var(--xxs);
 
     .logo {
       flex: 1;
