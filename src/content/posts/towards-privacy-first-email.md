@@ -13,8 +13,8 @@ Hey it's an independent company that doesn't sell ads or mine your data, and tha
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/towards-privacy-first-email/hey-can-you-read-my-emails.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"

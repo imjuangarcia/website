@@ -13,8 +13,8 @@ As this was my first experience in this kind of events, I was full of prejudices
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/scared.webp 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -46,8 +46,8 @@ Instead, if you embrace that feeling, naturalize it, make it part of the process
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/yes.webp 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -75,8 +75,8 @@ I was concerned that this quality of examples weren’t as good as the audience 
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/what.webp 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -106,8 +106,8 @@ And now, time for one of the “not-so-good” ones…
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/sailor-moon.webp 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -135,8 +135,8 @@ My advice on this kind of situations is: *try not to put your attention there.* 
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/what-ive-learned-from-my-first-speaking-event/confetti.webp 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"

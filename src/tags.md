@@ -8,5 +8,5 @@ pagination:
   alias: tag
   filter: ['all', 'nav', 'blog', 'work', 'featuredWork', 'rss']
 permalink: '/tag/{{ tag | slug }}/'
-socialImage: 'https://res.cloudinary.com/jmg-cursos/image/upload/w_auto,f_auto,q_auto/logo/logo.png'
+socialImage: 'https://res.cloudinary.com/juanmartingarcia/image/upload/w_auto,f_auto,q_auto/logo/logo.png'
 ---

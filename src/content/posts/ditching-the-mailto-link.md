@@ -31,8 +31,8 @@ We’ve all been there: We click in one of those `Let’s get in touch` button, 
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/ditching-the-mailto-link/7CCD4B04-5199-48FD-AD8E-ECF48F8D67F5.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"
@@ -67,8 +67,8 @@ Let’s explore a few of the alternatives we have to solve this problem:
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/ditching-the-mailto-link/CAA9DD27-2400-4AAF-8658-A708B9389C49.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"
@@ -91,8 +91,8 @@ This way, the user can easily copy it, without having to open the Mail app or In
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/ditching-the-mailto-link/E061E42F-88DA-48C9-8959-B902A2210618.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"

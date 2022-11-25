@@ -44,8 +44,8 @@ I relied on two awesome CSS features to create [this pen](https://codepen.io/imj
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/floating-labels-using-patterns-to-boost-your-contact-form-conversions/1_y1bNRHZxF6uljPK7H1zvaA.gif 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"

@@ -4,7 +4,7 @@
   "description": "Repo for my new website, using 11ty",
   "main": "index.js",
   "scripts": {
-    "start": "npx gulp && concurrently 'npx gulp watch' 'npx eleventy --serve'",
+    "dev": "npx gulp && concurrently 'npx gulp watch' 'npx eleventy --serve'",
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production eleventy"
   },
   "repository": {

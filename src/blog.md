@@ -9,5 +9,5 @@ permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
-socialImage: 'https://res.cloudinary.com/jmg-cursos/image/upload/w_auto,f_auto,q_auto/logo/logo.png'
+socialImage: 'https://res.cloudinary.com/juanmartingarcia/image/upload/w_auto,f_auto,q_auto/logo/logo.png'
 ---

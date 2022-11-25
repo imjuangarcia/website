@@ -162,8 +162,8 @@ a:hover span.visually-hidden, a:focus span.visually-hidden, a:active span.visual
 You can check out how screen readers will render the above content below:
 
  <audio controls>
-  <source src="https://res.cloudinary.com/jmg-cursos/video/upload/v1614002889/blog/should-i-stay-or-should-i-go-accessibility-external-links/voiceover-new-tab-link_la1q5a.ogg" type="audio/ogg">
-  <source src="https://res.cloudinary.com/jmg-cursos/video/upload/v1614002889/blog/should-i-stay-or-should-i-go-accessibility-external-links/voiceover-new-tab-link_c3rnml.mp3" type="audio/mpeg">
+  <source src="https://res.cloudinary.com/juanmartingarcia/video/upload/v1614002889/blog/should-i-stay-or-should-i-go-accessibility-external-links/voiceover-new-tab-link_la1q5a.ogg" type="audio/ogg">
+  <source src="https://res.cloudinary.com/juanmartingarcia/video/upload/v1614002889/blog/should-i-stay-or-should-i-go-accessibility-external-links/voiceover-new-tab-link_c3rnml.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio> 
 

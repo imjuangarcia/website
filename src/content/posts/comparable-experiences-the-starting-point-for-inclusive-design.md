@@ -17,8 +17,8 @@ url: 'https://uxdesign.cc/comparable-experiences-the-starting-point-for-inclusiv
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/0_asUzv6MxV_Ldc-3h.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"
@@ -33,8 +33,8 @@ How many of you drink Coca-Cola? Did you know that initially it was not sold in 
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_UACd8DgfVGyJY60jr0o12A.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -50,8 +50,8 @@ Let’s try another: How many of you know Listerine? Let me tell you that Lister
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_NIr1Nf9Gihez51mt8ot24Q.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -69,8 +69,8 @@ We are surrounded by products that were created for a certain use, and ended up 
 
 <figure class="full-bleed">
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_768,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 768w, https://res.cloudinary.com/jmg-cursos/image/upload/w_1024,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 1024w, https://res.cloudinary.com/jmg-cursos/image/upload/w_1280,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 1280w, https://res.cloudinary.com/jmg-cursos/image/upload/w_1920,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 1920w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_768,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 768w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_1024,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 1024w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_1280,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 1280w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_1920,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_kn_ACK-uaeWu4c1tThVyYA.png 1920w"
     sizes="100vw"
     width="650"
     height="420"
@@ -92,8 +92,8 @@ And now I would like to talk to you about accessibility. I don’t want to dive 
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_8lXks4Toge8dqCyr2fDVTw.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -111,8 +111,8 @@ Just as the ramp improves the experience of multiple users, offering the possibi
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2y21fJi7yLYiKGdlRVwB4Q.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -128,8 +128,8 @@ In addition, these abilities or limitations can be temporary: What would happen 
 
 <figure class="full-bleed">
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_768,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 768w, https://res.cloudinary.com/jmg-cursos/image/upload/w_1024,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 1024w, https://res.cloudinary.com/jmg-cursos/image/upload/w_1280,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 1280w, https://res.cloudinary.com/jmg-cursos/image/upload/w_1920,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 1920w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_768,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 768w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_1024,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 1024w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_1280,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 1280w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_1920,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_2gSRiUGBwf_RRcPHmEiVmA.jpg 1920w"
     sizes="100vw"
     width="650"
     height="420"
@@ -145,8 +145,8 @@ Do you remember the Ice Bucket Challenge? That contest where the participants th
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_zNe6fjIf6LoLo1XJjqyKug.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -164,8 +164,8 @@ Can you imagine the loss for the scientific community if Stephen Hawking had res
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_qqKIB6CTVFWcLfehpDMtiA.png 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -193,8 +193,8 @@ Accessibility is a path that can have many ways, and that seems to have no endin
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/comparable-experiences-the-starting-point-for-inclusive-design/1_Kpb9PjxLbCaePAOwI1KShA.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"

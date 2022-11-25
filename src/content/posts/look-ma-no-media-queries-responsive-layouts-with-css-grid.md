@@ -119,8 +119,8 @@ In the hero for our beer example above, we set our `minmax()` property to be `24
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/m-FzPS4A.gif 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -146,8 +146,8 @@ The `auto-fit` keyword allows us to wrap our columns into rows when there’s no
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_580,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_580,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/TWWn1jrg.gif 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -181,8 +181,8 @@ That’s right! We’re using the exact same approach: On the first line we defi
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_550,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_550,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/0_CktP52.gif 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -261,8 +261,8 @@ Now, the real deal here is `grid-auto-flow: dense;`. Check what happens when we 
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_620,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_620,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/NycWPUUA.gif 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -330,8 +330,8 @@ We learned about [grid-auto-flow](https://developer.mozilla.org/en-US/docs/Web/C
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/look-ma-no-media-queries-responsive-layouts-with-css-grid/lSdHuDVw.gif 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"

@@ -42,8 +42,8 @@ This will render a fully-functional numbered list of ingredients:
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_256,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 256w, https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 512w, https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_650,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_256,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_650,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"
@@ -103,8 +103,8 @@ The output for the custom counter example looks exactly the same:
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_256,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 256w, https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 512w, https://res.cloudinary.com/jmg-cursos/image/upload/f_auto,w_650,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_256,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_512,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/f_auto,w_650,q_auto:good/blog/fancy-numbering-with-css-counters/ol-rendered-output.png 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     height="420"

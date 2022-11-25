@@ -13,8 +13,8 @@ I’ve personally leaned over Firefox Developer Edition over the last few months
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_F_5-3GDXduZpMojfD6xNbA.png 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"
@@ -37,8 +37,8 @@ If you are using a Mac, don’t panic! There’s a simple solution to this. Firs
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_7ybymKKG3xw0d95-MvhxAw.png 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"
@@ -53,8 +53,8 @@ And in the “General” tab, change your default browser from here:
 
 <figure>
   <img
-    src="https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg"
-    srcset="https://res.cloudinary.com/jmg-cursos/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg 256w, https://res.cloudinary.com/jmg-cursos/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg 512w, https://res.cloudinary.com/jmg-cursos/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg 650w"
+    src="https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg"
+    srcset="https://res.cloudinary.com/juanmartingarcia/image/upload/w_256,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg 256w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_512,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg 512w, https://res.cloudinary.com/juanmartingarcia/image/upload/w_650,f_auto,q_auto:good/blog/how-to-make-chrome-canary-your-default-browser/1_MK_HSTmVd4ebMejWo32-ZA.jpg 650w"
     sizes="(min-width: 650px) 650px, 100vw"
     width="650"
     loading="lazy"
